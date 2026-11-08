@@ -8,6 +8,8 @@
   --accent-ink: #fff;
   --accent-soft: #f3e1d8;
   --badge: #efe4cf;
+  --preheat: #b3261e;
+  --preheat-ink: #fff;
   --shadow: 0 1px 2px rgba(60, 40, 20, .06), 0 4px 14px rgba(60, 40, 20, .06);
   --radius: 14px;
   --serif: 'Fraunces', Georgia, 'Times New Roman', serif;
@@ -26,6 +28,8 @@
     --accent-ink: #1c1815;
     --accent-soft: #3d2a22;
     --badge: #3a322c;
+    --preheat: #e5534b;
+    --preheat-ink: #1c1815;
     --shadow: 0 1px 2px rgba(0, 0, 0, .3), 0 4px 14px rgba(0, 0, 0, .25);
     color-scheme: dark;
   }
@@ -99,6 +103,7 @@ code { font-size: .9em; background: var(--badge); padding: .1em .35em; border-ra
 .card-top { display: flex; justify-content: space-between; align-items: center; gap: 8px; min-height: 24px; }
 .card-cat { font-size: .74rem; letter-spacing: .08em; text-transform: uppercase; color: var(--accent); font-weight: 600; }
 .badge { font-size: .78rem; font-weight: 600; background: var(--badge); padding: 2px 8px; border-radius: 999px; white-space: nowrap; }
+.badge-preheat { background: var(--preheat); color: var(--preheat-ink); }
 .card-title { margin: 8px 0 2px; font: 600 1.3rem/1.2 var(--serif); }
 .card-title a { color: inherit; text-decoration: none; }
 .card-title a:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; border-radius: 4px; }
@@ -134,10 +139,10 @@ dialog::backdrop { background: rgba(30, 20, 12, .5); }
 }
 
 .recipe-full { padding: 20px 28px 32px; }
+.full-top { display: flex; flex-wrap: wrap; justify-content: space-between; align-items: center; gap: 8px; }
 .full-cat { margin: 0; font-size: .78rem; letter-spacing: .08em; text-transform: uppercase; color: var(--accent); font-weight: 600; }
 .full-title { margin: 4px 0 6px; font: 700 2rem/1.15 var(--serif); }
 .full-meta { margin: 0 0 8px; display: flex; flex-wrap: wrap; gap: 6px 16px; color: var(--ink-soft); font-style: italic; }
-.full-meta .preheat { font-style: normal; font-weight: 600; color: var(--ink); }
 .component { padding-top: 14px; border-top: 1px solid var(--line); margin-top: 14px; }
 .component-name { margin: 0 0 8px; font: italic 600 1.25rem var(--serif); color: var(--accent); }
 .component-body { display: grid; gap: 4px 28px; }
@@ -182,6 +187,7 @@ dialog::backdrop { background: rgba(30, 20, 12, .5); }
   .component { break-inside: avoid; }
   .component-body { grid-template-columns: minmax(0, 2fr) minmax(0, 3fr); }
   .notes { border: 1px solid #ccc; }
+  .badge-preheat { background: none; color: #000; border: 1.5px solid #000; }
   .print-footer { display: block; margin-top: 24px; text-align: center; font: italic 9pt var(--serif); color: #777; }
 }
 

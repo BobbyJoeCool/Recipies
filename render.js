@@ -9,8 +9,13 @@ window.RecipeRender = (() => {
     const idAttr = titleId ? ` id="${titleId}"` : '';
     const meta = [
       r.contributor ? `<span>From ${esc(r.contributor)}</span>` : '',
-      r.preheatF ? `<span class="preheat">Preheat oven to ${r.preheatF}°F</span>` : '',
     ].filter(Boolean).join('');
+    const preheat = r.preheatF ? `<span class="badge badge-preheat">Preheat oven to ${r.preheatF}°F</span>` : '';
+    const top = (r.category || preheat) ? `
+      <div class="full-top">
+        ${r.category ? `<p class="full-cat">${esc(r.category)}</p>` : ''}
+        ${preheat}
+      </div>` : '';
 
     const comps = (r.components || []).map((c) => `
       <section class="component">
@@ -34,7 +39,7 @@ window.RecipeRender = (() => {
       : '';
 
     return `
-      ${r.category ? `<p class="full-cat">${esc(r.category)}</p>` : ''}
+      ${top}
       <h2 class="full-title"${idAttr}>${esc(r.title)}</h2>
       ${meta ? `<p class="full-meta">${meta}</p>` : ''}
       ${comps}

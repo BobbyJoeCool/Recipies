@@ -29,7 +29,7 @@
   // ---------- Rendering ----------
 
   function cardHTML(r) {
-    const preheat = r.preheatF ? `<span class="badge" title="Preheat oven">${r.preheatF}°F</span>` : '';
+    const preheat = r.preheatF ? `<span class="badge badge-preheat" title="Preheat oven">${r.preheatF}°F</span>` : '';
     const parts = r.components.filter((c) => c.name).map((c) => esc(c.name));
     const partsLine = parts.length > 1 ? `<p class="card-parts">${parts.join(' · ')}</p>` : '';
     return `
