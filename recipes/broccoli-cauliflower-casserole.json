@@ -1,0 +1,26 @@
+{
+  "$schema": "../recipe.schema.json",
+  "id": "broccoli-cauliflower-casserole",
+  "title": "Broccoli Cauliflower Casserole",
+  "category": "Entrees",
+  "contributor": "Brenda Bradley",
+  "preheatF": 350,
+  "components": [
+    {
+      "name": null,
+      "ingredients": [
+        "1 small jar Cheez Whiz",
+        "1 can French-fried onions",
+        "1/2 cup instant rice",
+        "1 can cream of chicken soup",
+        "1 can cream of celery soup",
+        "1 pkg frozen broccoli and cauliflower, thawed"
+      ],
+      "directions": [
+        "Mix all ingredients together in a baking dish.",
+        "Bake at 350°F for 30 minutes."
+      ]
+    }
+  ],
+  "notes": []
+}

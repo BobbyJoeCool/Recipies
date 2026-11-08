@@ -1,0 +1,26 @@
+{
+  "$schema": "../recipe.schema.json",
+  "id": "5-can-chicken",
+  "title": "5 Can Chicken",
+  "category": "Entrees",
+  "contributor": "Wilma Bahlmann",
+  "preheatF": 350,
+  "components": [
+    {
+      "name": null,
+      "ingredients": [
+        "1 can cream of chicken soup",
+        "1 can chicken noodle soup",
+        "1 can chicken",
+        "1 can evaporated milk",
+        "1 bag Chinese noodles"
+      ],
+      "directions": [
+        "Mix all ingredients together.",
+        "Pour into a greased baking pan.",
+        "Bake at 350°F for 35–45 minutes."
+      ]
+    }
+  ],
+  "notes": []
+}

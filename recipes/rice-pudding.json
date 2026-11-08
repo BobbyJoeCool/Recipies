@@ -1,0 +1,28 @@
+{
+  "$schema": "../recipe.schema.json",
+  "id": "rice-pudding",
+  "title": "Rice Pudding",
+  "category": "Desserts",
+  "contributor": "Grandma Schwerin",
+  "preheatF": null,
+  "components": [
+    {
+      "name": null,
+      "ingredients": [
+        "3 cups milk",
+        "3/4 cup rice",
+        "3/4 cup sugar",
+        "1/2 tsp vanilla",
+        "1 tsp margarine",
+        "Cinnamon to taste"
+      ],
+      "directions": [
+        "In a double boiler, boil rice and milk together, stirring often, until rice thickens.",
+        "Add sugar and continue cooking for another 15 minutes.",
+        "Remove from heat and stir in margarine and vanilla.",
+        "Sprinkle cinnamon over the top before serving."
+      ]
+    }
+  ],
+  "notes": []
+}

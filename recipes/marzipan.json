@@ -1,0 +1,32 @@
+{
+  "$schema": "../recipe.schema.json",
+  "id": "marzipan",
+  "title": "Marzipan",
+  "category": "Desserts",
+  "contributor": "Robert Breutzmann",
+  "preheatF": null,
+  "components": [
+    {
+      "name": null,
+      "ingredients": [
+        "1 lb almond paste",
+        "4 tbsp light corn syrup",
+        "1 cup marshmallow creme (8 oz)",
+        "1 tbsp rum (or 1 tsp almond extract)",
+        "Approximately 6 cups powdered sugar",
+        "Food coloring as desired"
+      ],
+      "directions": [
+        "Mix almond paste, corn syrup, marshmallow creme, and rum or almond extract together.",
+        "Gradually mix in powdered sugar until the mixture is smooth and pliable enough to mold.",
+        "Divide into sections and color with food coloring based on desired fruit shapes.",
+        "Shape into fruits such as strawberries, bananas, apples, oranges, pears, grapes, pumpkins, or potatoes.",
+        "Use toothpicks to add detail lines. Roll potatoes in cocoa powder for a brown coating. Roll strawberries in red sugar for seeds.",
+        "Store in an airtight container."
+      ]
+    }
+  ],
+  "notes": [
+    "Keeps about one to two months in an airtight container."
+  ]
+}

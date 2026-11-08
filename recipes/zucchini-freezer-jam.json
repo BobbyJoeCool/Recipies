@@ -1,0 +1,29 @@
+{
+  "$schema": "../recipe.schema.json",
+  "id": "zucchini-freezer-jam",
+  "title": "Zucchini Freezer Jam",
+  "category": "Canning",
+  "contributor": "Brenda Bradley",
+  "preheatF": null,
+  "components": [
+    {
+      "name": null,
+      "ingredients": [
+        "6 cups grated zucchini",
+        "3/4 cup water",
+        "1/2 bottle lemon juice",
+        "6 cups sugar",
+        "1 cup drained crushed pineapple",
+        "2–3 oz apricot jello"
+      ],
+      "directions": [
+        "Boil zucchini and water together for 8 minutes.",
+        "Add lemon juice, sugar, and pineapple. Bring to a boil, stirring until sugar dissolves.",
+        "Boil for 15 minutes.",
+        "Remove from heat and stir in apricot jello until dissolved.",
+        "Pour into freezer containers and freeze."
+      ]
+    }
+  ],
+  "notes": []
+}

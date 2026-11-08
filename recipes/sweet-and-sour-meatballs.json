@@ -1,0 +1,38 @@
+{
+  "$schema": "../recipe.schema.json",
+  "id": "sweet-and-sour-meatballs",
+  "title": "Sweet and Sour Meatballs",
+  "category": "Entrees",
+  "contributor": "Wanda Kohlmeyer",
+  "preheatF": 300,
+  "components": [
+    {
+      "name": "Meatballs",
+      "ingredients": [
+        "1 lb ground beef",
+        "1 egg",
+        "1/4 tsp pepper",
+        "1/2 tsp salt",
+        "1/2 cup chopped onion",
+        "1 cup oatmeal"
+      ],
+      "directions": [
+        "Mix all meatball ingredients together.",
+        "Roll into balls and place in a roasting pan."
+      ]
+    },
+    {
+      "name": "Sauce",
+      "ingredients": [
+        "1/2 cup brown sugar",
+        "3 tbsp lemon juice",
+        "1 can tomato soup"
+      ],
+      "directions": [
+        "Mix sauce ingredients together and pour over meatballs.",
+        "Cover and bake at 300°F for 90 minutes."
+      ]
+    }
+  ],
+  "notes": []
+}

@@ -1,0 +1,33 @@
+{
+  "$schema": "../recipe.schema.json",
+  "id": "tex-mex-scramble",
+  "title": "Tex-Mex Scramble",
+  "category": "Entrees",
+  "contributor": "Brent Bradley",
+  "preheatF": null,
+  "components": [
+    {
+      "name": null,
+      "ingredients": [
+        "2 tsp canola oil",
+        "8 ready-to-eat turkey breakfast links, cut in half",
+        "1 small onion, chopped",
+        "1/4 cup chopped green chilies",
+        "4 large eggs, beaten",
+        "1/2 tsp ground cumin",
+        "1/4 tsp cinnamon",
+        "1 tsp chili powder",
+        "1/2 tsp dried oregano",
+        "1/4 tsp salt"
+      ],
+      "directions": [
+        "Heat oil in a large skillet over medium heat.",
+        "Add onion and cook, stirring, until softened (about 2 minutes).",
+        "Add sausage and cook until lightly browned. Drain pooled grease.",
+        "Add chilies, chili powder, cumin, oregano, cinnamon, and salt. Cook for about 20 minutes.",
+        "Pour in beaten eggs and cook while stirring until scrambled and cooked through."
+      ]
+    }
+  ],
+  "notes": []
+}

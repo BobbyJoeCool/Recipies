@@ -1,0 +1,29 @@
+{
+  "$schema": "../recipe.schema.json",
+  "id": "broccoli-cauliflower-salad",
+  "title": "Broccoli Cauliflower Salad",
+  "category": "Soups, Salads & Veggies",
+  "contributor": "Brittney Bradley",
+  "preheatF": null,
+  "components": [
+    {
+      "name": null,
+      "ingredients": [
+        "1 head broccoli, cut up",
+        "1 head cauliflower, cut up",
+        "1 small onion, diced",
+        "Bacon bits to taste",
+        "1 cup mayonnaise",
+        "1/4 cup sugar",
+        "1/4 cup vinegar"
+      ],
+      "directions": [
+        "Cut up broccoli, cauliflower, and onion and combine in a large bowl.",
+        "In a separate bowl, mix mayo, vinegar, and sugar.",
+        "Pour dressing over vegetables and toss to coat.",
+        "Add bacon bits and mix. Refrigerate before serving."
+      ]
+    }
+  ],
+  "notes": []
+}

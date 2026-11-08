@@ -1,0 +1,26 @@
+{
+  "$schema": "../recipe.schema.json",
+  "id": "dill-dip",
+  "title": "Dill Dip",
+  "category": "Appetizers",
+  "contributor": "Grandma Lois",
+  "preheatF": null,
+  "components": [
+    {
+      "name": null,
+      "ingredients": [
+        "1 cup mayo",
+        "1 carton sour cream",
+        "1 tsp dill weed",
+        "1 tsp Beau Monde seasoning",
+        "1 tbsp parsley flakes",
+        "1 tbsp minced onion"
+      ],
+      "directions": [
+        "Mix all ingredients together until well combined.",
+        "Serve with vegetables or crackers."
+      ]
+    }
+  ],
+  "notes": []
+}

@@ -1,0 +1,28 @@
+{
+  "$schema": "../recipe.schema.json",
+  "id": "jalapeno-dip",
+  "title": "Jalapeno Dip",
+  "category": "Appetizers",
+  "contributor": "Jamie Bradley",
+  "preheatF": 300,
+  "components": [
+    {
+      "name": null,
+      "ingredients": [
+        "8 oz cream cheese",
+        "1 cup mayo",
+        "1 can green chilies",
+        "Jalapenos to taste",
+        "Parmesan cheese for topping"
+      ],
+      "directions": [
+        "Mix cream cheese, mayo, green chilies, and jalapenos together until combined.",
+        "Spread into a baking pan.",
+        "Sprinkle Parmesan cheese over the top.",
+        "Bake at 300°F until cheese is golden brown.",
+        "Serve with crackers."
+      ]
+    }
+  ],
+  "notes": []
+}

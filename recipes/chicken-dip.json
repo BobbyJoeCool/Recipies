@@ -1,0 +1,24 @@
+{
+  "$schema": "../recipe.schema.json",
+  "id": "chicken-dip",
+  "title": "Chicken Dip",
+  "category": "Miscellaneous",
+  "contributor": "Shaun Bradley",
+  "preheatF": null,
+  "components": [
+    {
+      "name": null,
+      "ingredients": [
+        "2 (8 oz) packages cream cheese",
+        "2 chicken breasts, cooked and shredded",
+        "Buffalo or wing sauce to taste"
+      ],
+      "directions": [
+        "Mix cream cheese, shredded chicken, and wing sauce together until combined.",
+        "Place in a crock pot to warm.",
+        "Serve with crackers, chips, or bread."
+      ]
+    }
+  ],
+  "notes": []
+}

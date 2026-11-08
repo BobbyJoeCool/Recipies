@@ -1,0 +1,27 @@
+{
+  "$schema": "../recipe.schema.json",
+  "id": "strawberry-rhubarb-jam",
+  "title": "Strawberry Rhubarb Jam",
+  "category": "Canning",
+  "contributor": "Brenda Bradley",
+  "preheatF": null,
+  "components": [
+    {
+      "name": null,
+      "ingredients": [
+        "4 cups rhubarb, finely cut",
+        "2 cups strawberries",
+        "4 cups sugar",
+        "1 pkg strawberry jello",
+        "2 tsp lemon juice"
+      ],
+      "directions": [
+        "Mix rhubarb, strawberries, and sugar together. Let stand for about 30 minutes.",
+        "Bring to a boil, then cook for 12 minutes, stirring constantly.",
+        "Remove from heat and stir in strawberry jello until dissolved.",
+        "Pour into glasses or jars and seal."
+      ]
+    }
+  ],
+  "notes": []
+}

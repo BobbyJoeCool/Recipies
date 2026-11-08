@@ -1,0 +1,27 @@
+{
+  "$schema": "../recipe.schema.json",
+  "id": "snickerdoodle-salad",
+  "title": "Snickerdoodle Salad",
+  "category": "Soups, Salads & Veggies",
+  "contributor": "Brittney Bradley & Evelyn Kahl",
+  "preheatF": null,
+  "components": [
+    {
+      "name": null,
+      "ingredients": [
+        "2 cups buttermilk",
+        "16 oz Cool Whip",
+        "2 (3 oz) boxes instant vanilla pudding",
+        "6–8 Snickers bars, cut into small pieces",
+        "2 cups mini marshmallows",
+        "6–8 Granny Smith apples, cut up"
+      ],
+      "directions": [
+        "Mix buttermilk, Cool Whip, and dry pudding mix together.",
+        "Add cut Snickers, apples, and marshmallows.",
+        "Mix well and refrigerate before serving."
+      ]
+    }
+  ],
+  "notes": []
+}

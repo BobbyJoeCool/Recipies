@@ -1,0 +1,33 @@
+{
+  "$schema": "../recipe.schema.json",
+  "id": "cabbage-slaw",
+  "title": "Cabbage Slaw",
+  "category": "Soups, Salads & Veggies",
+  "contributor": "Brenda Bradley",
+  "preheatF": null,
+  "components": [
+    {
+      "name": null,
+      "ingredients": [
+        "2 bags cabbage",
+        "1/2 bag baby carrots, shredded",
+        "1 onion, chopped",
+        "1 pepper, diced",
+        "1 cup vinegar",
+        "1/4 cup water",
+        "1 tsp mustard seed",
+        "1 tsp celery seed",
+        "2 cups sugar"
+      ],
+      "directions": [
+        "Combine cabbage, carrots, onion, and pepper in a large bowl. Set aside.",
+        "In a saucepan, bring vinegar, water, mustard seed, celery seed, and sugar to a boil. Stir and boil for 1 minute.",
+        "Cool liquid to lukewarm.",
+        "Pour over cabbage mixture and refrigerate."
+      ]
+    }
+  ],
+  "notes": [
+    "Can be frozen."
+  ]
+}

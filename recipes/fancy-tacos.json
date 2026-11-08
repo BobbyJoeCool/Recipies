@@ -1,0 +1,64 @@
+{
+  "$schema": "../recipe.schema.json",
+  "id": "fancy-tacos",
+  "title": "Fancy Tacos",
+  "category": "Entrees",
+  "contributor": "Walmart Recipes",
+  "preheatF": 425,
+  "components": [
+    {
+      "name": "Chicken",
+      "ingredients": [
+        "1½ lbs boneless skinless chicken breasts, cut into thin strips",
+        "1 tbsp chili powder",
+        "1 tsp smoked paprika",
+        "2 tbsp brown sugar",
+        "1/2 tbsp ground cumin",
+        "1/2 tsp onion powder",
+        "1/4 tsp garlic powder",
+        "1/2 tbsp kosher salt",
+        "1 tsp ground black pepper",
+        "3 tbsp mayonnaise"
+      ],
+      "directions": [
+        "In a small bowl, whisk together chili powder, smoked paprika, brown sugar, cumin, onion powder, garlic powder, salt, and black pepper.",
+        "In a medium bowl, combine chicken strips with 3 tbsp mayonnaise and the seasoning blend. Toss to coat evenly.",
+        "Spray a large sheet pan with cooking spray. Spread chicken in a single layer.",
+        "Bake at 425°F for 15 minutes."
+      ]
+    },
+    {
+      "name": "Street Corn Mixture",
+      "ingredients": [
+        "3 ears sweet corn, cut off the cob",
+        "1/2 red onion, chopped",
+        "1/4 cup fresh cilantro, chopped",
+        "2 tbsp mayonnaise",
+        "Juice of 2 limes (about 4 tbsp)",
+        "1/4 cup crumbled Cotija cheese",
+        "1/2 tsp kosher salt",
+        "1/4 tsp ground black pepper"
+      ],
+      "directions": [
+        "In a bowl, mix together all corn mixture ingredients.",
+        "After chicken has baked 15 minutes, nestle corn mixture around the chicken on the sheet pan.",
+        "Return to oven and bake another 10 minutes until chicken is cooked through and corn is tender.",
+        "Turn broiler to high and broil 1–2 minutes to lightly crisp tops."
+      ]
+    },
+    {
+      "name": "To Serve",
+      "ingredients": [
+        "16 eight-inch corn tortillas, warmed",
+        "1/4 cup crumbled Cotija cheese (garnish)",
+        "4 limes, cut into wedges",
+        "Optional: sliced jalapeños, avocado, hot sauce"
+      ],
+      "directions": [
+        "Remove from oven and sprinkle with remaining Cotija cheese.",
+        "Serve with warm tortillas, lime wedges, and desired toppings."
+      ]
+    }
+  ],
+  "notes": []
+}

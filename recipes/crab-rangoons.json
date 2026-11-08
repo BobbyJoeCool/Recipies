@@ -1,0 +1,28 @@
+{
+  "$schema": "../recipe.schema.json",
+  "id": "crab-rangoons",
+  "title": "Crab Rangoons",
+  "category": "Appetizers",
+  "contributor": "Brittney Bradley",
+  "preheatF": null,
+  "components": [
+    {
+      "name": null,
+      "ingredients": [
+        "1 can crab meat",
+        "1/4 cup cream cheese",
+        "1 green onion, chopped",
+        "Garlic salt to taste",
+        "1 pkg wonton skins",
+        "1 egg white"
+      ],
+      "directions": [
+        "Blend crab meat (with liquid from the can), cream cheese, green onion, and garlic salt until smooth.",
+        "Place 1/2 tsp of filling on each wonton skin.",
+        "Fold wonton into a triangle and seal edges with egg white.",
+        "Fry in hot oil until golden brown."
+      ]
+    }
+  ],
+  "notes": []
+}

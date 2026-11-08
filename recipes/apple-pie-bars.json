@@ -1,0 +1,43 @@
+{
+  "$schema": "../recipe.schema.json",
+  "id": "apple-pie-bars",
+  "title": "Apple Pie Bars",
+  "category": "Desserts",
+  "contributor": "Shannon Kappes",
+  "preheatF": 400,
+  "components": [
+    {
+      "name": "Crust",
+      "ingredients": [
+        "3 cups flour",
+        "1 tsp salt",
+        "1 cup Crisco shortening",
+        "1/2 cup cold water"
+      ],
+      "directions": [
+        "Stir together flour and salt. Cut in shortening with a pastry blender until crumbly.",
+        "Mix in cold water a little at a time until dough holds together.",
+        "Divide dough in half. Roll out one half to fit a 10x15-inch jelly roll pan."
+      ]
+    },
+    {
+      "name": "Filling",
+      "ingredients": [
+        "7 cups apples, thinly sliced",
+        "3/4 cup sugar",
+        "2 tbsp flour",
+        "Dash of salt",
+        "1 tsp cinnamon",
+        "1/4 tsp nutmeg"
+      ],
+      "directions": [
+        "Mix sugar, flour, salt, cinnamon, and nutmeg together. Toss with apples.",
+        "Spread apple mixture over crust in the jelly roll pan.",
+        "Roll out remaining dough and place over top as the top crust.",
+        "Sprinkle with a little extra cinnamon and sugar.",
+        "Bake at 400°F for 35 minutes or until crust is golden brown."
+      ]
+    }
+  ],
+  "notes": []
+}

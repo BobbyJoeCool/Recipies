@@ -1,0 +1,32 @@
+{
+  "$schema": "../recipe.schema.json",
+  "id": "caramels",
+  "title": "Caramels",
+  "category": "Desserts",
+  "contributor": "Julie Breutzmann",
+  "preheatF": null,
+  "components": [
+    {
+      "name": null,
+      "ingredients": [
+        "1 cup butter or margarine",
+        "2¼ cups packed brown sugar",
+        "Dash of salt",
+        "1 cup light corn syrup",
+        "1 can (14 oz) sweetened condensed milk",
+        "1 tsp vanilla"
+      ],
+      "directions": [
+        "Lightly butter the bottom and sides of a 9x9x2-inch pan.",
+        "Melt butter in a heavy 3-quart saucepan. Add sugar and salt and stir.",
+        "Stir in corn syrup. Gradually pour in sweetened condensed milk, stirring constantly.",
+        "Cook over medium heat, stirring occasionally, to 245°F on a candy thermometer.",
+        "Remove from heat and stir in vanilla.",
+        "Immediately pour into prepared pan. Cool on a wire rack.",
+        "When fully cooled, cut into squares. Dip knife in water between cuts if needed.",
+        "Wrap each caramel in plastic wrap and store in an airtight container in a cool, dry place."
+      ]
+    }
+  ],
+  "notes": []
+}

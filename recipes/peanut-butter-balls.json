@@ -1,0 +1,37 @@
+{
+  "$schema": "../recipe.schema.json",
+  "id": "peanut-butter-balls",
+  "title": "Peanut Butter Balls",
+  "category": "Appetizers",
+  "contributor": "Brenda Bradley",
+  "preheatF": null,
+  "components": [
+    {
+      "name": "Peanut Butter Balls",
+      "ingredients": [
+        "2 sticks butter, melted",
+        "1½ cups creamy peanut butter",
+        "3¾ cups powdered sugar",
+        "1 tsp vanilla",
+        "1 cup graham cracker crumbs"
+      ],
+      "directions": [
+        "Mix all ball ingredients together until well combined.",
+        "Form into balls and refrigerate until firm."
+      ]
+    },
+    {
+      "name": "Chocolate Coating",
+      "ingredients": [
+        "12 oz chocolate chips",
+        "1 tsp liquid Crisco"
+      ],
+      "directions": [
+        "Melt chocolate chips and Crisco together.",
+        "Dip chilled balls into chocolate to coat.",
+        "Place on wax paper and refrigerate until set."
+      ]
+    }
+  ],
+  "notes": []
+}

@@ -1,0 +1,36 @@
+{
+  "$schema": "../recipe.schema.json",
+  "id": "hot-turkey-sandwich",
+  "title": "Hot Turkey Sandwich",
+  "category": "Entrees",
+  "contributor": "Wanda Kohlmeyer",
+  "preheatF": 350,
+  "components": [
+    {
+      "name": null,
+      "ingredients": [
+        "12 lb turkey, roasted",
+        "1/2 lb oleo",
+        "2 onions, ground",
+        "1/2 bunch celery, ground",
+        "1/2 lb pork sausage",
+        "1/2 gallon milk",
+        "3 bags cubed bread",
+        "Salt and pepper to taste",
+        "Turkey broth",
+        "3 eggs, beaten",
+        "3/4 tsp sage or poultry seasoning"
+      ],
+      "directions": [
+        "Roast turkey until fully cooked. Pick meat from bones and chop.",
+        "Grind onions and celery.",
+        "Mix all ingredients together thoroughly.",
+        "Bake at 350°F for 2 hours.",
+        "Serve on burger buns."
+      ]
+    }
+  ],
+  "notes": [
+    "Makes approximately 100 servings on burger buns."
+  ]
+}

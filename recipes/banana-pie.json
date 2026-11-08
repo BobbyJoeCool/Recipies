@@ -1,0 +1,46 @@
+{
+  "$schema": "../recipe.schema.json",
+  "id": "banana-pie",
+  "title": "Banana Pie",
+  "category": "Desserts",
+  "contributor": "Grandma Lois",
+  "preheatF": 400,
+  "components": [
+    {
+      "name": "Filling",
+      "ingredients": [
+        "3 cups milk",
+        "3/4 cup sugar",
+        "3 tbsp heaping cornstarch",
+        "3 egg yolks",
+        "1 tsp vanilla",
+        "1 tsp butter",
+        "2 bananas, sliced",
+        "1 baked pie crust"
+      ],
+      "directions": [
+        "Heat milk in a double boiler.",
+        "In a separate bowl, mix sugar, cornstarch, and egg yolks.",
+        "Pour sugar mixture into the hot milk and stir until thickened.",
+        "Remove from heat. Stir in vanilla and butter.",
+        "Add bananas to pudding and pour into a baked pie crust."
+      ]
+    },
+    {
+      "name": "Meringue Topping",
+      "ingredients": [
+        "3 egg whites",
+        "1 tsp vanilla",
+        "2 tbsp sugar"
+      ],
+      "directions": [
+        "Beat egg whites until stiff peaks form. Add vanilla and sugar, then beat until stiff again.",
+        "Spread over pie filling.",
+        "Bake at 400°F until meringue is golden brown."
+      ]
+    }
+  ],
+  "notes": [
+    "If not adding meringue topping, no baking is required — just chill and serve."
+  ]
+}

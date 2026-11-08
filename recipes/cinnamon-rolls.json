@@ -1,0 +1,29 @@
+{
+  "$schema": "../recipe.schema.json",
+  "id": "cinnamon-rolls",
+  "title": "Cinnamon Rolls",
+  "category": "Desserts",
+  "contributor": "Wilma Timmerman",
+  "preheatF": 350,
+  "components": [
+    {
+      "name": null,
+      "ingredients": [
+        "2 cups warm water",
+        "2 pkg yeast",
+        "2 eggs",
+        "3/4 cup sugar",
+        "3/4 cup margarine",
+        "1 tsp salt",
+        "8½ cups flour"
+      ],
+      "directions": [
+        "Mix all ingredients together until a dough forms.",
+        "Let rise until doubled in size.",
+        "Shape into rolls and let rise again.",
+        "Bake at 350°F for 25 minutes."
+      ]
+    }
+  ],
+  "notes": []
+}

@@ -1,0 +1,35 @@
+{
+  "$schema": "../recipe.schema.json",
+  "id": "snickerdoodle-cookies",
+  "title": "Snickerdoodle Cookies",
+  "category": "Desserts",
+  "contributor": "Brittney Breutzmann",
+  "preheatF": 400,
+  "components": [
+    {
+      "name": null,
+      "ingredients": [
+        "1/2 cup butter, softened",
+        "1/2 cup shortening",
+        "1½ cups sugar",
+        "2 eggs",
+        "2 tsp vanilla extract",
+        "2¾ cups all-purpose flour",
+        "2 tsp cream of tartar",
+        "1 tsp baking soda",
+        "1/4 tsp salt",
+        "2 tbsp sugar + 2 tsp ground cinnamon (for rolling)"
+      ],
+      "directions": [
+        "Cream together butter, shortening, 1½ cups sugar, eggs, and vanilla.",
+        "Blend in flour, cream of tartar, baking soda, and salt.",
+        "Mix 2 tbsp sugar and cinnamon together in a small bowl.",
+        "Shape dough by rounded spoonfuls into balls. Roll each in cinnamon sugar.",
+        "Place 2 inches apart on ungreased baking sheets.",
+        "Bake at 400°F for 8–10 minutes until set but not too hard.",
+        "Remove immediately to a cooling rack."
+      ]
+    }
+  ],
+  "notes": []
+}

@@ -1,0 +1,30 @@
+{
+  "$schema": "../recipe.schema.json",
+  "id": "canned-apple-pie-filling",
+  "title": "Canned Apple Pie Filling",
+  "category": "Canning",
+  "contributor": "Brenda Bradley",
+  "preheatF": null,
+  "components": [
+    {
+      "name": null,
+      "ingredients": [
+        "8 cups water",
+        "5 cups sugar",
+        "1 cup cornstarch",
+        "1 tbsp apple pie spice",
+        "1 stick margarine",
+        "Enough apples to fill 7 quart jars, peeled and sliced"
+      ],
+      "directions": [
+        "Fill 7 quart jars with peeled and sliced apples.",
+        "Combine water, sugar, cornstarch, apple pie spice, and margarine in a saucepan. Cook filling until thickened.",
+        "Pour filling equally over apples in jars.",
+        "Place filled jars in hot water in a pressure canner.",
+        "Pressure can for 10 minutes at 5 pounds of pressure.",
+        "Cool in canner, then remove and store."
+      ]
+    }
+  ],
+  "notes": []
+}

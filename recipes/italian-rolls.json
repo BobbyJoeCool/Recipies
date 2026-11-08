@@ -1,0 +1,40 @@
+{
+  "$schema": "../recipe.schema.json",
+  "id": "italian-rolls",
+  "title": "Italian Rolls",
+  "category": "Breads & Rolls",
+  "contributor": "Robert Breutzmann",
+  "preheatF": 375,
+  "components": [
+    {
+      "name": null,
+      "ingredients": [
+        "3½ cups flour",
+        "2 tbsp sugar",
+        "2 packages active dry yeast (4½ tsp total)",
+        "2 tsp garlic salt",
+        "1 tsp Italian seasoning",
+        "1 tsp dried parsley flakes",
+        "1 tsp onion powder",
+        "1 cup milk",
+        "1/2 cup water",
+        "4 tbsp butter or margarine, divided",
+        "1 egg",
+        "3/4 cup grated Parmesan cheese, divided"
+      ],
+      "directions": [
+        "In a mixing bowl, combine 1½ cups flour, sugar, yeast, and all seasonings.",
+        "In a saucepan, heat milk, water, and 2 tbsp butter to 120–130°F. Add to dry ingredients and beat until moistened.",
+        "Add egg and beat on medium speed for 3 minutes.",
+        "Stir in 1/2 cup Parmesan and enough remaining flour to form a soft dough.",
+        "Knead on a floured surface until smooth and elastic, about 3–5 minutes.",
+        "Place in a greased bowl, turning once. Cover and let rest 15 minutes.",
+        "Punch dough down. Divide into 16 pieces and shape into balls.",
+        "Melt remaining butter. Dip tops in butter, then in remaining Parmesan cheese.",
+        "Place in a greased 13x9-inch pan. Cover and let rest 10 minutes.",
+        "Bake at 375°F for 20–25 minutes until golden brown. Cool on a wire rack."
+      ]
+    }
+  ],
+  "notes": []
+}

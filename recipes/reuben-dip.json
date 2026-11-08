@@ -1,0 +1,26 @@
+{
+  "$schema": "../recipe.schema.json",
+  "id": "reuben-dip",
+  "title": "Reuben Dip",
+  "category": "Appetizers",
+  "contributor": "Jamie Bradley & Jessie Schwerin",
+  "preheatF": null,
+  "components": [
+    {
+      "name": null,
+      "ingredients": [
+        "8 oz cream cheese",
+        "8 oz sour cream",
+        "2 pkg corn beef, chopped",
+        "1/2 cup sauerkraut with juice",
+        "1 cup shredded Swiss cheese"
+      ],
+      "directions": [
+        "Mix all ingredients together.",
+        "Heat thoroughly, stirring often.",
+        "Keep warm in a crock pot or on the stove. Serve with crackers or rye bread."
+      ]
+    }
+  ],
+  "notes": []
+}

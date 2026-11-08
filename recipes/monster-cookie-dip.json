@@ -1,0 +1,31 @@
+{
+  "$schema": "../recipe.schema.json",
+  "id": "monster-cookie-dip",
+  "title": "Monster Cookie Dip",
+  "category": "Desserts",
+  "contributor": null,
+  "preheatF": null,
+  "components": [
+    {
+      "name": null,
+      "ingredients": [
+        "8 oz cream cheese, softened",
+        "1/2 cup butter, softened",
+        "1 cup creamy peanut butter",
+        "1 cup powdered sugar",
+        "3 tbsp brown sugar",
+        "1 tsp vanilla",
+        "1 cup oats (regular or quick)",
+        "1 cup miniature M&Ms",
+        "1 cup miniature semi-sweet chocolate chips"
+      ],
+      "directions": [
+        "Beat cream cheese, butter, vanilla, and peanut butter together until smooth.",
+        "Stir in brown sugar and powdered sugar and mix well.",
+        "Fold in oats, M&Ms, and chocolate chips.",
+        "Serve with pretzels, graham cracker sticks, or strawberries."
+      ]
+    }
+  ],
+  "notes": []
+}

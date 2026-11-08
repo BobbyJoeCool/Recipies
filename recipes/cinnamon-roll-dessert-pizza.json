@@ -1,0 +1,54 @@
+{
+  "$schema": "../recipe.schema.json",
+  "id": "cinnamon-roll-dessert-pizza",
+  "title": "Cinnamon Roll Dessert Pizza",
+  "category": "Desserts",
+  "contributor": null,
+  "preheatF": 400,
+  "components": [
+    {
+      "name": "Dough",
+      "ingredients": [
+        "1½ cups warm water (120–130°F)",
+        "2 tbsp sugar",
+        "1 tbsp yeast",
+        "3½ cups flour",
+        "1 tsp salt"
+      ],
+      "directions": [
+        "Mix warm water, sugar, and yeast together. Let sit 5 minutes.",
+        "Add flour and salt. Mix until smooth and let rise 10 minutes.",
+        "Roll dough into a 12-inch circle and place on a greased 12-inch pizza pan."
+      ]
+    },
+    {
+      "name": "Cinnamon Sugar Spread",
+      "ingredients": [
+        "1/2 cup butter, softened",
+        "1/2 cup brown sugar",
+        "1/2 cup old fashioned oats",
+        "3 tsp cinnamon"
+      ],
+      "directions": [
+        "Combine all spread ingredients in a bowl.",
+        "Spread thinly over the dough. Sprinkle with additional brown sugar if desired.",
+        "Bake at 400°F for 12–15 minutes until edges are lightly golden."
+      ]
+    },
+    {
+      "name": "Cream Cheese Glaze",
+      "ingredients": [
+        "4 tbsp unsalted butter",
+        "2 oz cream cheese, room temperature",
+        "3/4 cup powdered sugar",
+        "1/2 tsp vanilla extract"
+      ],
+      "directions": [
+        "Beat butter and cream cheese together until smooth.",
+        "Add powdered sugar and vanilla and mix until combined. Microwave briefly if too thick.",
+        "Drizzle over warm pizza and serve."
+      ]
+    }
+  ],
+  "notes": []
+}

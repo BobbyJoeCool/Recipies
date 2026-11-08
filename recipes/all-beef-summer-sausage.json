@@ -1,0 +1,31 @@
+{
+  "$schema": "../recipe.schema.json",
+  "id": "all-beef-summer-sausage",
+  "title": "All Beef Summer Sausage",
+  "category": "Appetizers",
+  "contributor": "Russ Bradley",
+  "preheatF": 325,
+  "components": [
+    {
+      "name": null,
+      "ingredients": [
+        "2 lbs ground beef",
+        "1/4 tsp salt",
+        "1/4 tsp pepper",
+        "1/8 tsp garlic powder",
+        "1 tbsp liquid smoke",
+        "1 tbsp mustard seed or powder",
+        "2 tbsp Morton Tender Quick",
+        "3/4 cup water"
+      ],
+      "directions": [
+        "Mix all ingredients together well.",
+        "Place mixture on foil and form into a roll. Wrap tightly.",
+        "Refrigerate for 24 hours.",
+        "Unwrap and place on a baking sheet.",
+        "Bake at 325°F for 1½ hours, or until cooked through. Time may vary depending on the size of the roll."
+      ]
+    }
+  ],
+  "notes": []
+}

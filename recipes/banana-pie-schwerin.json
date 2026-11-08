@@ -1,0 +1,45 @@
+{
+  "$schema": "../recipe.schema.json",
+  "id": "banana-pie-schwerin",
+  "title": "Banana Pie",
+  "category": "Desserts",
+  "contributor": "Grandma Schwerin",
+  "preheatF": 400,
+  "components": [
+    {
+      "name": "Filling",
+      "ingredients": [
+        "2½ cups milk",
+        "1/2 cup milk (separate)",
+        "1/2 to 3/4 cup sugar",
+        "3 egg yolks",
+        "3 tbsp cornstarch",
+        "1 tsp butter",
+        "1 tsp vanilla",
+        "Bananas, sliced",
+        "1 baked pie shell"
+      ],
+      "directions": [
+        "Heat 2½ cups milk in a double boiler until boiling.",
+        "In a bowl, mix 1/2 cup milk, sugar, egg yolks, and cornstarch until smooth.",
+        "Slowly pour mixture into the boiling milk in the double boiler, stirring constantly until thickened.",
+        "Remove from heat and stir in butter, vanilla, and sliced bananas.",
+        "Pour into baked pie shell."
+      ]
+    },
+    {
+      "name": "Meringue",
+      "ingredients": [
+        "3 egg whites",
+        "1½ tbsp sugar",
+        "1½ tsp vanilla"
+      ],
+      "directions": [
+        "Beat egg whites until stiff. Add sugar and vanilla.",
+        "Spread over pie filling.",
+        "Bake at 400°F until meringue is golden brown."
+      ]
+    }
+  ],
+  "notes": []
+}

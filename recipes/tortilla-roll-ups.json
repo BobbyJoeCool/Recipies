@@ -1,0 +1,32 @@
+{
+  "$schema": "../recipe.schema.json",
+  "id": "tortilla-roll-ups",
+  "title": "Tortilla Roll Ups",
+  "category": "Appetizers",
+  "contributor": "Grandma Evelyn Kahl",
+  "preheatF": null,
+  "components": [
+    {
+      "name": null,
+      "ingredients": [
+        "10 soft tortilla shells",
+        "8 oz cream cheese",
+        "1 pkg Hidden Valley Ranch mix",
+        "Green onions, chopped",
+        "Green olives, sliced",
+        "Black olives, sliced",
+        "Green peppers, diced",
+        "Mushrooms, sliced"
+      ],
+      "directions": [
+        "Mix cream cheese and ranch packet together until smooth.",
+        "Chop and prepare all vegetables.",
+        "Mix vegetables into the cream cheese mixture.",
+        "Spread mixture onto tortilla shells and roll up tightly.",
+        "Refrigerate for at least one day.",
+        "Slice into rounds and serve."
+      ]
+    }
+  ],
+  "notes": []
+}

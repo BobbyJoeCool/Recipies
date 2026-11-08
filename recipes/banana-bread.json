@@ -1,0 +1,31 @@
+{
+  "$schema": "../recipe.schema.json",
+  "id": "banana-bread",
+  "title": "Banana Bread",
+  "category": "Breads & Rolls",
+  "contributor": "Grandma Schwerin",
+  "preheatF": 350,
+  "components": [
+    {
+      "name": null,
+      "ingredients": [
+        "1/2 cup butter",
+        "1 cup sugar",
+        "2 eggs",
+        "2 cups flour",
+        "1 tsp baking soda",
+        "1/4 tsp salt",
+        "1/2 cup nuts",
+        "3 mashed bananas"
+      ],
+      "directions": [
+        "Cream butter and sugar together.",
+        "Add eggs one at a time, mixing well after each.",
+        "Add flour, baking soda, and salt. Stir to combine.",
+        "Fold in nuts and mashed bananas.",
+        "Pour into a greased loaf pan and bake at 350°F for 1 hour."
+      ]
+    }
+  ],
+  "notes": []
+}

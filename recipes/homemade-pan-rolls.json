@@ -1,0 +1,32 @@
+{
+  "$schema": "../recipe.schema.json",
+  "id": "homemade-pan-rolls",
+  "title": "Homemade Pan Rolls",
+  "category": "Breads & Rolls",
+  "contributor": "Brenda Bradley",
+  "preheatF": 400,
+  "components": [
+    {
+      "name": null,
+      "ingredients": [
+        "3½ cups flour",
+        "1/4 cup sugar",
+        "1/4 cup shortening",
+        "1 tsp salt",
+        "1 pkg yeast",
+        "1/2 cup warm milk",
+        "1/2 cup warm water",
+        "1 egg"
+      ],
+      "directions": [
+        "Combine 2 cups flour, sugar, shortening, salt, and yeast in a bowl.",
+        "Add warm water, warm milk, and egg. Beat with electric mixer.",
+        "Add remaining flour and mix until a dough forms.",
+        "Place dough in a greased bowl and let rise until doubled.",
+        "Shape into rolls and place in greased pans.",
+        "Bake at 400°F for 12–18 minutes."
+      ]
+    }
+  ],
+  "notes": []
+}

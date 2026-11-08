@@ -1,0 +1,33 @@
+{
+  "$schema": "../recipe.schema.json",
+  "id": "german-potato-salad",
+  "title": "German Potato Salad",
+  "category": "Soups, Salads & Veggies",
+  "contributor": "Robert Breutzmann",
+  "preheatF": null,
+  "components": [
+    {
+      "name": null,
+      "ingredients": [
+        "9 medium potatoes (1½–2 lbs), diced",
+        "6 slices bacon",
+        "1/3 cup onion, chopped",
+        "2 tbsp flour",
+        "2 tbsp sugar",
+        "2 tsp salt",
+        "1/2 tsp celery seed",
+        "Dash of pepper",
+        "3/4 cup water",
+        "1/3 cup vinegar"
+      ],
+      "directions": [
+        "Cook and dice potatoes.",
+        "In a large skillet, crisp bacon. Remove bacon and cook onion in the bacon fat until golden.",
+        "Add flour, sugar, salt, celery seed, and pepper. Cook over low heat until bubbly.",
+        "Stir in water and vinegar. Heat to boiling, stirring constantly for 1 minute.",
+        "Crumble bacon and add along with potatoes. Heat through, coating all potatoes. Serve warm."
+      ]
+    }
+  ],
+  "notes": []
+}

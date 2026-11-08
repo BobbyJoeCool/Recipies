@@ -1,0 +1,31 @@
+{
+  "$schema": "../recipe.schema.json",
+  "id": "whole-grain-buttermilk-pancakes",
+  "title": "Whole Grain Buttermilk Pancakes",
+  "category": "Entrees",
+  "contributor": "Grandma Lois",
+  "preheatF": null,
+  "components": [
+    {
+      "name": null,
+      "ingredients": [
+        "2/3 cup whole wheat flour",
+        "1 tbsp wheat germ",
+        "1/4 cup oat bran",
+        "1 tbsp cornmeal",
+        "1 tbsp brown sugar",
+        "1½ tsp baking powder",
+        "1/4 tsp salt",
+        "1/4 cup buttermilk",
+        "2 eggs",
+        "2 tbsp oil"
+      ],
+      "directions": [
+        "Mix all ingredients together until combined.",
+        "Pour batter onto a hot greased griddle or skillet to desired size.",
+        "Cook until bubbles form on surface, then flip and cook until done."
+      ]
+    }
+  ],
+  "notes": []
+}

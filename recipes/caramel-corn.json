@@ -1,0 +1,29 @@
+{
+  "$schema": "../recipe.schema.json",
+  "id": "caramel-corn",
+  "title": "Caramel Corn",
+  "category": "Appetizers",
+  "contributor": "Russ Bradley",
+  "preheatF": 250,
+  "components": [
+    {
+      "name": null,
+      "ingredients": [
+        "1/2 lb butter",
+        "1 cup brown sugar",
+        "1 bag puffed popcorn",
+        "1 tsp baking soda",
+        "1/2 cup light corn syrup"
+      ],
+      "directions": [
+        "Place puffed popcorn in a large roasting pan.",
+        "In a 2-quart saucepan, combine butter, brown sugar, and corn syrup. Microwave for 2 minutes.",
+        "Stir and add baking soda.",
+        "Pour mixture over popcorn and mix until evenly coated.",
+        "Bake at 250°F for 45 minutes, stirring every 10–15 minutes.",
+        "Pour out onto wax paper to dry and break apart."
+      ]
+    }
+  ],
+  "notes": []
+}

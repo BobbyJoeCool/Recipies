@@ -1,0 +1,32 @@
+{
+  "$schema": "../recipe.schema.json",
+  "id": "chocolate-meltaways",
+  "title": "Chocolate Meltaways",
+  "category": "Desserts",
+  "contributor": "Robert Breutzmann",
+  "preheatF": 250,
+  "components": [
+    {
+      "name": null,
+      "ingredients": [
+        "1 cup butter",
+        "1¼ cups powdered sugar",
+        "1 tsp vanilla",
+        "1¼ cups flour",
+        "1/2 tsp salt",
+        "1/2 cup ground walnuts or pecans",
+        "6 oz (1 cup) chocolate chips, melted"
+      ],
+      "directions": [
+        "Cream butter. Add powdered sugar and vanilla.",
+        "Stir in sifted flour and salt.",
+        "Melt chocolate chips in a double boiler or microwave. Add to dough and mix until well blended.",
+        "Drop by teaspoons onto greased cookie sheets.",
+        "Bake at 250°F for 60 minutes. Do not underbake."
+      ]
+    }
+  ],
+  "notes": [
+    "Doubles well. According to family legend, these come out best in a gas oven."
+  ]
+}

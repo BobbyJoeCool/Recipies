@@ -1,0 +1,48 @@
+{
+  "$schema": "../recipe.schema.json",
+  "id": "pumpkin-pecan-cobbler",
+  "title": "Pumpkin Pecan Cobbler",
+  "category": "Desserts",
+  "contributor": "Brittney Breutzmann",
+  "preheatF": 350,
+  "components": [
+    {
+      "name": "Cobbler Batter",
+      "ingredients": [
+        "1 cup + 3 tbsp flour",
+        "2 tsp baking powder",
+        "1/2 tsp salt",
+        "3/4 cup sugar",
+        "1 tsp cinnamon",
+        "1/2 tsp nutmeg",
+        "1/2 tsp cloves",
+        "1/2 cup pumpkin puree",
+        "1/4 cup milk",
+        "1/4 cup melted butter or vegetable oil",
+        "1½ tsp vanilla"
+      ],
+      "directions": [
+        "In a medium bowl, stir together flour, baking powder, salt, sugar, and spices.",
+        "In a separate bowl, stir together pumpkin, milk, melted butter, and vanilla.",
+        "Pour wet ingredients into dry and mix to create a thick batter.",
+        "Pour into a small 8-inch casserole dish with high sides."
+      ]
+    },
+    {
+      "name": "Topping",
+      "ingredients": [
+        "1/2 cup brown sugar",
+        "1/2 cup sugar",
+        "1/4 cup chopped pecans",
+        "1½ cups very hot water"
+      ],
+      "directions": [
+        "Stir sugars and pecans together and spread evenly over the batter.",
+        "Pour hot water over everything WITHOUT stirring.",
+        "Bake at 350°F for 40 minutes or until middle is set.",
+        "Cool 5–10 minutes before serving. Serve with vanilla ice cream and additional pecans."
+      ]
+    }
+  ],
+  "notes": []
+}

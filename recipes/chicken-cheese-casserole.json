@@ -1,0 +1,29 @@
+{
+  "$schema": "../recipe.schema.json",
+  "id": "chicken-cheese-casserole",
+  "title": "Chicken Cheese Casserole",
+  "category": "Entrees",
+  "contributor": "Brittney Bradley",
+  "preheatF": 350,
+  "components": [
+    {
+      "name": null,
+      "ingredients": [
+        "2 cups uncooked macaroni",
+        "16 slices American cheese",
+        "2–4 cups diced chicken",
+        "Salt and pepper to taste",
+        "2 cans cream of chicken soup",
+        "2½ cups milk"
+      ],
+      "directions": [
+        "In a greased 9x13 pan, spread uncooked macaroni in an even layer.",
+        "Layer cheese slices over the macaroni.",
+        "Place diced chicken on top of the cheese. Season with salt and pepper.",
+        "Mix cream of chicken soup with milk and pour over everything.",
+        "Bake at 350°F for 1¼ hours."
+      ]
+    }
+  ],
+  "notes": []
+}

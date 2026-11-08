@@ -1,0 +1,32 @@
+{
+  "$schema": "../recipe.schema.json",
+  "id": "party-mix",
+  "title": "Party Mix",
+  "category": "Appetizers",
+  "contributor": "Brenda Bradley",
+  "preheatF": 200,
+  "components": [
+    {
+      "name": null,
+      "ingredients": [
+        "1½ boxes Crispix",
+        "2 cups Cheerios",
+        "1 cup mixed nuts",
+        "1 cup pretzels",
+        "8 tbsp butter",
+        "4 tbsp Worcestershire sauce",
+        "1 tsp seasoned salt",
+        "1 tsp garlic powder",
+        "1 tsp onion powder"
+      ],
+      "directions": [
+        "Combine cereals, pretzels, and nuts in a large roasting pan.",
+        "Melt butter and stir in Worcestershire sauce and seasonings.",
+        "Pour butter mixture over cereal mixture and stir well.",
+        "Bake at 200°F for 1 hour, stirring every 15 minutes.",
+        "Pour onto wax paper to cool and prevent clumping."
+      ]
+    }
+  ],
+  "notes": []
+}

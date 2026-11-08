@@ -1,0 +1,34 @@
+{
+  "$schema": "../recipe.schema.json",
+  "id": "4-bean-hot-dish",
+  "title": "4 Bean Hot Dish",
+  "category": "Entrees",
+  "contributor": "Grandma Evelyn Kahl",
+  "preheatF": 300,
+  "components": [
+    {
+      "name": null,
+      "ingredients": [
+        "1/4 lb bacon",
+        "3/4 cup onion, chopped",
+        "1 lb ground beef",
+        "1/2 cup brown sugar",
+        "1/2 cup ketchup",
+        "2 tbsp vinegar",
+        "1 tbsp mustard",
+        "1 tsp salt",
+        "1 can lima beans, drained",
+        "1 can kidney beans with juice",
+        "1 can pork and beans with juice",
+        "1 can butter beans with juice"
+      ],
+      "directions": [
+        "Cook bacon, onion, and ground beef together. Drain.",
+        "Add brown sugar, ketchup, vinegar, mustard, and salt. Stir to combine.",
+        "Add all four cans of beans with their liquid and mix well.",
+        "Bake at 300°F for 1½ hours."
+      ]
+    }
+  ],
+  "notes": []
+}

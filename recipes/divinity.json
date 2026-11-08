@@ -1,0 +1,34 @@
+{
+  "$schema": "../recipe.schema.json",
+  "id": "divinity",
+  "title": "Divinity",
+  "category": "Desserts",
+  "contributor": "Robert Breutzmann",
+  "preheatF": null,
+  "components": [
+    {
+      "name": null,
+      "ingredients": [
+        "2⅞ cups sugar",
+        "2/3 cup light corn syrup",
+        "1/2 cup water",
+        "2 egg whites",
+        "1 tsp vanilla (or 1/2 tsp wintergreen flavoring)",
+        "2/3 cup broken nuts"
+      ],
+      "directions": [
+        "Cook sugar, corn syrup, and water in a 2-quart saucepan over low heat, stirring constantly, until sugar dissolves.",
+        "Continue cooking without stirring to 260°F on a candy thermometer (hard ball stage).",
+        "Beat egg whites in a separate bowl until stiff peaks form.",
+        "Continue beating while slowly pouring hot syrup in a thin stream into egg whites.",
+        "Add flavoring and beat until mixture holds its shape and becomes slightly dull. This may take a while and may become too stiff for a mixer.",
+        "Fold in nuts.",
+        "Drop by spoonfuls from a buttered spoon onto waxed paper. Let stand at room temperature until set.",
+        "Store in an airtight container."
+      ]
+    }
+  ],
+  "notes": [
+    "Makes about 4 dozen candies."
+  ]
+}

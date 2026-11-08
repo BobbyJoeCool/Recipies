@@ -1,0 +1,62 @@
+{
+  "$schema": "../recipe.schema.json",
+  "id": "snickers-bars",
+  "title": "Snickers Bars",
+  "category": "Desserts",
+  "contributor": "Brittney Bradley",
+  "preheatF": null,
+  "components": [
+    {
+      "name": "Layer 1 – Chocolate Base",
+      "ingredients": [
+        "1 cup chocolate chips",
+        "1/4 cup butterscotch chips",
+        "1/4 cup peanut butter"
+      ],
+      "directions": [
+        "Melt together and spread in a 9x13 pan. Place in freezer until set."
+      ]
+    },
+    {
+      "name": "Layer 2 – Nougat",
+      "ingredients": [
+        "1 cup sugar",
+        "1/4 cup margarine",
+        "1/4 cup milk",
+        "1/4 cup peanut butter",
+        "1½ cups marshmallow creme",
+        "1 tsp vanilla",
+        "1½ cups chopped dry-roasted peanuts"
+      ],
+      "directions": [
+        "Boil sugar, margarine, and milk together for 5 minutes.",
+        "Remove from heat and stir in peanut butter, marshmallow creme, vanilla, and peanuts.",
+        "Spread over Layer 1 and return to freezer until set."
+      ]
+    },
+    {
+      "name": "Layer 3 – Caramel",
+      "ingredients": [
+        "40 caramels",
+        "4 tbsp milk"
+      ],
+      "directions": [
+        "Melt caramels and milk together.",
+        "Spread over Layer 2 and return to freezer until set."
+      ]
+    },
+    {
+      "name": "Layer 4 – Chocolate Top",
+      "ingredients": [
+        "1 cup chocolate chips",
+        "1/4 cup butterscotch chips",
+        "1/4 cup peanut butter"
+      ],
+      "directions": [
+        "Melt together and spread over the caramel layer.",
+        "Return to freezer. Keep frozen until ready to serve."
+      ]
+    }
+  ],
+  "notes": []
+}

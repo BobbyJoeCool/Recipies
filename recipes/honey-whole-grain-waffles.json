@@ -1,0 +1,45 @@
+{
+  "$schema": "../recipe.schema.json",
+  "id": "honey-whole-grain-waffles",
+  "title": "Honey Whole Grain Waffles",
+  "category": "Entrees",
+  "contributor": "Grandma Lois",
+  "preheatF": null,
+  "components": [
+    {
+      "name": "Waffles",
+      "ingredients": [
+        "1 cup oatmeal",
+        "2 tbsp wheat germ",
+        "1/2 cup butter",
+        "2 eggs",
+        "1/4 cup honey",
+        "1/2 cup whole wheat flour",
+        "1 cup all-purpose flour",
+        "1 tsp baking soda",
+        "1/2 tsp salt",
+        "1½ cups buttermilk"
+      ],
+      "directions": [
+        "Mix all waffle ingredients together until combined.",
+        "Cook in a waffle iron according to manufacturer directions."
+      ]
+    },
+    {
+      "name": "Maple Syrup",
+      "ingredients": [
+        "1 cup sugar",
+        "1 cup brown sugar",
+        "1 cup light corn syrup",
+        "1 cup water",
+        "1 tsp maple flavoring"
+      ],
+      "directions": [
+        "Combine all syrup ingredients in a saucepan.",
+        "Bring to a boil and cook for about 5 minutes.",
+        "Serve warm over waffles."
+      ]
+    }
+  ],
+  "notes": []
+}

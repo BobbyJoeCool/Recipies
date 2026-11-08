@@ -1,0 +1,40 @@
+{
+  "$schema": "../recipe.schema.json",
+  "id": "strawberry-pizza",
+  "title": "Strawberry Pizza",
+  "category": "Desserts",
+  "contributor": "Brittney Bradley",
+  "preheatF": 350,
+  "components": [
+    {
+      "name": "Crust",
+      "ingredients": [
+        "1 stick butter",
+        "1/4 cup powdered sugar",
+        "1 cup flour"
+      ],
+      "directions": [
+        "Melt butter and mix in powdered sugar and flour.",
+        "Press out onto a pizza pan or baking sheet.",
+        "Bake at 350°F for 20–25 minutes until golden brown.",
+        "Cool completely before adding filling."
+      ]
+    },
+    {
+      "name": "Filling",
+      "ingredients": [
+        "8 oz cream cheese, softened",
+        "1 tsp vanilla",
+        "8 oz Cool Whip",
+        "1 cup powdered sugar",
+        "Fresh strawberries, sliced"
+      ],
+      "directions": [
+        "Mix cream cheese, vanilla, Cool Whip, and powdered sugar until smooth.",
+        "Spread over cooled crust.",
+        "Top with sliced strawberries and serve."
+      ]
+    }
+  ],
+  "notes": []
+}

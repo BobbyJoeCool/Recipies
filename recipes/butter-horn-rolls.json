@@ -1,0 +1,28 @@
+{
+  "$schema": "../recipe.schema.json",
+  "id": "butter-horn-rolls",
+  "title": "Butter Horn Rolls",
+  "category": "Breads & Rolls",
+  "contributor": "Amy Schwerin",
+  "preheatF": 350,
+  "components": [
+    {
+      "name": null,
+      "ingredients": [
+        "1⅛ cups water",
+        "1 pkg yeast",
+        "1/8 cup salt",
+        "1/8 cup dry milk",
+        "1/8 cup oil",
+        "1/4 cup sugar",
+        "4–4½ cups flour"
+      ],
+      "directions": [
+        "Knead all ingredients together for 4–5 minutes.",
+        "Place dough in greased pans and let rise until doubled.",
+        "Bake at 350°F for 20 minutes."
+      ]
+    }
+  ],
+  "notes": []
+}

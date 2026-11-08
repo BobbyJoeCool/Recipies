@@ -1,0 +1,100 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Family Recipe Book recipe",
+  "description": "One recipe. scripts/build.py is the source of truth for validation; this file gives editors autocomplete and inline errors.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "id",
+    "title",
+    "category",
+    "contributor",
+    "preheatF",
+    "components",
+    "notes"
+  ],
+  "properties": {
+    "$schema": {
+      "type": "string"
+    },
+    "id": {
+      "type": "string",
+      "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$",
+      "description": "Must match the file name (without .json)."
+    },
+    "title": {
+      "type": "string",
+      "minLength": 1
+    },
+    "category": {
+      "enum": [
+        "Appetizers",
+        "Breads & Rolls",
+        "Soups, Salads & Veggies",
+        "Entrees",
+        "Desserts",
+        "Canning",
+        "Miscellaneous"
+      ]
+    },
+    "contributor": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "description": "Who the recipe is from, or null."
+    },
+    "preheatF": {
+      "type": [
+        "integer",
+        "null"
+      ],
+      "minimum": 150,
+      "maximum": 550,
+      "description": "Oven °F, or null for no-bake."
+    },
+    "components": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "name",
+          "ingredients",
+          "directions"
+        ],
+        "properties": {
+          "name": {
+            "type": [
+              "string",
+              "null"
+            ],
+            "description": "Part name (e.g. Frosting), or null for single-part recipes."
+          },
+          "ingredients": {
+            "type": "array",
+            "items": {
+              "type": "string",
+              "minLength": 1
+            }
+          },
+          "directions": {
+            "type": "array",
+            "items": {
+              "type": "string",
+              "minLength": 1
+            }
+          }
+        }
+      }
+    },
+    "notes": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "minLength": 1
+      }
+    }
+  }
+}

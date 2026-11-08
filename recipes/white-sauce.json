@@ -1,0 +1,27 @@
+{
+  "$schema": "../recipe.schema.json",
+  "id": "white-sauce",
+  "title": "White Sauce",
+  "category": "Appetizers",
+  "contributor": "Brenda Bradley",
+  "preheatF": null,
+  "components": [
+    {
+      "name": null,
+      "ingredients": [
+        "1 cup milk",
+        "1 tbsp flour",
+        "1 tbsp butter",
+        "1 tsp salt"
+      ],
+      "directions": [
+        "Melt butter over low heat on the stove.",
+        "Add flour and stir to combine.",
+        "Add milk and whisk together.",
+        "Add salt and whisk to incorporate.",
+        "Keep over low heat, stirring continuously, until sauce thickens."
+      ]
+    }
+  ],
+  "notes": []
+}

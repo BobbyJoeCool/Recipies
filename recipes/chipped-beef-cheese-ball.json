@@ -1,0 +1,27 @@
+{
+  "$schema": "../recipe.schema.json",
+  "id": "chipped-beef-cheese-ball",
+  "title": "Chipped Beef Cheese Ball",
+  "category": "Appetizers",
+  "contributor": "Grandma Lois",
+  "preheatF": null,
+  "components": [
+    {
+      "name": null,
+      "ingredients": [
+        "8 oz cream cheese, softened",
+        "3 pkg chipped beef",
+        "1 medium onion, finely diced",
+        "2 tbsp Accent seasoning salt",
+        "2 tbsp Worcestershire sauce"
+      ],
+      "directions": [
+        "Soften cream cheese and mix together with onion, Accent, Worcestershire sauce, and 2 packages of chipped beef.",
+        "Form mixture into a ball.",
+        "Roll ball in the remaining package of chipped beef to coat.",
+        "Chill until ready to serve."
+      ]
+    }
+  ],
+  "notes": []
+}

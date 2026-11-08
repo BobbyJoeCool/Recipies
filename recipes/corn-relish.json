@@ -1,0 +1,28 @@
+{
+  "$schema": "../recipe.schema.json",
+  "id": "corn-relish",
+  "title": "Corn Relish",
+  "category": "Canning",
+  "contributor": null,
+  "preheatF": null,
+  "components": [
+    {
+      "name": null,
+      "ingredients": [
+        "18 ears corn, cut from cob",
+        "3 green peppers, chopped",
+        "4 large onions, chopped",
+        "1 large head cabbage, chopped",
+        "1 pint vinegar",
+        "2½ cups sugar",
+        "1/4 cup salt"
+      ],
+      "directions": [
+        "Mix all ingredients together in a large pot.",
+        "Bring to a boil and cook for 20–25 minutes, stirring occasionally.",
+        "Ladle into sterilized jars and seal."
+      ]
+    }
+  ],
+  "notes": []
+}

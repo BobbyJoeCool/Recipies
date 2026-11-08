@@ -1,0 +1,25 @@
+{
+  "$schema": "../recipe.schema.json",
+  "id": "ranch-mushrooms",
+  "title": "Ranch Mushrooms",
+  "category": "Soups, Salads & Veggies",
+  "contributor": "Brittney Bradley",
+  "preheatF": null,
+  "components": [
+    {
+      "name": null,
+      "ingredients": [
+        "1 pkg Hidden Valley Buttermilk Ranch mix",
+        "1 stick butter, melted",
+        "2 pkg mushrooms, washed"
+      ],
+      "directions": [
+        "Place mushrooms in a crock pot.",
+        "Pour melted butter and ranch mix over mushrooms.",
+        "Set crock pot to high.",
+        "Cook, stirring every 10 minutes, until mushrooms are tender."
+      ]
+    }
+  ],
+  "notes": []
+}

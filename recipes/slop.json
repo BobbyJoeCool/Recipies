@@ -1,0 +1,26 @@
+{
+  "$schema": "../recipe.schema.json",
+  "id": "slop",
+  "title": "Slop",
+  "category": "Entrees",
+  "contributor": "Brenda Bradley",
+  "preheatF": null,
+  "components": [
+    {
+      "name": null,
+      "ingredients": [
+        "1½ lbs ground beef",
+        "2 cups noodles or 2 cups cooked rice",
+        "1–2 cans whole kernel corn, drained",
+        "2 cans cream of mushroom soup"
+      ],
+      "directions": [
+        "Brown hamburger and drain well.",
+        "Cook noodles if using, according to package directions.",
+        "Combine hamburger, noodles or rice, corn, and soup.",
+        "Stir together and heat through. Serve warm."
+      ]
+    }
+  ],
+  "notes": []
+}

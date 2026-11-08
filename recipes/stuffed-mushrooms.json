@@ -1,0 +1,33 @@
+{
+  "$schema": "../recipe.schema.json",
+  "id": "stuffed-mushrooms",
+  "title": "Stuffed Mushrooms",
+  "category": "Soups, Salads & Veggies",
+  "contributor": "Brittney Bradley",
+  "preheatF": 375,
+  "components": [
+    {
+      "name": null,
+      "ingredients": [
+        "2 pkg mushrooms",
+        "4 oz cream cheese",
+        "1/4 cup Parmesan cheese",
+        "Garlic powder to taste",
+        "Onion powder to taste",
+        "2 tbsp garlic, minced",
+        "1/2 cup shredded cheese",
+        "1/4 cup onion, finely chopped",
+        "1/4 cup mushroom stems, chopped",
+        "2 tsp oil"
+      ],
+      "directions": [
+        "Remove stems from mushrooms and chop the stems finely.",
+        "Sauté stems, minced garlic, and onion in oil until tender.",
+        "Remove from heat and mix with cream cheese, Parmesan, shredded cheese, garlic powder, and onion powder.",
+        "Fill each mushroom cap with the filling.",
+        "Bake at 375°F for 15–20 minutes."
+      ]
+    }
+  ],
+  "notes": []
+}

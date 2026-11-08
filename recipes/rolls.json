@@ -1,0 +1,31 @@
+{
+  "$schema": "../recipe.schema.json",
+  "id": "rolls",
+  "title": "Rolls",
+  "category": "Breads & Rolls",
+  "contributor": "Brenda Bradley",
+  "preheatF": 350,
+  "components": [
+    {
+      "name": null,
+      "ingredients": [
+        "1 pkg yeast",
+        "2 cups warm water",
+        "1 egg",
+        "2 tsp salt",
+        "1/2 cup sugar",
+        "6 tbsp melted lard",
+        "6 cups flour"
+      ],
+      "directions": [
+        "Dissolve yeast in warm water.",
+        "Add egg, salt, sugar, lard, and half the flour. Mix with a mixer.",
+        "Add remaining flour and turn out onto a cutting board. Knead for 5 minutes.",
+        "Place in a greased bowl and let rise until doubled.",
+        "Shape into rolls and let rise again.",
+        "Bake at 350°F until done."
+      ]
+    }
+  ],
+  "notes": []
+}

@@ -1,0 +1,44 @@
+{
+  "$schema": "../recipe.schema.json",
+  "id": "peanut-butter-chicken",
+  "title": "Peanut Butter Chicken",
+  "category": "Entrees",
+  "contributor": "Brittney Breutzmann",
+  "preheatF": 375,
+  "components": [
+    {
+      "name": "Chicken",
+      "ingredients": [
+        "1½ lbs chicken cutlets",
+        "3/4 cup milk",
+        "3 tbsp creamy peanut butter",
+        "1 egg",
+        "Salt and pepper to taste",
+        "2–3 cups crushed corn flakes",
+        "Vegetable or canola oil for frying"
+      ],
+      "directions": [
+        "Whisk together milk, peanut butter, and egg. Add a few dashes of salt and pepper.",
+        "Soak chicken in this mixture for a few minutes.",
+        "Coat soaked chicken in crushed corn flakes.",
+        "Cook in oil in a skillet, flipping once, until browned on both sides and cooked through. Alternatively, bake at 375°F for approximately 12 minutes or until internal temperature reaches 165°F."
+      ]
+    },
+    {
+      "name": "Peanut Butter Sauce",
+      "ingredients": [
+        "1/2 cup creamy peanut butter",
+        "3 tbsp brown sugar",
+        "1/2 to 3/4 cup water",
+        "Drizzle of honey"
+      ],
+      "directions": [
+        "Combine all sauce ingredients in a microwave-safe container.",
+        "Microwave for 30 seconds, whisk, then microwave another 30 seconds until hot.",
+        "Add more water if needed to reach desired consistency.",
+        "Drizzle over chicken when serving. Serve with rice and vegetables."
+      ]
+    }
+  ],
+  "notes": []
+}

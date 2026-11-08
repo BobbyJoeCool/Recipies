@@ -1,0 +1,30 @@
+{
+  "$schema": "../recipe.schema.json",
+  "id": "potato-salad",
+  "title": "Potato Salad",
+  "category": "Soups, Salads & Veggies",
+  "contributor": "Brenda Bradley",
+  "preheatF": null,
+  "components": [
+    {
+      "name": null,
+      "ingredients": [
+        "5 lbs potatoes, peeled and boiled",
+        "8 eggs, hard boiled",
+        "3 medium onions, chopped",
+        "32 oz Miracle Whip",
+        "2 tbsp mustard",
+        "1/4 to 1/2 cup sugar"
+      ],
+      "directions": [
+        "Boil and drain potatoes. Set aside to cool completely.",
+        "Hard boil eggs, peel, and set aside to cool completely.",
+        "When potatoes and eggs are fully cold, shred or chop them.",
+        "Mix together eggs, potatoes, and onions.",
+        "Add Miracle Whip and mustard and stir together.",
+        "Add sugar a little at a time, tasting as you go, until desired sweetness."
+      ]
+    }
+  ],
+  "notes": []
+}

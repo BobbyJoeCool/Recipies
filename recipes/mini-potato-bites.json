@@ -1,0 +1,28 @@
+{
+  "$schema": "../recipe.schema.json",
+  "id": "mini-potato-bites",
+  "title": "Mini Potato Bites",
+  "category": "Soups, Salads & Veggies",
+  "contributor": "Brittney Bradley",
+  "preheatF": null,
+  "components": [
+    {
+      "name": null,
+      "ingredients": [
+        "15 small potatoes",
+        "4 oz cream cheese, softened",
+        "2 tbsp sour cream",
+        "2 tbsp Parmesan cheese",
+        "4 slices bacon, cooked and crumbled",
+        "2 tbsp chopped chives"
+      ],
+      "directions": [
+        "Boil potatoes until tender. Let cool.",
+        "Mix cream cheese, sour cream, and Parmesan cheese together.",
+        "Cut potatoes in half.",
+        "Top each half with a dollop of the cream mixture, crumbled bacon, and chives."
+      ]
+    }
+  ],
+  "notes": []
+}

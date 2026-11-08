@@ -1,0 +1,29 @@
+{
+  "$schema": "../recipe.schema.json",
+  "id": "cranberry-salad",
+  "title": "Cranberry Salad",
+  "category": "Soups, Salads & Veggies",
+  "contributor": "Grandma Lois",
+  "preheatF": null,
+  "components": [
+    {
+      "name": null,
+      "ingredients": [
+        "2 pkg cranberries",
+        "2 oranges, peeled",
+        "1⅛ cups sugar",
+        "2 boxes raspberry jello",
+        "2½ cups water"
+      ],
+      "directions": [
+        "Wash cranberries and remove any bad ones.",
+        "Blend cranberries and oranges in a blender, a little at a time.",
+        "Pour into a bowl, stir in sugar, and let marinate for several hours or overnight.",
+        "Dissolve raspberry jello in 2½ cups of water. Let cool.",
+        "Stir cranberry mixture into cooled jello.",
+        "Refrigerate until set."
+      ]
+    }
+  ],
+  "notes": []
+}

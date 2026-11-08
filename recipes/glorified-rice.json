@@ -1,0 +1,26 @@
+{
+  "$schema": "../recipe.schema.json",
+  "id": "glorified-rice",
+  "title": "Glorified Rice",
+  "category": "Soups, Salads & Veggies",
+  "contributor": "Grandma Evelyn Kahl",
+  "preheatF": null,
+  "components": [
+    {
+      "name": null,
+      "ingredients": [
+        "1 box Minute Rice, cooked",
+        "1 can crushed pineapple, drained",
+        "1/2 cup sugar",
+        "1 box strawberry jello (prepared)",
+        "8 oz Cool Whip"
+      ],
+      "directions": [
+        "Cook rice according to package directions and let cool.",
+        "Mix together cooked rice, pineapple, sugar, prepared jello, and Cool Whip.",
+        "Refrigerate until ready to serve."
+      ]
+    }
+  ],
+  "notes": []
+}

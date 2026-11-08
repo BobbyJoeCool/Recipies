@@ -1,0 +1,32 @@
+{
+  "$schema": "../recipe.schema.json",
+  "id": "raisin-bran-muffins",
+  "title": "Raisin Bran Muffins",
+  "category": "Breads & Rolls",
+  "contributor": "Brenda Bradley",
+  "preheatF": 400,
+  "components": [
+    {
+      "name": null,
+      "ingredients": [
+        "1 box Raisin Bran",
+        "2½ cups sugar",
+        "5 cups flour",
+        "5 tsp baking soda",
+        "2 tsp salt",
+        "4 eggs",
+        "1 cup oil",
+        "1 qt buttermilk"
+      ],
+      "directions": [
+        "Mix all dry ingredients together.",
+        "Add eggs, buttermilk, and oil. Stir until combined.",
+        "Fill greased muffin tins.",
+        "Bake at 400°F for 15 minutes."
+      ]
+    }
+  ],
+  "notes": [
+    "Batter keeps refrigerated for 1 month or more. Bake as needed."
+  ]
+}

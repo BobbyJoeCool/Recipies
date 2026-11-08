@@ -1,0 +1,30 @@
+{
+  "$schema": "../recipe.schema.json",
+  "id": "corn-dip",
+  "title": "Corn Dip",
+  "category": "Appetizers",
+  "contributor": "Russ Bradley",
+  "preheatF": null,
+  "components": [
+    {
+      "name": null,
+      "ingredients": [
+        "1 can (11 oz) white corn, drained",
+        "1 can (11 oz) Mexicorn, drained",
+        "1 cup shredded cheese",
+        "1/4 cup chopped onion",
+        "1/2 cup sour cream",
+        "1/2 cup mayonnaise",
+        "1 can green chilies",
+        "1/4 tsp garlic powder",
+        "1/4 tsp seasoned salt",
+        "1/8 tsp chili powder"
+      ],
+      "directions": [
+        "Combine all ingredients in a large bowl and mix well.",
+        "Refrigerate until ready to serve."
+      ]
+    }
+  ],
+  "notes": []
+}

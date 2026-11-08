@@ -1,0 +1,29 @@
+{
+  "$schema": "../recipe.schema.json",
+  "id": "quick-rolls",
+  "title": "Quick Rolls",
+  "category": "Breads & Rolls",
+  "contributor": "Brenda Bradley",
+  "preheatF": 350,
+  "components": [
+    {
+      "name": null,
+      "ingredients": [
+        "1 pkg yeast",
+        "1/4 cup warm water",
+        "1 egg",
+        "1/4 cup shortening, melted",
+        "3/4 cup warm water",
+        "1 tsp salt",
+        "2½ cups flour"
+      ],
+      "directions": [
+        "Dissolve yeast in 1/4 cup warm water.",
+        "Add remaining ingredients and mix until combined.",
+        "Place dough in greased pans and let rise until doubled.",
+        "Bake at 350°F for 20 minutes or until done."
+      ]
+    }
+  ],
+  "notes": []
+}

@@ -1,0 +1,25 @@
+{
+  "$schema": "../recipe.schema.json",
+  "id": "cured-turkey",
+  "title": "Cured Turkey",
+  "category": "Entrees",
+  "contributor": "Russ Bradley",
+  "preheatF": null,
+  "components": [
+    {
+      "name": null,
+      "ingredients": [
+        "10–12 lb turkey",
+        "2⅛ cups Morton Tender Quick salt (use 1 cup per 5 lbs of turkey)",
+        "Water to cover"
+      ],
+      "directions": [
+        "Place turkey in a cooler and cover with water.",
+        "Add Tender Quick salt (1 cup per 5 lbs of turkey).",
+        "Let sit in a cool area for 24–48 hours.",
+        "Rinse turkey well and place in roasting pan to cook as desired."
+      ]
+    }
+  ],
+  "notes": []
+}

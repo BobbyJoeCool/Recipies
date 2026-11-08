@@ -1,0 +1,26 @@
+{
+  "$schema": "../recipe.schema.json",
+  "id": "easy-crab-dip",
+  "title": "Easy Crab Dip",
+  "category": "Appetizers",
+  "contributor": "Brenda Bradley",
+  "preheatF": null,
+  "components": [
+    {
+      "name": null,
+      "ingredients": [
+        "1 pkg crab meat",
+        "2 tbsp Miracle Whip",
+        "8 oz cream cheese",
+        "Diced onion to taste",
+        "1/2 cup celery, diced",
+        "Dash of salt and pepper"
+      ],
+      "directions": [
+        "Mix all ingredients together well.",
+        "Serve with crackers."
+      ]
+    }
+  ],
+  "notes": []
+}

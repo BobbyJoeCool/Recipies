@@ -1,0 +1,43 @@
+{
+  "$schema": "../recipe.schema.json",
+  "id": "strawberry-marbled-cheesecake",
+  "title": "Strawberry Marbled Cheesecake",
+  "category": "Desserts",
+  "contributor": "Robert Breutzmann",
+  "preheatF": 350,
+  "components": [
+    {
+      "name": "Crust",
+      "ingredients": [
+        "1/4 cup butter, melted",
+        "1 cup graham cracker crumbs",
+        "3 tbsp sugar"
+      ],
+      "directions": [
+        "Combine melted butter, graham cracker crumbs, and sugar.",
+        "Press onto the bottom of a 9-inch springform pan.",
+        "Bake at 350°F for 10 minutes."
+      ]
+    },
+    {
+      "name": "Cheesecake",
+      "ingredients": [
+        "24 oz cream cheese, softened",
+        "3/4 cup sugar",
+        "1 tsp vanilla",
+        "3 eggs",
+        "Fresh strawberries pureed with a small amount of cornstarch, cooked until thickened and cooled"
+      ],
+      "directions": [
+        "Beat cream cheese, sugar, and vanilla at medium speed until smooth.",
+        "Add eggs one at a time, mixing well after each.",
+        "Pour half the batter over the baked crust.",
+        "Drop spoonfuls of half the strawberry puree over the batter. Pour in remaining batter, then add remaining puree by spoonfuls.",
+        "Swirl with a knife to create a marbled effect.",
+        "Bake at 300°F for 50–60 minutes or until set.",
+        "Cool completely, remove from springform rim, and chill overnight before serving."
+      ]
+    }
+  ],
+  "notes": []
+}

@@ -1,0 +1,30 @@
+{
+  "$schema": "../recipe.schema.json",
+  "id": "puppy-chow",
+  "title": "Puppy Chow",
+  "category": "Appetizers",
+  "contributor": "Brittney Bradley",
+  "preheatF": null,
+  "components": [
+    {
+      "name": null,
+      "ingredients": [
+        "1 box Chex cereal",
+        "1 cup chocolate chips",
+        "1/2 cup peanut butter",
+        "1/4 cup butter",
+        "1/4 tsp vanilla",
+        "1½ cups powdered sugar"
+      ],
+      "directions": [
+        "Place cereal in a large clean brown paper bag.",
+        "Melt chocolate chips, butter, and peanut butter together in the microwave.",
+        "Stir in vanilla.",
+        "Pour mixture into the paper bag. Fold top over and shake well until cereal is coated.",
+        "Add powdered sugar and shake again to coat.",
+        "Pour onto wax paper to dry and cool."
+      ]
+    }
+  ],
+  "notes": []
+}

@@ -1,0 +1,28 @@
+{
+  "$schema": "../recipe.schema.json",
+  "id": "bacon-wraps",
+  "title": "Bacon Wraps",
+  "category": "Appetizers",
+  "contributor": "Amy Schwerin",
+  "preheatF": 350,
+  "components": [
+    {
+      "name": null,
+      "ingredients": [
+        "3 cans whole water chestnuts, drained",
+        "1 lb bacon, cut into thirds",
+        "1½ cups ketchup",
+        "1½ cups brown sugar"
+      ],
+      "directions": [
+        "Wrap a piece of bacon around each water chestnut and secure with a toothpick.",
+        "Place wraps in a baking pan uncovered and bake at 350°F for 45 minutes.",
+        "Remove from oven and drain excess grease from the pan.",
+        "In a bowl, combine brown sugar and ketchup to make the sauce.",
+        "Pour sauce over the wraps and return to oven. Bake at 350°F for an additional 45 minutes.",
+        "Serve warm."
+      ]
+    }
+  ],
+  "notes": []
+}

@@ -1,0 +1,30 @@
+{
+  "$schema": "../recipe.schema.json",
+  "id": "7-layered-salad",
+  "title": "7 Layered Salad",
+  "category": "Soups, Salads & Veggies",
+  "contributor": "Grandma Evelyn Kahl",
+  "preheatF": null,
+  "components": [
+    {
+      "name": null,
+      "ingredients": [
+        "1 head lettuce, chopped",
+        "1/2 cup celery, cut up",
+        "1/2 green pepper, cut up",
+        "1 (10 oz) pkg frozen peas (do not thaw)",
+        "1 medium onion, sliced",
+        "2 cups mayo",
+        "2 tbsp sugar",
+        "1 cup shredded cheese"
+      ],
+      "directions": [
+        "In a 9x13 pan, layer lettuce, celery, green pepper, frozen peas, and onion in that order. Do not defrost the peas.",
+        "Mix mayo and sugar together and spread over the top.",
+        "Sprinkle shredded cheese over all.",
+        "Chill overnight before serving."
+      ]
+    }
+  ],
+  "notes": []
+}

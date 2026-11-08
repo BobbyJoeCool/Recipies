@@ -1,0 +1,28 @@
+{
+  "$schema": "../recipe.schema.json",
+  "id": "trail-mix",
+  "title": "Trail Mix",
+  "category": "Appetizers",
+  "contributor": "Grandma Evelyn Kahl",
+  "preheatF": null,
+  "components": [
+    {
+      "name": null,
+      "ingredients": [
+        "3 cups miniature pretzels",
+        "1 cup Kix cereal",
+        "1 cup raisins",
+        "1 pkg Skittles",
+        "2 cups mixed nuts",
+        "1 cup chopped dried apples",
+        "3/4 cup dried chopped pineapple",
+        "1 pkg M&Ms"
+      ],
+      "directions": [
+        "Mix all ingredients together in a large bowl.",
+        "Store in an airtight container."
+      ]
+    }
+  ],
+  "notes": []
+}

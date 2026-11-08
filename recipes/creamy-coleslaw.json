@@ -1,0 +1,26 @@
+{
+  "$schema": "../recipe.schema.json",
+  "id": "creamy-coleslaw",
+  "title": "Creamy Coleslaw",
+  "category": "Soups, Salads & Veggies",
+  "contributor": "Grandma Evelyn Kahl",
+  "preheatF": null,
+  "components": [
+    {
+      "name": null,
+      "ingredients": [
+        "1 pkg coleslaw mix",
+        "1/2 cup sugar",
+        "2/3 cup vinegar",
+        "3/4 cup mayo",
+        "8 oz Cool Whip"
+      ],
+      "directions": [
+        "Mix sugar, vinegar, mayo, and Cool Whip together until smooth.",
+        "Add coleslaw mix and blend well.",
+        "Refrigerate until ready to serve."
+      ]
+    }
+  ],
+  "notes": []
+}

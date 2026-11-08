@@ -1,0 +1,27 @@
+{
+  "$schema": "../recipe.schema.json",
+  "id": "vegetable-and-stuffing-bake",
+  "title": "Vegetable and Stuffing Bake",
+  "category": "Soups, Salads & Veggies",
+  "contributor": "Brenda Bradley",
+  "preheatF": 350,
+  "components": [
+    {
+      "name": null,
+      "ingredients": [
+        "3/4 cup Miracle Whip",
+        "1/2 cup milk",
+        "1 pkg Stove Top stuffing mix",
+        "1 pkg frozen broccoli, thawed",
+        "1 cup shredded cheese"
+      ],
+      "directions": [
+        "Mix Miracle Whip and milk together.",
+        "Stir in stuffing mix, broccoli, and cheese.",
+        "Spoon into a greased 11x7 pan.",
+        "Bake at 350°F for 20–25 minutes."
+      ]
+    }
+  ],
+  "notes": []
+}

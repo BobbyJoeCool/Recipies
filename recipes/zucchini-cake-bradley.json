@@ -1,0 +1,44 @@
+{
+  "$schema": "../recipe.schema.json",
+  "id": "zucchini-cake-bradley",
+  "title": "Zucchini Cake",
+  "category": "Desserts",
+  "contributor": "Brenda Bradley",
+  "preheatF": 300,
+  "components": [
+    {
+      "name": "Cake",
+      "ingredients": [
+        "3 cups grated zucchini",
+        "3 cups sugar",
+        "1½ cups oil",
+        "4 eggs",
+        "3 cups flour",
+        "2 tsp baking powder",
+        "1 tsp baking soda",
+        "1½ tsp cinnamon",
+        "1/2 tsp salt",
+        "1 cup nuts"
+      ],
+      "directions": [
+        "Mix all cake ingredients together.",
+        "Pour into a greased 9x13 pan.",
+        "Bake at 300°F for about 1½ hours or until done."
+      ]
+    },
+    {
+      "name": "Frosting",
+      "ingredients": [
+        "3 oz cream cheese, softened",
+        "2 cups powdered sugar",
+        "1/4 lb oleo",
+        "1 tsp vanilla"
+      ],
+      "directions": [
+        "Beat all frosting ingredients together until smooth.",
+        "Spread over cooled cake."
+      ]
+    }
+  ],
+  "notes": []
+}

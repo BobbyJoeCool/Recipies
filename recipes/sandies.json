@@ -1,0 +1,28 @@
+{
+  "$schema": "../recipe.schema.json",
+  "id": "sandies",
+  "title": "Sandies",
+  "category": "Desserts",
+  "contributor": "Grandma Lois",
+  "preheatF": 300,
+  "components": [
+    {
+      "name": null,
+      "ingredients": [
+        "1 cup margarine",
+        "2 tsp vanilla",
+        "1 tbsp water",
+        "2 cups flour",
+        "1 cup nuts",
+        "1/4 cup powdered sugar (for rolling)"
+      ],
+      "directions": [
+        "Mix margarine, vanilla, water, flour, and nuts together until combined.",
+        "Place by spoonfuls onto an ungreased cookie sheet.",
+        "Bake at 300°F for 20 minutes or until lightly browned.",
+        "While still warm, roll in powdered sugar."
+      ]
+    }
+  ],
+  "notes": []
+}

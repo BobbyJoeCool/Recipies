@@ -1,0 +1,26 @@
+{
+  "$schema": "../recipe.schema.json",
+  "id": "dried-beef-cheese-ball",
+  "title": "Dried Beef Cheese Ball",
+  "category": "Appetizers",
+  "contributor": "Brenda Bradley",
+  "preheatF": null,
+  "components": [
+    {
+      "name": null,
+      "ingredients": [
+        "8 oz cream cheese, softened",
+        "2–3 pkg dried beef",
+        "1 tbsp Worcestershire sauce",
+        "3 tbsp minced onions",
+        "Shake of garlic salt",
+        "Mushrooms and olives (optional)"
+      ],
+      "directions": [
+        "Mix all ingredients together until well combined.",
+        "Form into a ball and refrigerate until ready to serve."
+      ]
+    }
+  ],
+  "notes": []
+}

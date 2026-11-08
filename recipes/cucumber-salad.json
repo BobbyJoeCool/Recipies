@@ -1,0 +1,28 @@
+{
+  "$schema": "../recipe.schema.json",
+  "id": "cucumber-salad",
+  "title": "Cucumber Salad",
+  "category": "Soups, Salads & Veggies",
+  "contributor": "Brenda Bradley",
+  "preheatF": null,
+  "components": [
+    {
+      "name": null,
+      "ingredients": [
+        "4 medium cucumbers, sliced",
+        "1 onion, sliced",
+        "Salt for soaking",
+        "1 cup sugar",
+        "1 cup water",
+        "1 cup vinegar"
+      ],
+      "directions": [
+        "Soak sliced cucumbers in salt water for about 2 hours, then rinse.",
+        "Boil water, sugar, and vinegar together. Remove from heat and let cool.",
+        "Pour cooled liquid over cucumbers and onions.",
+        "Let sit in refrigerator for about a day before serving."
+      ]
+    }
+  ],
+  "notes": []
+}

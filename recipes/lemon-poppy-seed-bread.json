@@ -1,0 +1,27 @@
+{
+  "$schema": "../recipe.schema.json",
+  "id": "lemon-poppy-seed-bread",
+  "title": "Lemon Poppy Seed Bread",
+  "category": "Breads & Rolls",
+  "contributor": "Grandma Evelyn Kahl",
+  "preheatF": 350,
+  "components": [
+    {
+      "name": null,
+      "ingredients": [
+        "1 pkg lemon cake mix",
+        "1 pkg instant lemon pudding",
+        "4 eggs",
+        "1 cup water",
+        "1/4 cup oil",
+        "1/4 to 1/2 cup poppy seeds"
+      ],
+      "directions": [
+        "Mix all ingredients together until smooth.",
+        "Pour into a greased loaf pan.",
+        "Bake at 350°F for 1 hour."
+      ]
+    }
+  ],
+  "notes": []
+}

@@ -1,0 +1,42 @@
+{
+  "$schema": "../recipe.schema.json",
+  "id": "rhubarb-muffins",
+  "title": "Rhubarb Muffins",
+  "category": "Breads & Rolls",
+  "contributor": "Brenda Bradley",
+  "preheatF": 350,
+  "components": [
+    {
+      "name": "Muffins",
+      "ingredients": [
+        "1½ cups brown sugar",
+        "2/3 cup oleo",
+        "1/2 tsp salt",
+        "1 egg",
+        "1 cup sour milk",
+        "1½ tsp vanilla",
+        "1½ cups finely cut rhubarb",
+        "2½ cups flour"
+      ],
+      "directions": [
+        "Mix all muffin ingredients together in order.",
+        "Pour into 24 muffin tins lined with paper cups or sprayed with cooking spray."
+      ]
+    },
+    {
+      "name": "Topping",
+      "ingredients": [
+        "1/2 cup sugar",
+        "2 tbsp soft oleo",
+        "1/2 tsp cinnamon",
+        "Nuts to taste"
+      ],
+      "directions": [
+        "Mix topping ingredients with a fork until crumbly.",
+        "Sprinkle over muffins.",
+        "Bake at 350°F for 20–25 minutes."
+      ]
+    }
+  ],
+  "notes": []
+}

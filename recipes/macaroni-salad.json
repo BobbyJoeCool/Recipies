@@ -1,0 +1,31 @@
+{
+  "$schema": "../recipe.schema.json",
+  "id": "macaroni-salad",
+  "title": "Macaroni Salad",
+  "category": "Soups, Salads & Veggies",
+  "contributor": "Helen Lee",
+  "preheatF": null,
+  "components": [
+    {
+      "name": null,
+      "ingredients": [
+        "16 oz small ring macaroni",
+        "2 cups Miracle Whip",
+        "1 can sweet condensed milk",
+        "1/4 cup vinegar",
+        "1/2 cup sugar",
+        "1 onion, chopped",
+        "1 green pepper, chopped",
+        "2 carrots, finely grated"
+      ],
+      "directions": [
+        "Cook macaroni according to package directions. Rinse in cold water and drain.",
+        "Add onion, green pepper, and carrots to macaroni.",
+        "Mix together Miracle Whip, sugar, condensed milk, and vinegar.",
+        "Pour dressing over macaroni mixture and mix well.",
+        "Refrigerate before serving."
+      ]
+    }
+  ],
+  "notes": []
+}

@@ -1,0 +1,26 @@
+{
+  "$schema": "../recipe.schema.json",
+  "id": "pie-crust",
+  "title": "Pie Crust",
+  "category": "Miscellaneous",
+  "contributor": "Brittney Bradley",
+  "preheatF": null,
+  "components": [
+    {
+      "name": null,
+      "ingredients": [
+        "1¾ cups flour",
+        "1/2 tsp sugar",
+        "Pinch of baking powder",
+        "1/2 cup oil",
+        "1/4 cup cold water"
+      ],
+      "directions": [
+        "Mix all ingredients together until a dough forms.",
+        "Roll out dough between two sheets of wax paper.",
+        "Peel off top sheet and transfer to pie plate."
+      ]
+    }
+  ],
+  "notes": []
+}

@@ -1,0 +1,31 @@
+{
+  "$schema": "../recipe.schema.json",
+  "id": "taco-dip",
+  "title": "Taco Dip",
+  "category": "Appetizers",
+  "contributor": "Amy Schwerin",
+  "preheatF": null,
+  "components": [
+    {
+      "name": null,
+      "ingredients": [
+        "1 can refried beans",
+        "1 container avocado dip",
+        "1 cup sour cream + 1 pkg chili seasoning + 3/4 cup Miracle Whip (mixed together)",
+        "Black and green olives, sliced",
+        "Onions, diced",
+        "Tomatoes, diced",
+        "2 cups grated cheese"
+      ],
+      "directions": [
+        "In a large pan, spread refried beans as the first layer.",
+        "Spread avocado dip over the beans.",
+        "Mix together sour cream, chili seasoning, and Miracle Whip. Spread over avocado dip.",
+        "Top with olives, onions, and tomatoes.",
+        "Sprinkle grated cheese over the top.",
+        "Refrigerate until ready to serve. Serve with chips."
+      ]
+    }
+  ],
+  "notes": []
+}

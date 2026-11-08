@@ -1,0 +1,45 @@
+{
+  "$schema": "../recipe.schema.json",
+  "id": "strawberry-rhubarb-bundt-cake",
+  "title": "Strawberry Rhubarb Bundt Cake",
+  "category": "Desserts",
+  "contributor": "Brittney Breutzmann",
+  "preheatF": 350,
+  "components": [
+    {
+      "name": "Strawberry Rhubarb Mix",
+      "ingredients": [
+        "1½ cups chopped rhubarb",
+        "1/2 cup chopped fresh strawberries",
+        "1/2 tsp cinnamon",
+        "1/4 cup sugar"
+      ],
+      "directions": [
+        "Combine all ingredients in a bowl and set aside."
+      ]
+    },
+    {
+      "name": "Cake",
+      "ingredients": [
+        "1/2 cup butter",
+        "1 cup sugar",
+        "2 eggs",
+        "1 tsp vanilla",
+        "2 cups flour",
+        "4 tsp baking powder",
+        "3/4 cup yogurt (Greek preferred)",
+        "1/4 cup milk"
+      ],
+      "directions": [
+        "Spray the inside of a Bundt pan with cooking spray.",
+        "Cream butter and sugar. Add eggs one at a time. Add vanilla.",
+        "In a separate bowl, whisk together flour and baking powder. In another bowl, mix yogurt and milk.",
+        "Alternate adding flour mixture and yogurt mixture to the butter mixture, beginning and ending with flour.",
+        "Place clumps of batter in the bottom of the pan, followed by the strawberry rhubarb mixture. Repeat layers until finished.",
+        "Bake at 350°F for 45 minutes.",
+        "Cool 10 minutes in pan, then invert onto a plate."
+      ]
+    }
+  ],
+  "notes": []
+}

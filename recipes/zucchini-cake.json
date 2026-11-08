@@ -1,0 +1,32 @@
+{
+  "$schema": "../recipe.schema.json",
+  "id": "zucchini-cake",
+  "title": "Zucchini Cake",
+  "category": "Desserts",
+  "contributor": "Amy Schwerin",
+  "preheatF": 350,
+  "components": [
+    {
+      "name": null,
+      "ingredients": [
+        "3 eggs",
+        "2 cups sugar",
+        "1 cup oil",
+        "2½ cups flour",
+        "2 tsp baking soda",
+        "1 tsp salt",
+        "1/2 tsp baking powder",
+        "2 tsp cinnamon",
+        "3 tsp vanilla",
+        "2¾ cups grated zucchini",
+        "Nuts to taste"
+      ],
+      "directions": [
+        "Mix all ingredients together for 3–4 minutes until well combined.",
+        "Divide into 2 greased loaf pans.",
+        "Bake at 350°F for 50 minutes."
+      ]
+    }
+  ],
+  "notes": []
+}

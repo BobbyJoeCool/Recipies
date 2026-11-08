@@ -1,0 +1,30 @@
+{
+  "$schema": "../recipe.schema.json",
+  "id": "stuffing",
+  "title": "Stuffing",
+  "category": "Appetizers",
+  "contributor": "Brenda Bradley",
+  "preheatF": 350,
+  "components": [
+    {
+      "name": null,
+      "ingredients": [
+        "1 bag seasoned bread crumbs",
+        "1 bag unseasoned bread crumbs",
+        "4–5 cans chicken broth",
+        "2 cups cooked rice",
+        "3/4 of a bunch of celery, chopped",
+        "2 large onions, chopped",
+        "2 sticks margarine"
+      ],
+      "directions": [
+        "Sauté onions and celery in margarine until softened.",
+        "Mix bread crumbs with 4 cans of broth. Let sit about 20 minutes so crumbs soak up broth.",
+        "Add cooked rice and onion mixture. Stir to combine.",
+        "If mixture is dry, add more broth as needed.",
+        "Bake at 350°F for 1½ hours."
+      ]
+    }
+  ],
+  "notes": []
+}

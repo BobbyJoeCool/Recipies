@@ -1,0 +1,42 @@
+{
+  "$schema": "../recipe.schema.json",
+  "id": "jambalaya",
+  "title": "Jambalaya",
+  "category": "Entrees",
+  "contributor": "Robert Breutzmann",
+  "preheatF": null,
+  "components": [
+    {
+      "name": null,
+      "ingredients": [
+        "2 lbs chicken breast, cut into 2-inch pieces",
+        "1/4 cup oil",
+        "1½ cups finely chopped onions",
+        "1/2 cup chopped red bell pepper",
+        "1/4 cup chopped celery",
+        "1/2 cup chopped fresh parsley",
+        "1/2 cup chopped scallions",
+        "1 lb smoked sausage, sliced into 1/2-inch pieces",
+        "1½ cups long grain rice",
+        "4 cups chicken broth",
+        "1 tbsp chopped garlic",
+        "1 tsp salt",
+        "1 tsp cayenne pepper",
+        "4 small whole bay leaves",
+        "1/2 tsp dried thyme",
+        "1 tsp gumbo filé (optional)"
+      ],
+      "directions": [
+        "Season chicken with salt, pepper, garlic powder, and all-purpose seasoning. Cook in oil in a large pot over medium heat until browned and cooked through.",
+        "Remove chicken from pot, preserving the oil.",
+        "Sauté onions and garlic in remaining oil for 3–4 minutes.",
+        "Add bell pepper, celery, parsley, and scallions. Sauté until onions are transparent, about 10 minutes.",
+        "Add sausage, rice, broth, chicken, salt, cayenne, bay leaves, thyme, and gumbo filé if using.",
+        "Cook over medium heat until nearly all water is absorbed into the rice, about 15–20 minutes.",
+        "Reduce heat to low, cover, and simmer until rice is done, at least 1 hour.",
+        "Remove bay leaves before serving."
+      ]
+    }
+  ],
+  "notes": []
+}

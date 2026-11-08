@@ -1,0 +1,31 @@
+{
+  "$schema": "../recipe.schema.json",
+  "id": "pina-colada-dipping-sauce",
+  "title": "Pina Colada Dipping Sauce",
+  "category": "Appetizers",
+  "contributor": "Brittney Breutzmann",
+  "preheatF": null,
+  "components": [
+    {
+      "name": null,
+      "ingredients": [
+        "1 cup pina colada mix",
+        "1/4 cup water",
+        "2 tbsp crushed pineapple, drained",
+        "4 tsp sweetened coconut flakes",
+        "3 tbsp + 1 tsp powdered sugar",
+        "1½ tsp cornstarch",
+        "3 tsp cold water"
+      ],
+      "directions": [
+        "Combine pina colada mix, 1/4 cup water, pineapple, coconut, and powdered sugar in a saucepan.",
+        "Heat over medium-low, stirring frequently, until the sauce begins to simmer.",
+        "Let simmer for 10–12 minutes.",
+        "Mix cornstarch with 3 tsp cold water. Add to sauce and blend well.",
+        "Let simmer an additional 3–5 minutes, stirring constantly.",
+        "Remove from heat and bring to room temperature. Refrigerate leftovers."
+      ]
+    }
+  ],
+  "notes": []
+}

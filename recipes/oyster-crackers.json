@@ -1,0 +1,26 @@
+{
+  "$schema": "../recipe.schema.json",
+  "id": "oyster-crackers",
+  "title": "Oyster Crackers",
+  "category": "Appetizers",
+  "contributor": "Brittney Bradley",
+  "preheatF": null,
+  "components": [
+    {
+      "name": null,
+      "ingredients": [
+        "1 cup Crisco oil",
+        "1 tsp dill weed",
+        "1/2 tsp garlic powder",
+        "1 pkg original Hidden Valley Ranch dressing mix",
+        "2 (12 oz) pkg oyster crackers"
+      ],
+      "directions": [
+        "Mix Crisco oil, dill, garlic powder, and ranch dressing mix together.",
+        "Pour over oyster crackers and toss to coat evenly.",
+        "Spread on wax paper and allow to dry."
+      ]
+    }
+  ],
+  "notes": []
+}

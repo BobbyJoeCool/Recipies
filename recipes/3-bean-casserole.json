@@ -1,0 +1,33 @@
+{
+  "$schema": "../recipe.schema.json",
+  "id": "3-bean-casserole",
+  "title": "3 Bean Casserole",
+  "category": "Entrees",
+  "contributor": "Wanda Kohlmeyer",
+  "preheatF": 350,
+  "components": [
+    {
+      "name": null,
+      "ingredients": [
+        "1/2 lb ground beef",
+        "1 cup chopped onion",
+        "1 can lima beans",
+        "1 can Bush’s baked beans",
+        "1 can kidney beans",
+        "1/2 lb bacon",
+        "1/2 cup ketchup",
+        "1/2 cup brown sugar",
+        "1/2 cup sugar",
+        "1 tsp mustard",
+        "1 tsp salt",
+        "2 tsp vinegar"
+      ],
+      "directions": [
+        "Brown ground beef and onion together. Drain.",
+        "Mix all ingredients together in a large baking dish.",
+        "Bake at 350°F for 40 minutes."
+      ]
+    }
+  ],
+  "notes": []
+}

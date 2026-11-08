@@ -1,0 +1,22 @@
+{
+  "$schema": "../recipe.schema.json",
+  "id": "REPLACE-with-filename-without-json",
+  "title": "REPLACE Recipe Title",
+  "category": "Desserts",
+  "contributor": "REPLACE Name, or null",
+  "preheatF": null,
+  "components": [
+    {
+      "name": null,
+      "ingredients": [
+        "REPLACE 1 cup flour",
+        "REPLACE 2 eggs"
+      ],
+      "directions": [
+        "REPLACE First step.",
+        "REPLACE Second step."
+      ]
+    }
+  ],
+  "notes": []
+}

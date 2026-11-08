@@ -1,0 +1,30 @@
+{
+  "$schema": "../recipe.schema.json",
+  "id": "egg-casserole",
+  "title": "Egg Casserole",
+  "category": "Entrees",
+  "contributor": "Grandma Lois",
+  "preheatF": 350,
+  "components": [
+    {
+      "name": null,
+      "ingredients": [
+        "3 cups croutons",
+        "2 cups shredded cheese",
+        "1½ lbs sausage, browned",
+        "8 eggs, beaten",
+        "3 cups milk",
+        "2 tsp salt",
+        "2 tsp pepper",
+        "Onion and peppers (optional)"
+      ],
+      "directions": [
+        "Grease a 9x13 pan.",
+        "Layer croutons, then shredded cheese, then browned sausage in the pan.",
+        "Mix eggs with milk, salt, and pepper. Pour over layers.",
+        "Bake at 350°F for at least 1 hour, until eggs are fully set and firm."
+      ]
+    }
+  ],
+  "notes": []
+}

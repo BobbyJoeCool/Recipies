@@ -1,0 +1,30 @@
+{
+  "$schema": "../recipe.schema.json",
+  "id": "garlic-dill-pickles",
+  "title": "Garlic Dill Pickles",
+  "category": "Canning",
+  "contributor": "Brenda Bradley",
+  "preheatF": null,
+  "components": [
+    {
+      "name": null,
+      "ingredients": [
+        "Cucumbers, washed",
+        "13 cups water",
+        "6 cups vinegar",
+        "1 cup pickling salt",
+        "Fresh dill",
+        "Garlic cloves (2 per jar)",
+        "1/4 to 1/2 tsp alum per jar"
+      ],
+      "directions": [
+        "Place 2 garlic cloves and fresh dill in each jar.",
+        "Pack cucumbers tightly into jars.",
+        "Add alum to the top of the cucumbers in each jar.",
+        "Bring water, pickling salt, and vinegar to a rapid boil.",
+        "Pour hot brine into jars and seal."
+      ]
+    }
+  ],
+  "notes": []
+}

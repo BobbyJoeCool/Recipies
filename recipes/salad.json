@@ -1,0 +1,32 @@
+{
+  "$schema": "../recipe.schema.json",
+  "id": "salad",
+  "title": "Salad",
+  "category": "Soups, Salads & Veggies",
+  "contributor": "Grandma Lois (Vivian)",
+  "preheatF": null,
+  "components": [
+    {
+      "name": null,
+      "ingredients": [
+        "1 can crushed pineapple",
+        "1 cup water",
+        "1 pkg lemon jello",
+        "1 pkg orange jello",
+        "1 cup finely chopped celery",
+        "3/4 cup chopped nuts",
+        "1 cup whipped cream",
+        "1 cup grated carrots",
+        "2 cups fine-curd cottage cheese",
+        "1/2 cup Spin Blend dressing"
+      ],
+      "directions": [
+        "Combine pineapple and water and heat to a boil.",
+        "Dissolve lemon and orange jello in the hot pineapple mixture.",
+        "Let cool slightly, then stir in celery, nuts, whipped cream, carrots, cottage cheese, and Spin Blend.",
+        "Refrigerate until set."
+      ]
+    }
+  ],
+  "notes": []
+}

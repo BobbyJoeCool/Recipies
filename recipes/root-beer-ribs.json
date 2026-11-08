@@ -1,0 +1,29 @@
+{
+  "$schema": "../recipe.schema.json",
+  "id": "root-beer-ribs",
+  "title": "Root Beer Ribs",
+  "category": "Entrees",
+  "contributor": "Brittney Breutzmann",
+  "preheatF": null,
+  "components": [
+    {
+      "name": null,
+      "ingredients": [
+        "1 rack pork loin back ribs (baby back)",
+        "3 tbsp barbecue rub seasoning",
+        "6 oz root beer",
+        "1 cup barbecue sauce, plus more for brushing"
+      ],
+      "directions": [
+        "Remove the membrane from the back of the rack of ribs.",
+        "Season both sides of the ribs with the rub.",
+        "Cut between bones to separate into 4 portions to fit in a pressure cooker.",
+        "Place ribs in pressure cooker with root beer. Lock lid and cook on high pressure (Beef/Pork setting) for 30 minutes.",
+        "Let steam release naturally for 10 minutes, then manually release remaining pressure.",
+        "Remove ribs, brush with barbecue sauce, and broil in the oven on high for 3–5 minutes until slightly crisped.",
+        "Pour barbecue sauce into the pot with the remaining juices. Bring to a boil and cook uncovered for 5 minutes, stirring frequently. Serve alongside ribs."
+      ]
+    }
+  ],
+  "notes": []
+}

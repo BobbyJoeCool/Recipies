@@ -1,0 +1,31 @@
+{
+  "$schema": "../recipe.schema.json",
+  "id": "6-week-refrigerator-bran-muffins",
+  "title": "6 Week Refrigerator Bran Muffins",
+  "category": "Breads & Rolls",
+  "contributor": "Brenda Bradley",
+  "preheatF": 375,
+  "components": [
+    {
+      "name": null,
+      "ingredients": [
+        "1 box Raisin Bran",
+        "5 cups flour",
+        "3 cups sugar",
+        "2 tsp salt",
+        "5 tsp baking soda",
+        "1 cup oil",
+        "4 eggs",
+        "1 qt buttermilk"
+      ],
+      "directions": [
+        "Mix all ingredients together until combined.",
+        "Fill greased muffin tins.",
+        "Bake at 375°F for 15 minutes."
+      ]
+    }
+  ],
+  "notes": [
+    "Unused batter can be stored covered in the refrigerator for up to 6 weeks and baked as needed."
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "$schema": "../recipe.schema.json",
+  "id": "pickled-beets",
+  "title": "Pickled Beets",
+  "category": "Canning",
+  "contributor": "Brenda Bradley",
+  "preheatF": null,
+  "components": [
+    {
+      "name": null,
+      "ingredients": [
+        "Beets, as many as desired",
+        "1 cup water",
+        "1 cup vinegar",
+        "1 cup sugar",
+        "1 stick cinnamon",
+        "Spice bag: 1 tsp allspice, 1/2 tsp black pepper, 1 tbsp whole cloves, 1 tsp celery spice"
+      ],
+      "directions": [
+        "Cook beets until tender. Cool and peel.",
+        "Combine water, vinegar, and sugar. Tie allspice, black pepper, cloves, and celery spice in a small cloth bag and add to the brine along with the cinnamon stick.",
+        "Bring brine to a boil.",
+        "Pack beets into sterilized jars.",
+        "Pour hot brine over beets and seal jars."
+      ]
+    }
+  ],
+  "notes": []
+}

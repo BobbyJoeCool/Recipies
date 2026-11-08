@@ -1,0 +1,34 @@
+{
+  "$schema": "../recipe.schema.json",
+  "id": "whole-wheat-bread",
+  "title": "Whole Wheat Bread",
+  "category": "Breads & Rolls",
+  "contributor": "Russ Bradley",
+  "preheatF": 375,
+  "components": [
+    {
+      "name": null,
+      "ingredients": [
+        "1 pkg yeast",
+        "2 cups warm water",
+        "2 tbsp sugar",
+        "2 tsp salt",
+        "3 cups all-purpose flour",
+        "1/2 cup hot water",
+        "3 tbsp shortening",
+        "1/3 cup brown sugar",
+        "3 cups whole wheat flour"
+      ],
+      "directions": [
+        "Soften yeast in warm water. Add sugar, salt, and white flour. Beat until smooth.",
+        "Set in a warm place until light and bubbly.",
+        "Combine hot water with brown sugar and shortening. Cool to lukewarm.",
+        "Combine both mixtures. Add whole wheat flour and mix until smooth.",
+        "Knead until smooth and elastic. Let rise until doubled.",
+        "Place in greased loaf pans and let rise until doubled again.",
+        "Bake at 375°F for 50 minutes."
+      ]
+    }
+  ],
+  "notes": []
+}

@@ -1,0 +1,25 @@
+{
+  "$schema": "../recipe.schema.json",
+  "id": "pickle-roll-ups",
+  "title": "Pickle Roll Ups",
+  "category": "Soups, Salads & Veggies",
+  "contributor": "Amy Schwerin",
+  "preheatF": null,
+  "components": [
+    {
+      "name": null,
+      "ingredients": [
+        "10 slices ham",
+        "10 large whole pickles",
+        "2–4 oz cream cheese, softened"
+      ],
+      "directions": [
+        "Pat ham slices dry.",
+        "Spread a thin layer of cream cheese on each slice of ham.",
+        "Place a pickle at one end and roll the ham tightly around it.",
+        "Slice each roll into rounds. Repeat for all rolls."
+      ]
+    }
+  ],
+  "notes": []
+}

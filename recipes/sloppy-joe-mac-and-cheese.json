@@ -1,0 +1,49 @@
+{
+  "$schema": "../recipe.schema.json",
+  "id": "sloppy-joe-mac-and-cheese",
+  "title": "Sloppy Joe / Mac and Cheese",
+  "category": "Entrees",
+  "contributor": "Robert Breutzmann",
+  "preheatF": 350,
+  "components": [
+    {
+      "name": "Sloppy Joe",
+      "ingredients": [
+        "2 lbs ground turkey or beef",
+        "2 carrots, diced",
+        "2 celery sticks, diced",
+        "1 medium onion, diced",
+        "1 (14.5 oz) can diced tomatoes, drained",
+        "1 (15 oz) can tomato sauce",
+        "1 (6 oz) can tomato paste",
+        "1 sloppy joe seasoning packet (or: 1 tsp salt, 1/2 tsp garlic powder, 1/4 tsp celery seed, 1 tsp cayenne, 1 tsp cornstarch, 1/4 tsp dry mustard, 1 tbsp chili powder)"
+      ],
+      "directions": [
+        "Brown meat over medium-high heat. Drain liquid.",
+        "Add remaining sloppy joe ingredients and simmer covered on medium-low heat for 30+ minutes, stirring occasionally."
+      ]
+    },
+    {
+      "name": "Mac and Cheese",
+      "ingredients": [
+        "1 lb elbow noodles",
+        "4 tbsp butter or canola oil",
+        "4 tbsp flour",
+        "2½ cups milk",
+        "8 oz Velveeta cheese",
+        "~2 cups shredded cheddar cheese, divided"
+      ],
+      "directions": [
+        "Cook noodles al dente (about 6 minutes). Drain and set aside.",
+        "Melt butter over low heat 2–4 minutes. Slowly mix in flour and cook on low-medium, stirring constantly, until slightly lighter than peanut butter color.",
+        "Slowly add milk, stirring constantly. Bring to a boil, then reduce to medium-low.",
+        "Add Velveeta and all but 1/2 cup cheddar. Stir until melted, about 3–5 minutes.",
+        "Remove from heat and stir in noodles.",
+        "Spread mac and cheese into a greased 9x13 pan. Top with sloppy joe mixture, covering completely.",
+        "Cover and bake at 350°F for 30 minutes.",
+        "Remove from oven, sprinkle remaining cheese on top, and let sit 5 minutes until melted."
+      ]
+    }
+  ],
+  "notes": []
+}

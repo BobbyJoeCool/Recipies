@@ -1,0 +1,27 @@
+{
+  "$schema": "../recipe.schema.json",
+  "id": "tomato-cucumber-salad",
+  "title": "Tomato Cucumber Salad",
+  "category": "Soups, Salads & Veggies",
+  "contributor": "Brenda Bradley",
+  "preheatF": null,
+  "components": [
+    {
+      "name": null,
+      "ingredients": [
+        "1 large tomato, cut up",
+        "1 cucumber, sliced",
+        "Onion to taste",
+        "1/4 cup Miracle Whip",
+        "1 tbsp milk",
+        "Sugar to taste"
+      ],
+      "directions": [
+        "Cut up tomatoes, cucumber, and onion.",
+        "Mix in Miracle Whip, milk, and sugar to taste.",
+        "Stir and serve."
+      ]
+    }
+  ],
+  "notes": []
+}

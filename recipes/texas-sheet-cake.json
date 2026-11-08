@@ -1,0 +1,47 @@
+{
+  "$schema": "../recipe.schema.json",
+  "id": "texas-sheet-cake",
+  "title": "Texas Sheet Cake",
+  "category": "Desserts",
+  "contributor": "Dianne Schwerin",
+  "preheatF": 350,
+  "components": [
+    {
+      "name": "Cake",
+      "ingredients": [
+        "2 sticks margarine",
+        "2 tbsp cocoa",
+        "1 cup water",
+        "2 cups sugar",
+        "2 cups flour",
+        "2 eggs",
+        "1/2 cup buttermilk",
+        "1/4 tsp salt",
+        "1 tsp baking soda",
+        "1 tsp vanilla"
+      ],
+      "directions": [
+        "Melt margarine with cocoa and water. Bring to a boil.",
+        "Combine with flour and sugar, then add eggs, buttermilk, salt, baking soda, and vanilla.",
+        "Pour into a greased 11x8x1-inch pan.",
+        "Bake at 350°F for 20 minutes."
+      ]
+    },
+    {
+      "name": "Icing",
+      "ingredients": [
+        "1 stick margarine",
+        "2 tbsp cocoa",
+        "1/3 cup milk",
+        "1 tsp vanilla",
+        "1 lb powdered sugar"
+      ],
+      "directions": [
+        "Combine margarine, cocoa, and milk and bring to a boil.",
+        "Remove from heat and stir in powdered sugar and vanilla until smooth.",
+        "Spread over cake while cake is still warm."
+      ]
+    }
+  ],
+  "notes": []
+}

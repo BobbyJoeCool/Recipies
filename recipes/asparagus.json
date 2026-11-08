@@ -1,0 +1,27 @@
+{
+  "$schema": "../recipe.schema.json",
+  "id": "asparagus",
+  "title": "Asparagus",
+  "category": "Soups, Salads & Veggies",
+  "contributor": "Brenda Bradley",
+  "preheatF": null,
+  "components": [
+    {
+      "name": null,
+      "ingredients": [
+        "1½ lbs asparagus, cut into pieces",
+        "1 small onion, sliced",
+        "1 can sliced water chestnuts",
+        "1 container fresh mushrooms",
+        "1 tbsp garlic",
+        "Oil for frying"
+      ],
+      "directions": [
+        "Heat oil in a pan over medium heat.",
+        "Add all ingredients to the pan.",
+        "Fry until vegetables are tender."
+      ]
+    }
+  ],
+  "notes": []
+}

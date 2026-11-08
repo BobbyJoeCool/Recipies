@@ -1,0 +1,26 @@
+{
+  "$schema": "../recipe.schema.json",
+  "id": "olive-cheese-ball",
+  "title": "Olive Cheese Ball",
+  "category": "Appetizers",
+  "contributor": "Brenda Bradley",
+  "preheatF": null,
+  "components": [
+    {
+      "name": null,
+      "ingredients": [
+        "8 oz cream cheese, softened",
+        "1/3 cup green olives, chopped",
+        "1/4 cup black olives, chopped",
+        "1 tbsp onion, minced",
+        "1/4 tsp Tabasco sauce"
+      ],
+      "directions": [
+        "Mix all ingredients together until well combined.",
+        "Form into a ball.",
+        "Serve with crackers."
+      ]
+    }
+  ],
+  "notes": []
+}

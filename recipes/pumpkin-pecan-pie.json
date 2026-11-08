@@ -1,0 +1,54 @@
+{
+  "$schema": "../recipe.schema.json",
+  "id": "pumpkin-pecan-pie",
+  "title": "Pumpkin Pecan Pie",
+  "category": "Desserts",
+  "contributor": "Robert Breutzmann",
+  "preheatF": 425,
+  "components": [
+    {
+      "name": "Pumpkin Layer",
+      "ingredients": [
+        "2 eggs",
+        "1/4 cup sugar",
+        "1/4 cup packed brown sugar",
+        "1 tsp all-purpose flour",
+        "1 tsp pumpkin pie spice",
+        "1/4 tsp salt",
+        "2/3 cup canned pumpkin",
+        "2/3 cup milk",
+        "1 unbaked 9-inch deep-dish pie shell"
+      ],
+      "directions": [
+        "Beat eggs, sugars, flour, pie spice, and salt until smooth.",
+        "Mix in pumpkin. Gradually beat in milk.",
+        "Pour into unbaked pie shell.",
+        "Bake at 425°F for 10 minutes, then reduce temperature to 350°F and bake 15 more minutes."
+      ]
+    },
+    {
+      "name": "Pecan Topping",
+      "ingredients": [
+        "2 eggs",
+        "1/2 cup dark corn syrup",
+        "2 tbsp brown sugar",
+        "2 tbsp molasses",
+        "1 tbsp all-purpose flour",
+        "1 tsp vanilla extract",
+        "1/2 tsp salt",
+        "1/2 cup chopped pecans",
+        "1 cup pecan halves"
+      ],
+      "directions": [
+        "Beat eggs until foamy. Add corn syrup, brown sugar, molasses, flour, vanilla, and salt.",
+        "Pour over the pumpkin filling.",
+        "Sprinkle with chopped pecans and cover with pecan halves.",
+        "Bake at 350°F for 30–35 minutes or until set.",
+        "Cool completely. Store in the refrigerator."
+      ]
+    }
+  ],
+  "notes": [
+    "Yield: 6–8 servings."
+  ]
+}

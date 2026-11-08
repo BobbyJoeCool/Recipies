@@ -1,0 +1,30 @@
+{
+  "$schema": "../recipe.schema.json",
+  "id": "lasagna",
+  "title": "Lasagna",
+  "category": "Entrees",
+  "contributor": "Brenda Bradley",
+  "preheatF": 350,
+  "components": [
+    {
+      "name": null,
+      "ingredients": [
+        "1 box lasagna noodles, uncooked",
+        "2 lbs hamburger",
+        "16 oz cottage cheese",
+        "2 eggs",
+        "1½ cans spaghetti sauce",
+        "2 (8 oz) bags shredded cheese"
+      ],
+      "directions": [
+        "Brown hamburger, drain, and add spaghetti sauce. Stir to combine.",
+        "Mix eggs and cottage cheese together in a bowl.",
+        "In a 9x13 pan, spread a thin layer of meat sauce on the bottom.",
+        "Layer noodles, meat sauce, cottage cheese mixture, and shredded cheese.",
+        "Repeat layers until all ingredients are used, ending with cheese on top.",
+        "Bake at 350°F for 1 hour."
+      ]
+    }
+  ],
+  "notes": []
+}

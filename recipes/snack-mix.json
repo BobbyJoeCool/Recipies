@@ -1,0 +1,32 @@
+{
+  "$schema": "../recipe.schema.json",
+  "id": "snack-mix",
+  "title": "Snack Mix",
+  "category": "Appetizers",
+  "contributor": "Wilma Bahlmann",
+  "preheatF": 250,
+  "components": [
+    {
+      "name": null,
+      "ingredients": [
+        "10 oz Cheez-Its",
+        "12 oz Crispix",
+        "1 box Ritz Bits",
+        "2 pkg dry ranch dressing mix",
+        "12 oz butter-flavored popcorn",
+        "12 oz chow mein noodles",
+        "15 oz Cheetos",
+        "2 cans mixed nuts",
+        "1 cup canola oil"
+      ],
+      "directions": [
+        "Combine all snack ingredients in a large bag or roasting pan.",
+        "Pour oil and ranch dressing mix over top and mix thoroughly.",
+        "Spread half the mix in a roasting pan. Bake at 250°F for 1 hour, stirring every 15 minutes.",
+        "Repeat with second half.",
+        "Cool on wax paper."
+      ]
+    }
+  ],
+  "notes": []
+}

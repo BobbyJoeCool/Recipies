@@ -1,0 +1,28 @@
+{
+  "$schema": "../recipe.schema.json",
+  "id": "chocolate-cheese",
+  "title": "Chocolate Cheese",
+  "category": "Desserts",
+  "contributor": "Russ Bradley",
+  "preheatF": null,
+  "components": [
+    {
+      "name": null,
+      "ingredients": [
+        "1 lb Velveeta cheese",
+        "1 lb butter",
+        "4 lbs powdered sugar",
+        "1 cup cocoa",
+        "1 tsp vanilla",
+        "Nuts to taste"
+      ],
+      "directions": [
+        "Melt Velveeta and butter together until smooth.",
+        "Mix powdered sugar, cocoa, vanilla, and nuts together.",
+        "Combine both mixtures and spread into a greased cookie sheet.",
+        "Chill and cut into squares."
+      ]
+    }
+  ],
+  "notes": []
+}

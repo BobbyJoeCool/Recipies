@@ -1,0 +1,32 @@
+{
+  "$schema": "../recipe.schema.json",
+  "id": "sauerkraut-casserole",
+  "title": "Sauerkraut Casserole",
+  "category": "Entrees",
+  "contributor": "Brenda Bradley",
+  "preheatF": 300,
+  "components": [
+    {
+      "name": null,
+      "ingredients": [
+        "1½ lbs ground beef",
+        "1 small onion",
+        "Salt and pepper",
+        "1 can cream of celery soup",
+        "1 can sauerkraut, drained",
+        "2 cups kluski noodles, cooked",
+        "1 can cream of mushroom soup",
+        "1 cup or more cheddar cheese, shredded"
+      ],
+      "directions": [
+        "Brown ground beef and onion. Drain and season with salt and pepper.",
+        "Cook noodles according to package directions.",
+        "In a casserole dish, layer half the meat, then the sauerkraut, then remaining meat.",
+        "Add noodles over the top and cover with both soups.",
+        "Cover and bake at 300°F for 30 minutes.",
+        "Remove cover, top with shredded cheese, and bake an additional 20 minutes."
+      ]
+    }
+  ],
+  "notes": []
+}

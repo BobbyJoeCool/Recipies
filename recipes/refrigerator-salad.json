@@ -1,0 +1,24 @@
+{
+  "$schema": "../recipe.schema.json",
+  "id": "refrigerator-salad",
+  "title": "Refrigerator Salad",
+  "category": "Soups, Salads & Veggies",
+  "contributor": "Grandma Evelyn Kahl",
+  "preheatF": null,
+  "components": [
+    {
+      "name": null,
+      "ingredients": [
+        "1 can sweet condensed milk",
+        "1 can pie filling (flavor of your choice)",
+        "1 (20 oz) can crushed pineapple",
+        "12 oz Cool Whip"
+      ],
+      "directions": [
+        "Mix all ingredients together well.",
+        "Chill in the refrigerator before serving."
+      ]
+    }
+  ],
+  "notes": []
+}

@@ -1,0 +1,33 @@
+{
+  "$schema": "../recipe.schema.json",
+  "id": "baked-corn",
+  "title": "Baked Corn",
+  "category": "Soups, Salads & Veggies",
+  "contributor": "Grandma Evelyn Kahl",
+  "preheatF": 350,
+  "components": [
+    {
+      "name": null,
+      "ingredients": [
+        "2 eggs",
+        "1 cup sour cream",
+        "1/2 cup oleo, softened",
+        "1 can whole kernel corn",
+        "1 can cream-style corn",
+        "8 oz Jiffy cornbread mix",
+        "1 tsp onion",
+        "1/2 tsp salt",
+        "1/8 tsp pepper",
+        "1 cup water",
+        "Shredded cheese for topping"
+      ],
+      "directions": [
+        "Beat eggs. Add sour cream, oleo, onion, salt, pepper, and cornbread mix. Stir to combine.",
+        "Add corn and about 1 cup of water. Stir.",
+        "Pour into a greased baking dish and bake at 350°F for 40 minutes.",
+        "Remove from oven, top with shredded cheese, and bake an additional 20 minutes."
+      ]
+    }
+  ],
+  "notes": []
+}

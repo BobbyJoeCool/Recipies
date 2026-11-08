@@ -1,0 +1,26 @@
+{
+  "$schema": "../recipe.schema.json",
+  "id": "seasoned-oyster-crackers",
+  "title": "Seasoned Oyster Crackers",
+  "category": "Appetizers",
+  "contributor": "Grandma Lois",
+  "preheatF": null,
+  "components": [
+    {
+      "name": null,
+      "ingredients": [
+        "2 pkg oyster crackers",
+        "1/2 cup oil",
+        "1 tsp dill weed",
+        "1/2 tsp garlic powder",
+        "1 pkg Hidden Valley party dip mix"
+      ],
+      "directions": [
+        "Mix oil, dill weed, garlic powder, and dip mix together.",
+        "Pour over oyster crackers and toss to coat well.",
+        "Spread on wax paper to dry."
+      ]
+    }
+  ],
+  "notes": []
+}

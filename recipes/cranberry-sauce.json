@@ -1,0 +1,25 @@
+{
+  "$schema": "../recipe.schema.json",
+  "id": "cranberry-sauce",
+  "title": "Cranberry Sauce",
+  "category": "Miscellaneous",
+  "contributor": "Brenda Bradley",
+  "preheatF": null,
+  "components": [
+    {
+      "name": null,
+      "ingredients": [
+        "1 lb cranberries",
+        "2 oranges, peeled",
+        "2 apples, cored",
+        "2 cups sugar"
+      ],
+      "directions": [
+        "Place all ingredients in a blender.",
+        "Blend together until desired consistency.",
+        "Serve cold."
+      ]
+    }
+  ],
+  "notes": []
+}
