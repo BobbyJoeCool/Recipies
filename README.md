@@ -1,6 +1,6 @@
 # Family Recipe Book
 
-Live at **https://bobbyjoecool.dev/Recipies/**
+Live at **https://recipes.bobbyjoecool.dev/**
 
 A static recipe site on GitHub Pages. Family can send recipes from the **Add a recipe** page without a GitHub account, and they arrive by email. Each recipe is its own JSON file in `recipes/`. On every push, a GitHub Action validates all of them, bundles them into one file, and deploys the site. Recipes show as searchable, filterable cards. Click one for the full recipe, or hit **Print** for a clean printout of just that recipe.
 
@@ -133,7 +133,7 @@ The **Validate and deploy** action runs automatically. When it goes green (about
 
 | Field | Required | Rules |
 | --- | --- | --- |
-| `id` | yes | Lowercase letters, numbers and dashes. **Must match the file name** (`apple-crisp` ↔ `apple-crisp.json`). Used in share links: `…/Recipies/#apple-crisp`. |
+| `id` | yes | Lowercase letters, numbers and dashes. **Must match the file name** (`apple-crisp` ↔ `apple-crisp.json`). Used in share links: `recipes.bobbyjoecool.dev/#apple-crisp`. |
 | `title` | yes | Shown on the card. |
 | `category` | yes | One of: `Appetizers`, `Breads & Rolls`, `Soups, Salads & Veggies`, `Entrees`, `Desserts`, `Canning`, `Miscellaneous`. |
 | `contributor` | yes | Who it's from, or `null`. |
@@ -173,14 +173,23 @@ Pull requests are validated too, so if family members send recipes as PRs, you'l
 
 ## Hosting setup (one time)
 
-This is a GitHub Pages *project site*. GitHub serves project sites under the custom domain of the owner's *user site* (`bobbyjoecool.github.io`), at a path equal to the repo name.
+The site lives on its own subdomain, `recipes.bobbyjoecool.dev`. The main domain `bobbyjoecool.dev` belongs to the Portfolio repo (through its `CNAME` file), so this setup leaves the portfolio untouched.
 
-1. The repo must be named **`Recipies`**, which makes the path `/Recipies/`.
-2. In this repo, **Settings → Pages → Build and deployment → Source: GitHub Actions**. (Not "Deploy from a branch": the generated data file isn't committed, so a branch deploy would show an empty site.)
-3. In the `bobbyjoecool.github.io` repo, **Settings → Pages → Custom domain** must be `bobbyjoecool.dev`.
-4. This repo deliberately has **no `CNAME` file**. Adding one would try to claim a separate domain instead of living under the main one.
+1. **Pages source:** in this repo, go to **Settings → Pages → Build and deployment → Source** and choose **GitHub Actions**. Don't use "Deploy from a branch": the generated data files aren't committed, so a branch deploy shows "Couldn't load recipes (HTTP 404)".
+2. **DNS:** at your domain's DNS provider, add a record:
 
-All asset paths are relative, so the site works under any sub-path.
+   | Type | Name | Value |
+   | --- | --- | --- |
+   | CNAME | `recipes` | `bobbyjoecool.github.io` |
+
+3. **Custom domain:** in this repo, go to **Settings → Pages → Custom domain**, enter `recipes.bobbyjoecool.dev`, and Save. Wait for the DNS check to pass, then tick **Enforce HTTPS**. `.dev` domains only load over HTTPS, so the site won't open until GitHub has issued the certificate (usually minutes, sometimes up to an hour).
+
+Notes:
+
+- No `CNAME` file is needed in this repo. Sites deployed with GitHub Actions take their custom domain from the Settings page and ignore a `CNAME` file.
+- The repo name no longer affects the URL. Renaming it later is harmless.
+- All asset paths are relative, so the site also works at `bobbyjoecool.github.io/<repo-name>/` (GitHub redirects that to the custom domain once it's set).
+- Optional but recommended: verify `bobbyjoecool.dev` under your GitHub account's **Settings → Pages → Verified domains**. That stops anyone else's repo from claiming one of your subdomains if a DNS record is ever left dangling.
 
 ## Files
 
