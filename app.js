@@ -1,0 +1,226 @@
+(() => {
+  'use strict';
+
+  const CATEGORY_ORDER = [
+    'Appetizers',
+    'Breads & Rolls',
+    'Soups, Salads & Veggies',
+    'Entrees',
+    'Desserts',
+    'Canning',
+    'Miscellaneous',
+  ];
+
+  const els = {
+    grid: document.getElementById('grid'),
+    search: document.getElementById('search'),
+    chips: document.getElementById('categories'),
+    count: document.getElementById('count'),
+    empty: document.getElementById('empty'),
+    dialog: document.getElementById('recipe-dialog'),
+    dialogBody: document.getElementById('dialog-body'),
+    printRoot: document.getElementById('print-root'),
+  };
+
+  let recipes = [];
+  let byId = new Map();
+  let activeCategory = 'All';
+  let openId = null;
+
+  const esc = (s) =>
+    String(s ?? '').replace(/[&<>"']/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
+
+  const ingredientCount = (r) => r.components.reduce((n, c) => n + c.ingredients.length, 0);
+
+  // ---------- Rendering ----------
+
+  function cardHTML(r) {
+    const preheat = r.preheatF ? `<span class="badge" title="Preheat oven">${r.preheatF}°F</span>` : '';
+    const parts = r.components.filter((c) => c.name).map((c) => esc(c.name));
+    const partsLine = parts.length > 1 ? `<p class="card-parts">${parts.join(' · ')}</p>` : '';
+    return `
+      <article class="card" data-id="${esc(r.id)}">
+        <div class="card-top">
+          <span class="card-cat">${esc(r.category)}</span>
+          ${preheat}
+        </div>
+        <h2 class="card-title"><a href="#${esc(r.id)}" data-action="open">${esc(r.title)}</a></h2>
+        ${r.contributor ? `<p class="card-by">${esc(r.contributor)}</p>` : ''}
+        ${partsLine}
+        <div class="card-foot">
+          <span class="card-meta">${ingredientCount(r)} ingredients</span>
+          <button type="button" class="btn btn-small" data-action="print" aria-label="Print ${esc(r.title)}">Print</button>
+        </div>
+      </article>`;
+  }
+
+  function fullHTML(r, { forPrint = false } = {}) {
+    const titleId = forPrint ? '' : ' id="dialog-title"';
+    const meta = [
+      r.contributor ? `<span>From ${esc(r.contributor)}</span>` : '',
+      r.preheatF ? `<span class="preheat">Preheat oven to ${r.preheatF}°F</span>` : '',
+    ].filter(Boolean).join('');
+
+    const comps = r.components.map((c) => `
+      <section class="component">
+        ${c.name ? `<h3 class="component-name">${esc(c.name)}</h3>` : ''}
+        <div class="component-body">
+          ${c.ingredients.length ? `
+            <div class="ingredients">
+              <h4>Ingredients</h4>
+              <ul>${c.ingredients.map((i) => `<li>${esc(i)}</li>`).join('')}</ul>
+            </div>` : ''}
+          ${c.directions.length ? `
+            <div class="directions">
+              <h4>Directions</h4>
+              <ol>${c.directions.map((d) => `<li>${esc(d)}</li>`).join('')}</ol>
+            </div>` : ''}
+        </div>
+      </section>`).join('');
+
+    const notes = r.notes.length
+      ? `<aside class="notes">${r.notes.map((n) => `<p><strong>Note:</strong> ${esc(n)}</p>`).join('')}</aside>`
+      : '';
+
+    return `
+      <p class="full-cat">${esc(r.category)}</p>
+      <h2 class="full-title"${titleId}>${esc(r.title)}</h2>
+      ${meta ? `<p class="full-meta">${meta}</p>` : ''}
+      ${comps}
+      ${notes}
+      ${forPrint ? '<p class="print-footer">Family Recipe Book</p>' : ''}`;
+  }
+
+  function renderChips() {
+    const counts = recipes.reduce((m, r) => m.set(r.category, (m.get(r.category) || 0) + 1), new Map());
+    const cats = ['All', ...CATEGORY_ORDER.filter((c) => counts.has(c)),
+      ...[...counts.keys()].filter((c) => !CATEGORY_ORDER.includes(c))];
+    els.chips.innerHTML = cats.map((c) => `
+      <button type="button" class="chip" data-cat="${esc(c)}" aria-pressed="${c === activeCategory}">
+        ${esc(c)} <span class="chip-n">${c === 'All' ? recipes.length : counts.get(c)}</span>
+      </button>`).join('');
+  }
+
+  function matches(r, q) {
+    if (activeCategory !== 'All' && r.category !== activeCategory) return false;
+    if (!q) return true;
+    return r._haystack.includes(q);
+  }
+
+  function renderGrid() {
+    const q = els.search.value.trim().toLowerCase();
+    const list = recipes.filter((r) => matches(r, q));
+    els.grid.innerHTML = list.map(cardHTML).join('');
+    els.empty.hidden = list.length > 0;
+    els.count.textContent = `${list.length} of ${recipes.length} recipes`;
+  }
+
+  // ---------- Dialog ----------
+
+  function openRecipe(id, { pushHash = true } = {}) {
+    const r = byId.get(id);
+    if (!r) return;
+    openId = id;
+    els.dialogBody.innerHTML = fullHTML(r);
+    if (!els.dialog.open) els.dialog.showModal();
+    els.dialog.scrollTop = 0;
+    if (pushHash && location.hash !== `#${id}`) history.pushState(null, '', `#${id}`);
+  }
+
+  function closeRecipe() {
+    if (els.dialog.open) els.dialog.close();
+  }
+
+  els.dialog.addEventListener('close', () => {
+    openId = null;
+    if (location.hash) history.pushState(null, '', location.pathname + location.search);
+  });
+
+  // Click on the backdrop closes the dialog
+  els.dialog.addEventListener('click', (e) => {
+    if (e.target === els.dialog) closeRecipe();
+  });
+
+  // ---------- Printing ----------
+
+  function printRecipe(id) {
+    const r = byId.get(id);
+    if (!r) return;
+    els.printRoot.innerHTML = `<article class="recipe-full">${fullHTML(r, { forPrint: true })}</article>`;
+    document.body.classList.add('printing');
+    const prevTitle = document.title;
+    document.title = `${r.title} – Family Recipe Book`; // becomes the default PDF filename
+    const cleanup = () => {
+      document.body.classList.remove('printing');
+      els.printRoot.innerHTML = '';
+      document.title = prevTitle;
+      window.removeEventListener('afterprint', cleanup);
+    };
+    window.addEventListener('afterprint', cleanup);
+    window.print();
+  }
+
+  // ---------- Events ----------
+
+  document.addEventListener('click', (e) => {
+    const btn = e.target.closest('[data-action]');
+    if (btn) {
+      const action = btn.dataset.action;
+      const card = btn.closest('.card');
+      if (action === 'open' && card) { e.preventDefault(); openRecipe(card.dataset.id); return; }
+      if (action === 'print' && card) { e.stopPropagation(); printRecipe(card.dataset.id); return; }
+      if (action === 'print-open' && openId) { printRecipe(openId); return; }
+      if (action === 'close') { closeRecipe(); return; }
+    }
+    // Clicking anywhere else on a card opens it
+    const card = e.target.closest('.card');
+    if (card && !e.target.closest('button')) openRecipe(card.dataset.id);
+
+    const chip = e.target.closest('.chip');
+    if (chip) {
+      activeCategory = chip.dataset.cat;
+      els.chips.querySelectorAll('.chip').forEach((c) => c.setAttribute('aria-pressed', c === chip));
+      renderGrid();
+    }
+  });
+
+  let t;
+  els.search.addEventListener('input', () => { clearTimeout(t); t = setTimeout(renderGrid, 80); });
+
+  window.addEventListener('popstate', () => {
+    const id = decodeURIComponent(location.hash.slice(1));
+    if (id && byId.has(id)) openRecipe(id, { pushHash: false });
+    else closeRecipe();
+  });
+
+  // ---------- Load ----------
+
+  fetch('data/recipes.json')
+    .then((res) => {
+      if (!res.ok) throw new Error(`HTTP ${res.status}`);
+      return res.json();
+    })
+    .then((data) => {
+      const catIndex = (c) => { const i = CATEGORY_ORDER.indexOf(c); return i === -1 ? 99 : i; };
+      recipes = data
+        .map((r) => ({
+          ...r,
+          components: r.components || [],
+          notes: r.notes || [],
+          _haystack: [
+            r.title, r.contributor, r.category,
+            ...(r.components || []).flatMap((c) => [c.name, ...c.ingredients]),
+          ].join(' ').toLowerCase(),
+        }))
+        .sort((a, b) => catIndex(a.category) - catIndex(b.category) || a.title.localeCompare(b.title));
+      byId = new Map(recipes.map((r) => [r.id, r]));
+      renderChips();
+      renderGrid();
+      const id = decodeURIComponent(location.hash.slice(1));
+      if (id && byId.has(id)) openRecipe(id, { pushHash: false });
+    })
+    .catch((err) => {
+      els.count.textContent = '';
+      els.grid.innerHTML = `<p class="empty">Couldn't load recipes (${esc(err.message)}). If you opened this file directly, run a local server instead: <code>python3 -m http.server</code></p>`;
+    });
+})();

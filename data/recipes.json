@@ -1,0 +1,3798 @@
+[
+  {
+    "id": "all-beef-summer-sausage",
+    "title": "All Beef Summer Sausage",
+    "category": "Appetizers",
+    "contributor": "Russ Bradley",
+    "preheatF": 325,
+    "components": [
+      {
+        "name": null,
+        "ingredients": [
+          "2 lbs ground beef",
+          "1/4 tsp salt",
+          "1/4 tsp pepper",
+          "1/8 tsp garlic powder",
+          "1 tbsp liquid smoke",
+          "1 tbsp mustard seed or powder",
+          "2 tbsp Morton Tender Quick",
+          "3/4 cup water"
+        ],
+        "directions": [
+          "Mix all ingredients together well.",
+          "Place mixture on foil and form into a roll. Wrap tightly.",
+          "Refrigerate for 24 hours.",
+          "Unwrap and place on a baking sheet.",
+          "Bake at 325°F for 1½ hours, or until cooked through. Time may vary depending on the size of the roll."
+        ]
+      }
+    ],
+    "notes": []
+  },
+  {
+    "id": "bacon-wraps",
+    "title": "Bacon Wraps",
+    "category": "Appetizers",
+    "contributor": "Amy Schwerin",
+    "preheatF": 350,
+    "components": [
+      {
+        "name": null,
+        "ingredients": [
+          "3 cans whole water chestnuts, drained",
+          "1 lb bacon, cut into thirds",
+          "1½ cups ketchup",
+          "1½ cups brown sugar"
+        ],
+        "directions": [
+          "Wrap a piece of bacon around each water chestnut and secure with a toothpick.",
+          "Place wraps in a baking pan uncovered and bake at 350°F for 45 minutes.",
+          "Remove from oven and drain excess grease from the pan.",
+          "In a bowl, combine brown sugar and ketchup to make the sauce.",
+          "Pour sauce over the wraps and return to oven. Bake at 350°F for an additional 45 minutes.",
+          "Serve warm."
+        ]
+      }
+    ],
+    "notes": []
+  },
+  {
+    "id": "caramel-corn",
+    "title": "Caramel Corn",
+    "category": "Appetizers",
+    "contributor": "Russ Bradley",
+    "preheatF": 250,
+    "components": [
+      {
+        "name": null,
+        "ingredients": [
+          "1/2 lb butter",
+          "1 cup brown sugar",
+          "1 bag puffed popcorn",
+          "1 tsp baking soda",
+          "1/2 cup light corn syrup"
+        ],
+        "directions": [
+          "Place puffed popcorn in a large roasting pan.",
+          "In a 2-quart saucepan, combine butter, brown sugar, and corn syrup. Microwave for 2 minutes.",
+          "Stir and add baking soda.",
+          "Pour mixture over popcorn and mix until evenly coated.",
+          "Bake at 250°F for 45 minutes, stirring every 10–15 minutes.",
+          "Pour out onto wax paper to dry and break apart."
+        ]
+      }
+    ],
+    "notes": []
+  },
+  {
+    "id": "chipped-beef-cheese-ball",
+    "title": "Chipped Beef Cheese Ball",
+    "category": "Appetizers",
+    "contributor": "Grandma Lois",
+    "preheatF": null,
+    "components": [
+      {
+        "name": null,
+        "ingredients": [
+          "8 oz cream cheese, softened",
+          "3 pkg chipped beef",
+          "1 medium onion, finely diced",
+          "2 tbsp Accent seasoning salt",
+          "2 tbsp Worcestershire sauce"
+        ],
+        "directions": [
+          "Soften cream cheese and mix together with onion, Accent, Worcestershire sauce, and 2 packages of chipped beef.",
+          "Form mixture into a ball.",
+          "Roll ball in the remaining package of chipped beef to coat.",
+          "Chill until ready to serve."
+        ]
+      }
+    ],
+    "notes": []
+  },
+  {
+    "id": "corn-dip",
+    "title": "Corn Dip",
+    "category": "Appetizers",
+    "contributor": "Russ Bradley",
+    "preheatF": null,
+    "components": [
+      {
+        "name": null,
+        "ingredients": [
+          "1 can (11 oz) white corn, drained",
+          "1 can (11 oz) Mexicorn, drained",
+          "1 cup shredded cheese",
+          "1/4 cup chopped onion",
+          "1/2 cup sour cream",
+          "1/2 cup mayonnaise",
+          "1 can green chilies",
+          "1/4 tsp garlic powder",
+          "1/4 tsp seasoned salt",
+          "1/8 tsp chili powder"
+        ],
+        "directions": [
+          "Combine all ingredients in a large bowl and mix well.",
+          "Refrigerate until ready to serve."
+        ]
+      }
+    ],
+    "notes": []
+  },
+  {
+    "id": "crab-rangoons",
+    "title": "Crab Rangoons",
+    "category": "Appetizers",
+    "contributor": "Brittney Bradley",
+    "preheatF": null,
+    "components": [
+      {
+        "name": null,
+        "ingredients": [
+          "1 can crab meat",
+          "1/4 cup cream cheese",
+          "1 green onion, chopped",
+          "Garlic salt to taste",
+          "1 pkg wonton skins",
+          "1 egg white"
+        ],
+        "directions": [
+          "Blend crab meat (with liquid from the can), cream cheese, green onion, and garlic salt until smooth.",
+          "Place 1/2 tsp of filling on each wonton skin.",
+          "Fold wonton into a triangle and seal edges with egg white.",
+          "Fry in hot oil until golden brown."
+        ]
+      }
+    ],
+    "notes": []
+  },
+  {
+    "id": "dill-dip",
+    "title": "Dill Dip",
+    "category": "Appetizers",
+    "contributor": "Grandma Lois",
+    "preheatF": null,
+    "components": [
+      {
+        "name": null,
+        "ingredients": [
+          "1 cup mayo",
+          "1 carton sour cream",
+          "1 tsp dill weed",
+          "1 tsp Beau Monde seasoning",
+          "1 tbsp parsley flakes",
+          "1 tbsp minced onion"
+        ],
+        "directions": [
+          "Mix all ingredients together until well combined.",
+          "Serve with vegetables or crackers."
+        ]
+      }
+    ],
+    "notes": []
+  },
+  {
+    "id": "dried-beef-cheese-ball",
+    "title": "Dried Beef Cheese Ball",
+    "category": "Appetizers",
+    "contributor": "Brenda Bradley",
+    "preheatF": null,
+    "components": [
+      {
+        "name": null,
+        "ingredients": [
+          "8 oz cream cheese, softened",
+          "2–3 pkg dried beef",
+          "1 tbsp Worcestershire sauce",
+          "3 tbsp minced onions",
+          "Shake of garlic salt",
+          "Mushrooms and olives (optional)"
+        ],
+        "directions": [
+          "Mix all ingredients together until well combined.",
+          "Form into a ball and refrigerate until ready to serve."
+        ]
+      }
+    ],
+    "notes": []
+  },
+  {
+    "id": "easy-crab-dip",
+    "title": "Easy Crab Dip",
+    "category": "Appetizers",
+    "contributor": "Brenda Bradley",
+    "preheatF": null,
+    "components": [
+      {
+        "name": null,
+        "ingredients": [
+          "1 pkg crab meat",
+          "2 tbsp Miracle Whip",
+          "8 oz cream cheese",
+          "Diced onion to taste",
+          "1/2 cup celery, diced",
+          "Dash of salt and pepper"
+        ],
+        "directions": [
+          "Mix all ingredients together well.",
+          "Serve with crackers."
+        ]
+      }
+    ],
+    "notes": []
+  },
+  {
+    "id": "honey-glaze-snack-mix",
+    "title": "Honey Glaze Snack Mix",
+    "category": "Appetizers",
+    "contributor": "Brenda Bradley",
+    "preheatF": 350,
+    "components": [
+      {
+        "name": null,
+        "ingredients": [
+          "1 cup honey",
+          "1 cup butter",
+          "2 cups Corn Chex",
+          "2 cups Rice Chex",
+          "2 cups Wheat Chex",
+          "2 cups Cheerios",
+          "2 cups Bugles",
+          "2 cups Wheat Thins",
+          "2 cups pretzels",
+          "2 cups Crispix"
+        ],
+        "directions": [
+          "Melt butter and stir together with honey.",
+          "Combine all cereals and snacks in a large bowl or roasting pan.",
+          "Pour honey butter mixture over the cereal mixture and stir to coat evenly.",
+          "Spray 2 cookie sheets or a large pan and spread mixture out.",
+          "Bake at 350°F for 25 minutes, stirring every 5 minutes.",
+          "After baking, pour mix onto parchment paper to prevent clumping. Let cool."
+        ]
+      }
+    ],
+    "notes": []
+  },
+  {
+    "id": "italian-rolls-appetizer",
+    "title": "Italian Rolls (Appetizer)",
+    "category": "Appetizers",
+    "contributor": "Robert Breutzmann",
+    "preheatF": 375,
+    "components": [
+      {
+        "name": null,
+        "ingredients": [
+          "3½ cups all-purpose flour",
+          "2 tbsp sugar",
+          "2 packages active dry yeast (4½ tsp total)",
+          "2 tsp garlic salt",
+          "1 tsp Italian seasoning",
+          "1 tsp dried parsley flakes",
+          "1 tsp onion powder",
+          "1 cup milk",
+          "1/2 cup water",
+          "4 tbsp butter or margarine, divided",
+          "1 egg",
+          "3/4 cup grated Parmesan cheese, divided"
+        ],
+        "directions": [
+          "In a mixing bowl, combine 1½ cups flour, sugar, yeast, and all seasonings.",
+          "In a saucepan, heat milk, water, and 2 tbsp butter to 120–130°F. Add to dry ingredients and beat until moistened.",
+          "Add egg and beat on medium speed for 3 minutes.",
+          "Stir in 1/2 cup Parmesan cheese and enough remaining flour to form a soft dough.",
+          "Knead on a floured surface until smooth and elastic, about 3–5 minutes.",
+          "Place in a greased bowl, turning once to grease the top. Cover and let rest 15 minutes.",
+          "Punch dough down. Divide into 16 pieces and shape each into a ball.",
+          "Melt remaining butter. Dip tops of balls in butter, then in remaining Parmesan cheese.",
+          "Place in a greased 13x9-inch pan. Cover and let rest 10 minutes.",
+          "Bake at 375°F for 20–25 minutes or until golden brown. Remove to a wire rack."
+        ]
+      }
+    ],
+    "notes": []
+  },
+  {
+    "id": "jalapeno-dip",
+    "title": "Jalapeno Dip",
+    "category": "Appetizers",
+    "contributor": "Jamie Bradley",
+    "preheatF": 300,
+    "components": [
+      {
+        "name": null,
+        "ingredients": [
+          "8 oz cream cheese",
+          "1 cup mayo",
+          "1 can green chilies",
+          "Jalapenos to taste",
+          "Parmesan cheese for topping"
+        ],
+        "directions": [
+          "Mix cream cheese, mayo, green chilies, and jalapenos together until combined.",
+          "Spread into a baking pan.",
+          "Sprinkle Parmesan cheese over the top.",
+          "Bake at 300°F until cheese is golden brown.",
+          "Serve with crackers."
+        ]
+      }
+    ],
+    "notes": []
+  },
+  {
+    "id": "olive-cheese-ball",
+    "title": "Olive Cheese Ball",
+    "category": "Appetizers",
+    "contributor": "Brenda Bradley",
+    "preheatF": null,
+    "components": [
+      {
+        "name": null,
+        "ingredients": [
+          "8 oz cream cheese, softened",
+          "1/3 cup green olives, chopped",
+          "1/4 cup black olives, chopped",
+          "1 tbsp onion, minced",
+          "1/4 tsp Tabasco sauce"
+        ],
+        "directions": [
+          "Mix all ingredients together until well combined.",
+          "Form into a ball.",
+          "Serve with crackers."
+        ]
+      }
+    ],
+    "notes": []
+  },
+  {
+    "id": "oyster-crackers",
+    "title": "Oyster Crackers",
+    "category": "Appetizers",
+    "contributor": "Brittney Bradley",
+    "preheatF": null,
+    "components": [
+      {
+        "name": null,
+        "ingredients": [
+          "1 cup Crisco oil",
+          "1 tsp dill weed",
+          "1/2 tsp garlic powder",
+          "1 pkg original Hidden Valley Ranch dressing mix",
+          "2 (12 oz) pkg oyster crackers"
+        ],
+        "directions": [
+          "Mix Crisco oil, dill, garlic powder, and ranch dressing mix together.",
+          "Pour over oyster crackers and toss to coat evenly.",
+          "Spread on wax paper and allow to dry."
+        ]
+      }
+    ],
+    "notes": []
+  },
+  {
+    "id": "party-mix",
+    "title": "Party Mix",
+    "category": "Appetizers",
+    "contributor": "Brenda Bradley",
+    "preheatF": 200,
+    "components": [
+      {
+        "name": null,
+        "ingredients": [
+          "1½ boxes Crispix",
+          "2 cups Cheerios",
+          "1 cup mixed nuts",
+          "1 cup pretzels",
+          "8 tbsp butter",
+          "4 tbsp Worcestershire sauce",
+          "1 tsp seasoned salt",
+          "1 tsp garlic powder",
+          "1 tsp onion powder"
+        ],
+        "directions": [
+          "Combine cereals, pretzels, and nuts in a large roasting pan.",
+          "Melt butter and stir in Worcestershire sauce and seasonings.",
+          "Pour butter mixture over cereal mixture and stir well.",
+          "Bake at 200°F for 1 hour, stirring every 15 minutes.",
+          "Pour onto wax paper to cool and prevent clumping."
+        ]
+      }
+    ],
+    "notes": []
+  },
+  {
+    "id": "peanut-butter-balls",
+    "title": "Peanut Butter Balls",
+    "category": "Appetizers",
+    "contributor": "Brenda Bradley",
+    "preheatF": null,
+    "components": [
+      {
+        "name": "Peanut Butter Balls",
+        "ingredients": [
+          "2 sticks butter, melted",
+          "1½ cups creamy peanut butter",
+          "3¾ cups powdered sugar",
+          "1 tsp vanilla",
+          "1 cup graham cracker crumbs"
+        ],
+        "directions": [
+          "Mix all ball ingredients together until well combined.",
+          "Form into balls and refrigerate until firm."
+        ]
+      },
+      {
+        "name": "Chocolate Coating",
+        "ingredients": [
+          "12 oz chocolate chips",
+          "1 tsp liquid Crisco"
+        ],
+        "directions": [
+          "Melt chocolate chips and Crisco together.",
+          "Dip chilled balls into chocolate to coat.",
+          "Place on wax paper and refrigerate until set."
+        ]
+      }
+    ],
+    "notes": []
+  },
+  {
+    "id": "pina-colada-dipping-sauce",
+    "title": "Pina Colada Dipping Sauce",
+    "category": "Appetizers",
+    "contributor": "Brittney Breutzmann",
+    "preheatF": null,
+    "components": [
+      {
+        "name": null,
+        "ingredients": [
+          "1 cup pina colada mix",
+          "1/4 cup water",
+          "2 tbsp crushed pineapple, drained",
+          "4 tsp sweetened coconut flakes",
+          "3 tbsp + 1 tsp powdered sugar",
+          "1½ tsp cornstarch",
+          "3 tsp cold water"
+        ],
+        "directions": [
+          "Combine pina colada mix, 1/4 cup water, pineapple, coconut, and powdered sugar in a saucepan.",
+          "Heat over medium-low, stirring frequently, until the sauce begins to simmer.",
+          "Let simmer for 10–12 minutes.",
+          "Mix cornstarch with 3 tsp cold water. Add to sauce and blend well.",
+          "Let simmer an additional 3–5 minutes, stirring constantly.",
+          "Remove from heat and bring to room temperature. Refrigerate leftovers."
+        ]
+      }
+    ],
+    "notes": []
+  },
+  {
+    "id": "puppy-chow",
+    "title": "Puppy Chow",
+    "category": "Appetizers",
+    "contributor": "Brittney Bradley",
+    "preheatF": null,
+    "components": [
+      {
+        "name": null,
+        "ingredients": [
+          "1 box Chex cereal",
+          "1 cup chocolate chips",
+          "1/2 cup peanut butter",
+          "1/4 cup butter",
+          "1/4 tsp vanilla",
+          "1½ cups powdered sugar"
+        ],
+        "directions": [
+          "Place cereal in a large clean brown paper bag.",
+          "Melt chocolate chips, butter, and peanut butter together in the microwave.",
+          "Stir in vanilla.",
+          "Pour mixture into the paper bag. Fold top over and shake well until cereal is coated.",
+          "Add powdered sugar and shake again to coat.",
+          "Pour onto wax paper to dry and cool."
+        ]
+      }
+    ],
+    "notes": []
+  },
+  {
+    "id": "reuben-dip",
+    "title": "Reuben Dip",
+    "category": "Appetizers",
+    "contributor": "Jamie Bradley & Jessie Schwerin",
+    "preheatF": null,
+    "components": [
+      {
+        "name": null,
+        "ingredients": [
+          "8 oz cream cheese",
+          "8 oz sour cream",
+          "2 pkg corn beef, chopped",
+          "1/2 cup sauerkraut with juice",
+          "1 cup shredded Swiss cheese"
+        ],
+        "directions": [
+          "Mix all ingredients together.",
+          "Heat thoroughly, stirring often.",
+          "Keep warm in a crock pot or on the stove. Serve with crackers or rye bread."
+        ]
+      }
+    ],
+    "notes": []
+  },
+  {
+    "id": "seasoned-oyster-crackers",
+    "title": "Seasoned Oyster Crackers",
+    "category": "Appetizers",
+    "contributor": "Grandma Lois",
+    "preheatF": null,
+    "components": [
+      {
+        "name": null,
+        "ingredients": [
+          "2 pkg oyster crackers",
+          "1/2 cup oil",
+          "1 tsp dill weed",
+          "1/2 tsp garlic powder",
+          "1 pkg Hidden Valley party dip mix"
+        ],
+        "directions": [
+          "Mix oil, dill weed, garlic powder, and dip mix together.",
+          "Pour over oyster crackers and toss to coat well.",
+          "Spread on wax paper to dry."
+        ]
+      }
+    ],
+    "notes": []
+  },
+  {
+    "id": "snack-mix",
+    "title": "Snack Mix",
+    "category": "Appetizers",
+    "contributor": "Wilma Bahlmann",
+    "preheatF": 250,
+    "components": [
+      {
+        "name": null,
+        "ingredients": [
+          "10 oz Cheez-Its",
+          "12 oz Crispix",
+          "1 box Ritz Bits",
+          "2 pkg dry ranch dressing mix",
+          "12 oz butter-flavored popcorn",
+          "12 oz chow mein noodles",
+          "15 oz Cheetos",
+          "2 cans mixed nuts",
+          "1 cup canola oil"
+        ],
+        "directions": [
+          "Combine all snack ingredients in a large bag or roasting pan.",
+          "Pour oil and ranch dressing mix over top and mix thoroughly.",
+          "Spread half the mix in a roasting pan. Bake at 250°F for 1 hour, stirring every 15 minutes.",
+          "Repeat with second half.",
+          "Cool on wax paper."
+        ]
+      }
+    ],
+    "notes": []
+  },
+  {
+    "id": "stuffing",
+    "title": "Stuffing",
+    "category": "Appetizers",
+    "contributor": "Brenda Bradley",
+    "preheatF": 350,
+    "components": [
+      {
+        "name": null,
+        "ingredients": [
+          "1 bag seasoned bread crumbs",
+          "1 bag unseasoned bread crumbs",
+          "4–5 cans chicken broth",
+          "2 cups cooked rice",
+          "3/4 of a bunch of celery, chopped",
+          "2 large onions, chopped",
+          "2 sticks margarine"
+        ],
+        "directions": [
+          "Sauté onions and celery in margarine until softened.",
+          "Mix bread crumbs with 4 cans of broth. Let sit about 20 minutes so crumbs soak up broth.",
+          "Add cooked rice and onion mixture. Stir to combine.",
+          "If mixture is dry, add more broth as needed.",
+          "Bake at 350°F for 1½ hours."
+        ]
+      }
+    ],
+    "notes": []
+  },
+  {
+    "id": "taco-dip",
+    "title": "Taco Dip",
+    "category": "Appetizers",
+    "contributor": "Amy Schwerin",
+    "preheatF": null,
+    "components": [
+      {
+        "name": null,
+        "ingredients": [
+          "1 can refried beans",
+          "1 container avocado dip",
+          "1 cup sour cream + 1 pkg chili seasoning + 3/4 cup Miracle Whip (mixed together)",
+          "Black and green olives, sliced",
+          "Onions, diced",
+          "Tomatoes, diced",
+          "2 cups grated cheese"
+        ],
+        "directions": [
+          "In a large pan, spread refried beans as the first layer.",
+          "Spread avocado dip over the beans.",
+          "Mix together sour cream, chili seasoning, and Miracle Whip. Spread over avocado dip.",
+          "Top with olives, onions, and tomatoes.",
+          "Sprinkle grated cheese over the top.",
+          "Refrigerate until ready to serve. Serve with chips."
+        ]
+      }
+    ],
+    "notes": []
+  },
+  {
+    "id": "tortilla-roll-ups",
+    "title": "Tortilla Roll Ups",
+    "category": "Appetizers",
+    "contributor": "Grandma Evelyn Kahl",
+    "preheatF": null,
+    "components": [
+      {
+        "name": null,
+        "ingredients": [
+          "10 soft tortilla shells",
+          "8 oz cream cheese",
+          "1 pkg Hidden Valley Ranch mix",
+          "Green onions, chopped",
+          "Green olives, sliced",
+          "Black olives, sliced",
+          "Green peppers, diced",
+          "Mushrooms, sliced"
+        ],
+        "directions": [
+          "Mix cream cheese and ranch packet together until smooth.",
+          "Chop and prepare all vegetables.",
+          "Mix vegetables into the cream cheese mixture.",
+          "Spread mixture onto tortilla shells and roll up tightly.",
+          "Refrigerate for at least one day.",
+          "Slice into rounds and serve."
+        ]
+      }
+    ],
+    "notes": []
+  },
+  {
+    "id": "trail-mix",
+    "title": "Trail Mix",
+    "category": "Appetizers",
+    "contributor": "Grandma Evelyn Kahl",
+    "preheatF": null,
+    "components": [
+      {
+        "name": null,
+        "ingredients": [
+          "3 cups miniature pretzels",
+          "1 cup Kix cereal",
+          "1 cup raisins",
+          "1 pkg Skittles",
+          "2 cups mixed nuts",
+          "1 cup chopped dried apples",
+          "3/4 cup dried chopped pineapple",
+          "1 pkg M&Ms"
+        ],
+        "directions": [
+          "Mix all ingredients together in a large bowl.",
+          "Store in an airtight container."
+        ]
+      }
+    ],
+    "notes": []
+  },
+  {
+    "id": "white-sauce",
+    "title": "White Sauce",
+    "category": "Appetizers",
+    "contributor": "Brenda Bradley",
+    "preheatF": null,
+    "components": [
+      {
+        "name": null,
+        "ingredients": [
+          "1 cup milk",
+          "1 tbsp flour",
+          "1 tbsp butter",
+          "1 tsp salt"
+        ],
+        "directions": [
+          "Melt butter over low heat on the stove.",
+          "Add flour and stir to combine.",
+          "Add milk and whisk together.",
+          "Add salt and whisk to incorporate.",
+          "Keep over low heat, stirring continuously, until sauce thickens."
+        ]
+      }
+    ],
+    "notes": []
+  },
+  {
+    "id": "6-week-refrigerator-bran-muffins",
+    "title": "6 Week Refrigerator Bran Muffins",
+    "category": "Breads & Rolls",
+    "contributor": "Brenda Bradley",
+    "preheatF": 375,
+    "components": [
+      {
+        "name": null,
+        "ingredients": [
+          "1 box Raisin Bran",
+          "5 cups flour",
+          "3 cups sugar",
+          "2 tsp salt",
+          "5 tsp baking soda",
+          "1 cup oil",
+          "4 eggs",
+          "1 qt buttermilk"
+        ],
+        "directions": [
+          "Mix all ingredients together until combined.",
+          "Fill greased muffin tins.",
+          "Bake at 375°F for 15 minutes."
+        ]
+      }
+    ],
+    "notes": [
+      "Unused batter can be stored covered in the refrigerator for up to 6 weeks and baked as needed."
+    ]
+  },
+  {
+    "id": "banana-bread",
+    "title": "Banana Bread",
+    "category": "Breads & Rolls",
+    "contributor": "Grandma Schwerin",
+    "preheatF": 350,
+    "components": [
+      {
+        "name": null,
+        "ingredients": [
+          "1/2 cup butter",
+          "1 cup sugar",
+          "2 eggs",
+          "2 cups flour",
+          "1 tsp baking soda",
+          "1/4 tsp salt",
+          "1/2 cup nuts",
+          "3 mashed bananas"
+        ],
+        "directions": [
+          "Cream butter and sugar together.",
+          "Add eggs one at a time, mixing well after each.",
+          "Add flour, baking soda, and salt. Stir to combine.",
+          "Fold in nuts and mashed bananas.",
+          "Pour into a greased loaf pan and bake at 350°F for 1 hour."
+        ]
+      }
+    ],
+    "notes": []
+  },
+  {
+    "id": "butter-horn-rolls",
+    "title": "Butter Horn Rolls",
+    "category": "Breads & Rolls",
+    "contributor": "Amy Schwerin",
+    "preheatF": 350,
+    "components": [
+      {
+        "name": null,
+        "ingredients": [
+          "1⅛ cups water",
+          "1 pkg yeast",
+          "1/8 cup salt",
+          "1/8 cup dry milk",
+          "1/8 cup oil",
+          "1/4 cup sugar",
+          "4–4½ cups flour"
+        ],
+        "directions": [
+          "Knead all ingredients together for 4–5 minutes.",
+          "Place dough in greased pans and let rise until doubled.",
+          "Bake at 350°F for 20 minutes."
+        ]
+      }
+    ],
+    "notes": []
+  },
+  {
+    "id": "homemade-pan-rolls",
+    "title": "Homemade Pan Rolls",
+    "category": "Breads & Rolls",
+    "contributor": "Brenda Bradley",
+    "preheatF": 400,
+    "components": [
+      {
+        "name": null,
+        "ingredients": [
+          "3½ cups flour",
+          "1/4 cup sugar",
+          "1/4 cup shortening",
+          "1 tsp salt",
+          "1 pkg yeast",
+          "1/2 cup warm milk",
+          "1/2 cup warm water",
+          "1 egg"
+        ],
+        "directions": [
+          "Combine 2 cups flour, sugar, shortening, salt, and yeast in a bowl.",
+          "Add warm water, warm milk, and egg. Beat with electric mixer.",
+          "Add remaining flour and mix until a dough forms.",
+          "Place dough in a greased bowl and let rise until doubled.",
+          "Shape into rolls and place in greased pans.",
+          "Bake at 400°F for 12–18 minutes."
+        ]
+      }
+    ],
+    "notes": []
+  },
+  {
+    "id": "italian-rolls",
+    "title": "Italian Rolls",
+    "category": "Breads & Rolls",
+    "contributor": "Robert Breutzmann",
+    "preheatF": 375,
+    "components": [
+      {
+        "name": null,
+        "ingredients": [
+          "3½ cups flour",
+          "2 tbsp sugar",
+          "2 packages active dry yeast (4½ tsp total)",
+          "2 tsp garlic salt",
+          "1 tsp Italian seasoning",
+          "1 tsp dried parsley flakes",
+          "1 tsp onion powder",
+          "1 cup milk",
+          "1/2 cup water",
+          "4 tbsp butter or margarine, divided",
+          "1 egg",
+          "3/4 cup grated Parmesan cheese, divided"
+        ],
+        "directions": [
+          "In a mixing bowl, combine 1½ cups flour, sugar, yeast, and all seasonings.",
+          "In a saucepan, heat milk, water, and 2 tbsp butter to 120–130°F. Add to dry ingredients and beat until moistened.",
+          "Add egg and beat on medium speed for 3 minutes.",
+          "Stir in 1/2 cup Parmesan and enough remaining flour to form a soft dough.",
+          "Knead on a floured surface until smooth and elastic, about 3–5 minutes.",
+          "Place in a greased bowl, turning once. Cover and let rest 15 minutes.",
+          "Punch dough down. Divide into 16 pieces and shape into balls.",
+          "Melt remaining butter. Dip tops in butter, then in remaining Parmesan cheese.",
+          "Place in a greased 13x9-inch pan. Cover and let rest 10 minutes.",
+          "Bake at 375°F for 20–25 minutes until golden brown. Cool on a wire rack."
+        ]
+      }
+    ],
+    "notes": []
+  },
+  {
+    "id": "kolaches",
+    "title": "Kolaches",
+    "category": "Breads & Rolls",
+    "contributor": "Brittney Bradley",
+    "preheatF": 350,
+    "components": [
+      {
+        "name": null,
+        "ingredients": [
+          "2 cups milk",
+          "1/2 tsp salt",
+          "5 cups flour",
+          "2/3 cup margarine, melted",
+          "2 pkg yeast",
+          "1 egg, beaten",
+          "1 cup sugar",
+          "1 can pie filling (flavor of your choice)"
+        ],
+        "directions": [
+          "Warm milk and stir in yeast and sugar until dissolved.",
+          "Add melted margarine and beaten egg.",
+          "Add salt and flour. Mix to form a dough.",
+          "Let rise until doubled in size.",
+          "Form into balls and place on baking sheets. Let rise again.",
+          "Gently press down the center of each ball and place 1 tsp of pie filling in the indent.",
+          "Bake at 350°F for 20–25 minutes.",
+          "Cool on a rack and drizzle with frosting."
+        ]
+      }
+    ],
+    "notes": []
+  },
+  {
+    "id": "lemon-poppy-seed-bread",
+    "title": "Lemon Poppy Seed Bread",
+    "category": "Breads & Rolls",
+    "contributor": "Grandma Evelyn Kahl",
+    "preheatF": 350,
+    "components": [
+      {
+        "name": null,
+        "ingredients": [
+          "1 pkg lemon cake mix",
+          "1 pkg instant lemon pudding",
+          "4 eggs",
+          "1 cup water",
+          "1/4 cup oil",
+          "1/4 to 1/2 cup poppy seeds"
+        ],
+        "directions": [
+          "Mix all ingredients together until smooth.",
+          "Pour into a greased loaf pan.",
+          "Bake at 350°F for 1 hour."
+        ]
+      }
+    ],
+    "notes": []
+  },
+  {
+    "id": "quick-rolls",
+    "title": "Quick Rolls",
+    "category": "Breads & Rolls",
+    "contributor": "Brenda Bradley",
+    "preheatF": 350,
+    "components": [
+      {
+        "name": null,
+        "ingredients": [
+          "1 pkg yeast",
+          "1/4 cup warm water",
+          "1 egg",
+          "1/4 cup shortening, melted",
+          "3/4 cup warm water",
+          "1 tsp salt",
+          "2½ cups flour"
+        ],
+        "directions": [
+          "Dissolve yeast in 1/4 cup warm water.",
+          "Add remaining ingredients and mix until combined.",
+          "Place dough in greased pans and let rise until doubled.",
+          "Bake at 350°F for 20 minutes or until done."
+        ]
+      }
+    ],
+    "notes": []
+  },
+  {
+    "id": "raisin-bran-muffins",
+    "title": "Raisin Bran Muffins",
+    "category": "Breads & Rolls",
+    "contributor": "Brenda Bradley",
+    "preheatF": 400,
+    "components": [
+      {
+        "name": null,
+        "ingredients": [
+          "1 box Raisin Bran",
+          "2½ cups sugar",
+          "5 cups flour",
+          "5 tsp baking soda",
+          "2 tsp salt",
+          "4 eggs",
+          "1 cup oil",
+          "1 qt buttermilk"
+        ],
+        "directions": [
+          "Mix all dry ingredients together.",
+          "Add eggs, buttermilk, and oil. Stir until combined.",
+          "Fill greased muffin tins.",
+          "Bake at 400°F for 15 minutes."
+        ]
+      }
+    ],
+    "notes": [
+      "Batter keeps refrigerated for 1 month or more. Bake as needed."
+    ]
+  },
+  {
+    "id": "rhubarb-muffins",
+    "title": "Rhubarb Muffins",
+    "category": "Breads & Rolls",
+    "contributor": "Brenda Bradley",
+    "preheatF": 350,
+    "components": [
+      {
+        "name": "Muffins",
+        "ingredients": [
+          "1½ cups brown sugar",
+          "2/3 cup oleo",
+          "1/2 tsp salt",
+          "1 egg",
+          "1 cup sour milk",
+          "1½ tsp vanilla",
+          "1½ cups finely cut rhubarb",
+          "2½ cups flour"
+        ],
+        "directions": [
+          "Mix all muffin ingredients together in order.",
+          "Pour into 24 muffin tins lined with paper cups or sprayed with cooking spray."
+        ]
+      },
+      {
+        "name": "Topping",
+        "ingredients": [
+          "1/2 cup sugar",
+          "2 tbsp soft oleo",
+          "1/2 tsp cinnamon",
+          "Nuts to taste"
+        ],
+        "directions": [
+          "Mix topping ingredients with a fork until crumbly.",
+          "Sprinkle over muffins.",
+          "Bake at 350°F for 20–25 minutes."
+        ]
+      }
+    ],
+    "notes": []
+  },
+  {
+    "id": "rolls",
+    "title": "Rolls",
+    "category": "Breads & Rolls",
+    "contributor": "Brenda Bradley",
+    "preheatF": 350,
+    "components": [
+      {
+        "name": null,
+        "ingredients": [
+          "1 pkg yeast",
+          "2 cups warm water",
+          "1 egg",
+          "2 tsp salt",
+          "1/2 cup sugar",
+          "6 tbsp melted lard",
+          "6 cups flour"
+        ],
+        "directions": [
+          "Dissolve yeast in warm water.",
+          "Add egg, salt, sugar, lard, and half the flour. Mix with a mixer.",
+          "Add remaining flour and turn out onto a cutting board. Knead for 5 minutes.",
+          "Place in a greased bowl and let rise until doubled.",
+          "Shape into rolls and let rise again.",
+          "Bake at 350°F until done."
+        ]
+      }
+    ],
+    "notes": []
+  },
+  {
+    "id": "whole-wheat-bread",
+    "title": "Whole Wheat Bread",
+    "category": "Breads & Rolls",
+    "contributor": "Russ Bradley",
+    "preheatF": 375,
+    "components": [
+      {
+        "name": null,
+        "ingredients": [
+          "1 pkg yeast",
+          "2 cups warm water",
+          "2 tbsp sugar",
+          "2 tsp salt",
+          "3 cups all-purpose flour",
+          "1/2 cup hot water",
+          "3 tbsp shortening",
+          "1/3 cup brown sugar",
+          "3 cups whole wheat flour"
+        ],
+        "directions": [
+          "Soften yeast in warm water. Add sugar, salt, and white flour. Beat until smooth.",
+          "Set in a warm place until light and bubbly.",
+          "Combine hot water with brown sugar and shortening. Cool to lukewarm.",
+          "Combine both mixtures. Add whole wheat flour and mix until smooth.",
+          "Knead until smooth and elastic. Let rise until doubled.",
+          "Place in greased loaf pans and let rise until doubled again.",
+          "Bake at 375°F for 50 minutes."
+        ]
+      }
+    ],
+    "notes": []
+  },
+  {
+    "id": "7-layered-salad",
+    "title": "7 Layered Salad",
+    "category": "Soups, Salads & Veggies",
+    "contributor": "Grandma Evelyn Kahl",
+    "preheatF": null,
+    "components": [
+      {
+        "name": null,
+        "ingredients": [
+          "1 head lettuce, chopped",
+          "1/2 cup celery, cut up",
+          "1/2 green pepper, cut up",
+          "1 (10 oz) pkg frozen peas (do not thaw)",
+          "1 medium onion, sliced",
+          "2 cups mayo",
+          "2 tbsp sugar",
+          "1 cup shredded cheese"
+        ],
+        "directions": [
+          "In a 9x13 pan, layer lettuce, celery, green pepper, frozen peas, and onion in that order. Do not defrost the peas.",
+          "Mix mayo and sugar together and spread over the top.",
+          "Sprinkle shredded cheese over all.",
+          "Chill overnight before serving."
+        ]
+      }
+    ],
+    "notes": []
+  },
+  {
+    "id": "asparagus",
+    "title": "Asparagus",
+    "category": "Soups, Salads & Veggies",
+    "contributor": "Brenda Bradley",
+    "preheatF": null,
+    "components": [
+      {
+        "name": null,
+        "ingredients": [
+          "1½ lbs asparagus, cut into pieces",
+          "1 small onion, sliced",
+          "1 can sliced water chestnuts",
+          "1 container fresh mushrooms",
+          "1 tbsp garlic",
+          "Oil for frying"
+        ],
+        "directions": [
+          "Heat oil in a pan over medium heat.",
+          "Add all ingredients to the pan.",
+          "Fry until vegetables are tender."
+        ]
+      }
+    ],
+    "notes": []
+  },
+  {
+    "id": "baked-corn",
+    "title": "Baked Corn",
+    "category": "Soups, Salads & Veggies",
+    "contributor": "Grandma Evelyn Kahl",
+    "preheatF": 350,
+    "components": [
+      {
+        "name": null,
+        "ingredients": [
+          "2 eggs",
+          "1 cup sour cream",
+          "1/2 cup oleo, softened",
+          "1 can whole kernel corn",
+          "1 can cream-style corn",
+          "8 oz Jiffy cornbread mix",
+          "1 tsp onion",
+          "1/2 tsp salt",
+          "1/8 tsp pepper",
+          "1 cup water",
+          "Shredded cheese for topping"
+        ],
+        "directions": [
+          "Beat eggs. Add sour cream, oleo, onion, salt, pepper, and cornbread mix. Stir to combine.",
+          "Add corn and about 1 cup of water. Stir.",
+          "Pour into a greased baking dish and bake at 350°F for 40 minutes.",
+          "Remove from oven, top with shredded cheese, and bake an additional 20 minutes."
+        ]
+      }
+    ],
+    "notes": []
+  },
+  {
+    "id": "broccoli-cauliflower-salad",
+    "title": "Broccoli Cauliflower Salad",
+    "category": "Soups, Salads & Veggies",
+    "contributor": "Brittney Bradley",
+    "preheatF": null,
+    "components": [
+      {
+        "name": null,
+        "ingredients": [
+          "1 head broccoli, cut up",
+          "1 head cauliflower, cut up",
+          "1 small onion, diced",
+          "Bacon bits to taste",
+          "1 cup mayonnaise",
+          "1/4 cup sugar",
+          "1/4 cup vinegar"
+        ],
+        "directions": [
+          "Cut up broccoli, cauliflower, and onion and combine in a large bowl.",
+          "In a separate bowl, mix mayo, vinegar, and sugar.",
+          "Pour dressing over vegetables and toss to coat.",
+          "Add bacon bits and mix. Refrigerate before serving."
+        ]
+      }
+    ],
+    "notes": []
+  },
+  {
+    "id": "cabbage-slaw",
+    "title": "Cabbage Slaw",
+    "category": "Soups, Salads & Veggies",
+    "contributor": "Brenda Bradley",
+    "preheatF": null,
+    "components": [
+      {
+        "name": null,
+        "ingredients": [
+          "2 bags cabbage",
+          "1/2 bag baby carrots, shredded",
+          "1 onion, chopped",
+          "1 pepper, diced",
+          "1 cup vinegar",
+          "1/4 cup water",
+          "1 tsp mustard seed",
+          "1 tsp celery seed",
+          "2 cups sugar"
+        ],
+        "directions": [
+          "Combine cabbage, carrots, onion, and pepper in a large bowl. Set aside.",
+          "In a saucepan, bring vinegar, water, mustard seed, celery seed, and sugar to a boil. Stir and boil for 1 minute.",
+          "Cool liquid to lukewarm.",
+          "Pour over cabbage mixture and refrigerate."
+        ]
+      }
+    ],
+    "notes": [
+      "Can be frozen."
+    ]
+  },
+  {
+    "id": "cranberry-salad",
+    "title": "Cranberry Salad",
+    "category": "Soups, Salads & Veggies",
+    "contributor": "Grandma Lois",
+    "preheatF": null,
+    "components": [
+      {
+        "name": null,
+        "ingredients": [
+          "2 pkg cranberries",
+          "2 oranges, peeled",
+          "1⅛ cups sugar",
+          "2 boxes raspberry jello",
+          "2½ cups water"
+        ],
+        "directions": [
+          "Wash cranberries and remove any bad ones.",
+          "Blend cranberries and oranges in a blender, a little at a time.",
+          "Pour into a bowl, stir in sugar, and let marinate for several hours or overnight.",
+          "Dissolve raspberry jello in 2½ cups of water. Let cool.",
+          "Stir cranberry mixture into cooled jello.",
+          "Refrigerate until set."
+        ]
+      }
+    ],
+    "notes": []
+  },
+  {
+    "id": "creamy-coleslaw",
+    "title": "Creamy Coleslaw",
+    "category": "Soups, Salads & Veggies",
+    "contributor": "Grandma Evelyn Kahl",
+    "preheatF": null,
+    "components": [
+      {
+        "name": null,
+        "ingredients": [
+          "1 pkg coleslaw mix",
+          "1/2 cup sugar",
+          "2/3 cup vinegar",
+          "3/4 cup mayo",
+          "8 oz Cool Whip"
+        ],
+        "directions": [
+          "Mix sugar, vinegar, mayo, and Cool Whip together until smooth.",
+          "Add coleslaw mix and blend well.",
+          "Refrigerate until ready to serve."
+        ]
+      }
+    ],
+    "notes": []
+  },
+  {
+    "id": "cucumber-salad",
+    "title": "Cucumber Salad",
+    "category": "Soups, Salads & Veggies",
+    "contributor": "Brenda Bradley",
+    "preheatF": null,
+    "components": [
+      {
+        "name": null,
+        "ingredients": [
+          "4 medium cucumbers, sliced",
+          "1 onion, sliced",
+          "Salt for soaking",
+          "1 cup sugar",
+          "1 cup water",
+          "1 cup vinegar"
+        ],
+        "directions": [
+          "Soak sliced cucumbers in salt water for about 2 hours, then rinse.",
+          "Boil water, sugar, and vinegar together. Remove from heat and let cool.",
+          "Pour cooled liquid over cucumbers and onions.",
+          "Let sit in refrigerator for about a day before serving."
+        ]
+      }
+    ],
+    "notes": []
+  },
+  {
+    "id": "german-potato-salad",
+    "title": "German Potato Salad",
+    "category": "Soups, Salads & Veggies",
+    "contributor": "Robert Breutzmann",
+    "preheatF": null,
+    "components": [
+      {
+        "name": null,
+        "ingredients": [
+          "9 medium potatoes (1½–2 lbs), diced",
+          "6 slices bacon",
+          "1/3 cup onion, chopped",
+          "2 tbsp flour",
+          "2 tbsp sugar",
+          "2 tsp salt",
+          "1/2 tsp celery seed",
+          "Dash of pepper",
+          "3/4 cup water",
+          "1/3 cup vinegar"
+        ],
+        "directions": [
+          "Cook and dice potatoes.",
+          "In a large skillet, crisp bacon. Remove bacon and cook onion in the bacon fat until golden.",
+          "Add flour, sugar, salt, celery seed, and pepper. Cook over low heat until bubbly.",
+          "Stir in water and vinegar. Heat to boiling, stirring constantly for 1 minute.",
+          "Crumble bacon and add along with potatoes. Heat through, coating all potatoes. Serve warm."
+        ]
+      }
+    ],
+    "notes": []
+  },
+  {
+    "id": "glorified-rice",
+    "title": "Glorified Rice",
+    "category": "Soups, Salads & Veggies",
+    "contributor": "Grandma Evelyn Kahl",
+    "preheatF": null,
+    "components": [
+      {
+        "name": null,
+        "ingredients": [
+          "1 box Minute Rice, cooked",
+          "1 can crushed pineapple, drained",
+          "1/2 cup sugar",
+          "1 box strawberry jello (prepared)",
+          "8 oz Cool Whip"
+        ],
+        "directions": [
+          "Cook rice according to package directions and let cool.",
+          "Mix together cooked rice, pineapple, sugar, prepared jello, and Cool Whip.",
+          "Refrigerate until ready to serve."
+        ]
+      }
+    ],
+    "notes": []
+  },
+  {
+    "id": "lime-jello-salad",
+    "title": "Lime Jello Salad",
+    "category": "Soups, Salads & Veggies",
+    "contributor": "Grandma Lois",
+    "preheatF": null,
+    "components": [
+      {
+        "name": null,
+        "ingredients": [
+          "1 (3 oz) pkg lime jello",
+          "1 (20 oz) can undrained crushed pineapple",
+          "8 oz cream cheese",
+          "8 oz Cool Whip",
+          "2/3 to 3/4 cup chopped celery"
+        ],
+        "directions": [
+          "Heat crushed pineapple (with juice) and dissolve lime jello in it. Let cool.",
+          "Beat cream cheese and Cool Whip together until smooth.",
+          "Stir celery into the cream cheese mixture.",
+          "Add cooled jello and pineapple mixture. Stir to combine.",
+          "Refrigerate until set. Serve chilled."
+        ]
+      }
+    ],
+    "notes": []
+  },
+  {
+    "id": "macaroni-salad",
+    "title": "Macaroni Salad",
+    "category": "Soups, Salads & Veggies",
+    "contributor": "Helen Lee",
+    "preheatF": null,
+    "components": [
+      {
+        "name": null,
+        "ingredients": [
+          "16 oz small ring macaroni",
+          "2 cups Miracle Whip",
+          "1 can sweet condensed milk",
+          "1/4 cup vinegar",
+          "1/2 cup sugar",
+          "1 onion, chopped",
+          "1 green pepper, chopped",
+          "2 carrots, finely grated"
+        ],
+        "directions": [
+          "Cook macaroni according to package directions. Rinse in cold water and drain.",
+          "Add onion, green pepper, and carrots to macaroni.",
+          "Mix together Miracle Whip, sugar, condensed milk, and vinegar.",
+          "Pour dressing over macaroni mixture and mix well.",
+          "Refrigerate before serving."
+        ]
+      }
+    ],
+    "notes": []
+  },
+  {
+    "id": "mini-potato-bites",
+    "title": "Mini Potato Bites",
+    "category": "Soups, Salads & Veggies",
+    "contributor": "Brittney Bradley",
+    "preheatF": null,
+    "components": [
+      {
+        "name": null,
+        "ingredients": [
+          "15 small potatoes",
+          "4 oz cream cheese, softened",
+          "2 tbsp sour cream",
+          "2 tbsp Parmesan cheese",
+          "4 slices bacon, cooked and crumbled",
+          "2 tbsp chopped chives"
+        ],
+        "directions": [
+          "Boil potatoes until tender. Let cool.",
+          "Mix cream cheese, sour cream, and Parmesan cheese together.",
+          "Cut potatoes in half.",
+          "Top each half with a dollop of the cream mixture, crumbled bacon, and chives."
+        ]
+      }
+    ],
+    "notes": []
+  },
+  {
+    "id": "pickle-roll-ups",
+    "title": "Pickle Roll Ups",
+    "category": "Soups, Salads & Veggies",
+    "contributor": "Amy Schwerin",
+    "preheatF": null,
+    "components": [
+      {
+        "name": null,
+        "ingredients": [
+          "10 slices ham",
+          "10 large whole pickles",
+          "2–4 oz cream cheese, softened"
+        ],
+        "directions": [
+          "Pat ham slices dry.",
+          "Spread a thin layer of cream cheese on each slice of ham.",
+          "Place a pickle at one end and roll the ham tightly around it.",
+          "Slice each roll into rounds. Repeat for all rolls."
+        ]
+      }
+    ],
+    "notes": []
+  },
+  {
+    "id": "potato-salad",
+    "title": "Potato Salad",
+    "category": "Soups, Salads & Veggies",
+    "contributor": "Brenda Bradley",
+    "preheatF": null,
+    "components": [
+      {
+        "name": null,
+        "ingredients": [
+          "5 lbs potatoes, peeled and boiled",
+          "8 eggs, hard boiled",
+          "3 medium onions, chopped",
+          "32 oz Miracle Whip",
+          "2 tbsp mustard",
+          "1/4 to 1/2 cup sugar"
+        ],
+        "directions": [
+          "Boil and drain potatoes. Set aside to cool completely.",
+          "Hard boil eggs, peel, and set aside to cool completely.",
+          "When potatoes and eggs are fully cold, shred or chop them.",
+          "Mix together eggs, potatoes, and onions.",
+          "Add Miracle Whip and mustard and stir together.",
+          "Add sugar a little at a time, tasting as you go, until desired sweetness."
+        ]
+      }
+    ],
+    "notes": []
+  },
+  {
+    "id": "ranch-mushrooms",
+    "title": "Ranch Mushrooms",
+    "category": "Soups, Salads & Veggies",
+    "contributor": "Brittney Bradley",
+    "preheatF": null,
+    "components": [
+      {
+        "name": null,
+        "ingredients": [
+          "1 pkg Hidden Valley Buttermilk Ranch mix",
+          "1 stick butter, melted",
+          "2 pkg mushrooms, washed"
+        ],
+        "directions": [
+          "Place mushrooms in a crock pot.",
+          "Pour melted butter and ranch mix over mushrooms.",
+          "Set crock pot to high.",
+          "Cook, stirring every 10 minutes, until mushrooms are tender."
+        ]
+      }
+    ],
+    "notes": []
+  },
+  {
+    "id": "refrigerator-salad",
+    "title": "Refrigerator Salad",
+    "category": "Soups, Salads & Veggies",
+    "contributor": "Grandma Evelyn Kahl",
+    "preheatF": null,
+    "components": [
+      {
+        "name": null,
+        "ingredients": [
+          "1 can sweet condensed milk",
+          "1 can pie filling (flavor of your choice)",
+          "1 (20 oz) can crushed pineapple",
+          "12 oz Cool Whip"
+        ],
+        "directions": [
+          "Mix all ingredients together well.",
+          "Chill in the refrigerator before serving."
+        ]
+      }
+    ],
+    "notes": []
+  },
+  {
+    "id": "salad",
+    "title": "Salad",
+    "category": "Soups, Salads & Veggies",
+    "contributor": "Grandma Lois (Vivian)",
+    "preheatF": null,
+    "components": [
+      {
+        "name": null,
+        "ingredients": [
+          "1 can crushed pineapple",
+          "1 cup water",
+          "1 pkg lemon jello",
+          "1 pkg orange jello",
+          "1 cup finely chopped celery",
+          "3/4 cup chopped nuts",
+          "1 cup whipped cream",
+          "1 cup grated carrots",
+          "2 cups fine-curd cottage cheese",
+          "1/2 cup Spin Blend dressing"
+        ],
+        "directions": [
+          "Combine pineapple and water and heat to a boil.",
+          "Dissolve lemon and orange jello in the hot pineapple mixture.",
+          "Let cool slightly, then stir in celery, nuts, whipped cream, carrots, cottage cheese, and Spin Blend.",
+          "Refrigerate until set."
+        ]
+      }
+    ],
+    "notes": []
+  },
+  {
+    "id": "snickerdoodle-salad",
+    "title": "Snickerdoodle Salad",
+    "category": "Soups, Salads & Veggies",
+    "contributor": "Brittney Bradley & Evelyn Kahl",
+    "preheatF": null,
+    "components": [
+      {
+        "name": null,
+        "ingredients": [
+          "2 cups buttermilk",
+          "16 oz Cool Whip",
+          "2 (3 oz) boxes instant vanilla pudding",
+          "6–8 Snickers bars, cut into small pieces",
+          "2 cups mini marshmallows",
+          "6–8 Granny Smith apples, cut up"
+        ],
+        "directions": [
+          "Mix buttermilk, Cool Whip, and dry pudding mix together.",
+          "Add cut Snickers, apples, and marshmallows.",
+          "Mix well and refrigerate before serving."
+        ]
+      }
+    ],
+    "notes": []
+  },
+  {
+    "id": "stuffed-mushrooms",
+    "title": "Stuffed Mushrooms",
+    "category": "Soups, Salads & Veggies",
+    "contributor": "Brittney Bradley",
+    "preheatF": 375,
+    "components": [
+      {
+        "name": null,
+        "ingredients": [
+          "2 pkg mushrooms",
+          "4 oz cream cheese",
+          "1/4 cup Parmesan cheese",
+          "Garlic powder to taste",
+          "Onion powder to taste",
+          "2 tbsp garlic, minced",
+          "1/2 cup shredded cheese",
+          "1/4 cup onion, finely chopped",
+          "1/4 cup mushroom stems, chopped",
+          "2 tsp oil"
+        ],
+        "directions": [
+          "Remove stems from mushrooms and chop the stems finely.",
+          "Sauté stems, minced garlic, and onion in oil until tender.",
+          "Remove from heat and mix with cream cheese, Parmesan, shredded cheese, garlic powder, and onion powder.",
+          "Fill each mushroom cap with the filling.",
+          "Bake at 375°F for 15–20 minutes."
+        ]
+      }
+    ],
+    "notes": []
+  },
+  {
+    "id": "tomato-cucumber-salad",
+    "title": "Tomato Cucumber Salad",
+    "category": "Soups, Salads & Veggies",
+    "contributor": "Brenda Bradley",
+    "preheatF": null,
+    "components": [
+      {
+        "name": null,
+        "ingredients": [
+          "1 large tomato, cut up",
+          "1 cucumber, sliced",
+          "Onion to taste",
+          "1/4 cup Miracle Whip",
+          "1 tbsp milk",
+          "Sugar to taste"
+        ],
+        "directions": [
+          "Cut up tomatoes, cucumber, and onion.",
+          "Mix in Miracle Whip, milk, and sugar to taste.",
+          "Stir and serve."
+        ]
+      }
+    ],
+    "notes": []
+  },
+  {
+    "id": "vegetable-and-stuffing-bake",
+    "title": "Vegetable and Stuffing Bake",
+    "category": "Soups, Salads & Veggies",
+    "contributor": "Brenda Bradley",
+    "preheatF": 350,
+    "components": [
+      {
+        "name": null,
+        "ingredients": [
+          "3/4 cup Miracle Whip",
+          "1/2 cup milk",
+          "1 pkg Stove Top stuffing mix",
+          "1 pkg frozen broccoli, thawed",
+          "1 cup shredded cheese"
+        ],
+        "directions": [
+          "Mix Miracle Whip and milk together.",
+          "Stir in stuffing mix, broccoli, and cheese.",
+          "Spoon into a greased 11x7 pan.",
+          "Bake at 350°F for 20–25 minutes."
+        ]
+      }
+    ],
+    "notes": []
+  },
+  {
+    "id": "3-bean-casserole",
+    "title": "3 Bean Casserole",
+    "category": "Entrees",
+    "contributor": "Wanda Kohlmeyer",
+    "preheatF": 350,
+    "components": [
+      {
+        "name": null,
+        "ingredients": [
+          "1/2 lb ground beef",
+          "1 cup chopped onion",
+          "1 can lima beans",
+          "1 can Bush’s baked beans",
+          "1 can kidney beans",
+          "1/2 lb bacon",
+          "1/2 cup ketchup",
+          "1/2 cup brown sugar",
+          "1/2 cup sugar",
+          "1 tsp mustard",
+          "1 tsp salt",
+          "2 tsp vinegar"
+        ],
+        "directions": [
+          "Brown ground beef and onion together. Drain.",
+          "Mix all ingredients together in a large baking dish.",
+          "Bake at 350°F for 40 minutes."
+        ]
+      }
+    ],
+    "notes": []
+  },
+  {
+    "id": "4-bean-hot-dish",
+    "title": "4 Bean Hot Dish",
+    "category": "Entrees",
+    "contributor": "Grandma Evelyn Kahl",
+    "preheatF": 300,
+    "components": [
+      {
+        "name": null,
+        "ingredients": [
+          "1/4 lb bacon",
+          "3/4 cup onion, chopped",
+          "1 lb ground beef",
+          "1/2 cup brown sugar",
+          "1/2 cup ketchup",
+          "2 tbsp vinegar",
+          "1 tbsp mustard",
+          "1 tsp salt",
+          "1 can lima beans, drained",
+          "1 can kidney beans with juice",
+          "1 can pork and beans with juice",
+          "1 can butter beans with juice"
+        ],
+        "directions": [
+          "Cook bacon, onion, and ground beef together. Drain.",
+          "Add brown sugar, ketchup, vinegar, mustard, and salt. Stir to combine.",
+          "Add all four cans of beans with their liquid and mix well.",
+          "Bake at 300°F for 1½ hours."
+        ]
+      }
+    ],
+    "notes": []
+  },
+  {
+    "id": "5-can-chicken",
+    "title": "5 Can Chicken",
+    "category": "Entrees",
+    "contributor": "Wilma Bahlmann",
+    "preheatF": 350,
+    "components": [
+      {
+        "name": null,
+        "ingredients": [
+          "1 can cream of chicken soup",
+          "1 can chicken noodle soup",
+          "1 can chicken",
+          "1 can evaporated milk",
+          "1 bag Chinese noodles"
+        ],
+        "directions": [
+          "Mix all ingredients together.",
+          "Pour into a greased baking pan.",
+          "Bake at 350°F for 35–45 minutes."
+        ]
+      }
+    ],
+    "notes": []
+  },
+  {
+    "id": "broccoli-cauliflower-casserole",
+    "title": "Broccoli Cauliflower Casserole",
+    "category": "Entrees",
+    "contributor": "Brenda Bradley",
+    "preheatF": 350,
+    "components": [
+      {
+        "name": null,
+        "ingredients": [
+          "1 small jar Cheez Whiz",
+          "1 can French-fried onions",
+          "1/2 cup instant rice",
+          "1 can cream of chicken soup",
+          "1 can cream of celery soup",
+          "1 pkg frozen broccoli and cauliflower, thawed"
+        ],
+        "directions": [
+          "Mix all ingredients together in a baking dish.",
+          "Bake at 350°F for 30 minutes."
+        ]
+      }
+    ],
+    "notes": []
+  },
+  {
+    "id": "chicken-cheese-casserole",
+    "title": "Chicken Cheese Casserole",
+    "category": "Entrees",
+    "contributor": "Brittney Bradley",
+    "preheatF": 350,
+    "components": [
+      {
+        "name": null,
+        "ingredients": [
+          "2 cups uncooked macaroni",
+          "16 slices American cheese",
+          "2–4 cups diced chicken",
+          "Salt and pepper to taste",
+          "2 cans cream of chicken soup",
+          "2½ cups milk"
+        ],
+        "directions": [
+          "In a greased 9x13 pan, spread uncooked macaroni in an even layer.",
+          "Layer cheese slices over the macaroni.",
+          "Place diced chicken on top of the cheese. Season with salt and pepper.",
+          "Mix cream of chicken soup with milk and pour over everything.",
+          "Bake at 350°F for 1¼ hours."
+        ]
+      }
+    ],
+    "notes": []
+  },
+  {
+    "id": "cured-turkey",
+    "title": "Cured Turkey",
+    "category": "Entrees",
+    "contributor": "Russ Bradley",
+    "preheatF": null,
+    "components": [
+      {
+        "name": null,
+        "ingredients": [
+          "10–12 lb turkey",
+          "2⅛ cups Morton Tender Quick salt (use 1 cup per 5 lbs of turkey)",
+          "Water to cover"
+        ],
+        "directions": [
+          "Place turkey in a cooler and cover with water.",
+          "Add Tender Quick salt (1 cup per 5 lbs of turkey).",
+          "Let sit in a cool area for 24–48 hours.",
+          "Rinse turkey well and place in roasting pan to cook as desired."
+        ]
+      }
+    ],
+    "notes": []
+  },
+  {
+    "id": "egg-casserole",
+    "title": "Egg Casserole",
+    "category": "Entrees",
+    "contributor": "Grandma Lois",
+    "preheatF": 350,
+    "components": [
+      {
+        "name": null,
+        "ingredients": [
+          "3 cups croutons",
+          "2 cups shredded cheese",
+          "1½ lbs sausage, browned",
+          "8 eggs, beaten",
+          "3 cups milk",
+          "2 tsp salt",
+          "2 tsp pepper",
+          "Onion and peppers (optional)"
+        ],
+        "directions": [
+          "Grease a 9x13 pan.",
+          "Layer croutons, then shredded cheese, then browned sausage in the pan.",
+          "Mix eggs with milk, salt, and pepper. Pour over layers.",
+          "Bake at 350°F for at least 1 hour, until eggs are fully set and firm."
+        ]
+      }
+    ],
+    "notes": []
+  },
+  {
+    "id": "fancy-tacos",
+    "title": "Fancy Tacos",
+    "category": "Entrees",
+    "contributor": "Walmart Recipes",
+    "preheatF": 425,
+    "components": [
+      {
+        "name": "Chicken",
+        "ingredients": [
+          "1½ lbs boneless skinless chicken breasts, cut into thin strips",
+          "1 tbsp chili powder",
+          "1 tsp smoked paprika",
+          "2 tbsp brown sugar",
+          "1/2 tbsp ground cumin",
+          "1/2 tsp onion powder",
+          "1/4 tsp garlic powder",
+          "1/2 tbsp kosher salt",
+          "1 tsp ground black pepper",
+          "3 tbsp mayonnaise"
+        ],
+        "directions": [
+          "In a small bowl, whisk together chili powder, smoked paprika, brown sugar, cumin, onion powder, garlic powder, salt, and black pepper.",
+          "In a medium bowl, combine chicken strips with 3 tbsp mayonnaise and the seasoning blend. Toss to coat evenly.",
+          "Spray a large sheet pan with cooking spray. Spread chicken in a single layer.",
+          "Bake at 425°F for 15 minutes."
+        ]
+      },
+      {
+        "name": "Street Corn Mixture",
+        "ingredients": [
+          "3 ears sweet corn, cut off the cob",
+          "1/2 red onion, chopped",
+          "1/4 cup fresh cilantro, chopped",
+          "2 tbsp mayonnaise",
+          "Juice of 2 limes (about 4 tbsp)",
+          "1/4 cup crumbled Cotija cheese",
+          "1/2 tsp kosher salt",
+          "1/4 tsp ground black pepper"
+        ],
+        "directions": [
+          "In a bowl, mix together all corn mixture ingredients.",
+          "After chicken has baked 15 minutes, nestle corn mixture around the chicken on the sheet pan.",
+          "Return to oven and bake another 10 minutes until chicken is cooked through and corn is tender.",
+          "Turn broiler to high and broil 1–2 minutes to lightly crisp tops."
+        ]
+      },
+      {
+        "name": "To Serve",
+        "ingredients": [
+          "16 eight-inch corn tortillas, warmed",
+          "1/4 cup crumbled Cotija cheese (garnish)",
+          "4 limes, cut into wedges",
+          "Optional: sliced jalapeños, avocado, hot sauce"
+        ],
+        "directions": [
+          "Remove from oven and sprinkle with remaining Cotija cheese.",
+          "Serve with warm tortillas, lime wedges, and desired toppings."
+        ]
+      }
+    ],
+    "notes": []
+  },
+  {
+    "id": "ham-balls",
+    "title": "Ham Balls",
+    "category": "Entrees",
+    "contributor": "Grandma Lois",
+    "preheatF": 350,
+    "components": [
+      {
+        "name": "Ham Balls",
+        "ingredients": [
+          "1 lb ground smoked ham",
+          "1 lb ground pork",
+          "2 eggs",
+          "1½ cups cracker crumbs"
+        ],
+        "directions": [
+          "Mix all ball ingredients together.",
+          "Form into balls and place in a baking pan."
+        ]
+      },
+      {
+        "name": "Sauce",
+        "ingredients": [
+          "1 cup brown sugar",
+          "1 tbsp dry mustard",
+          "1/2 cup vinegar",
+          "1/2 cup water",
+          "1 tbsp cornstarch",
+          "1 can pineapple, drained"
+        ],
+        "directions": [
+          "Mix all sauce ingredients together and pour over ham balls.",
+          "Bake at 350°F for 90 minutes."
+        ]
+      }
+    ],
+    "notes": []
+  },
+  {
+    "id": "hash-brown-casserole",
+    "title": "Hash Brown Casserole",
+    "category": "Entrees",
+    "contributor": "Brenda Bradley",
+    "preheatF": 350,
+    "components": [
+      {
+        "name": null,
+        "ingredients": [
+          "2 lbs frozen hash browns",
+          "1 can cream of mushroom soup",
+          "8 oz sour cream",
+          "1/2 tsp pepper",
+          "2 cups cheddar cheese",
+          "1 small onion, diced",
+          "1 tsp salt",
+          "1/4 cup margarine, cut into pieces"
+        ],
+        "directions": [
+          "Grease a 9x13 pan.",
+          "In a large bowl, stir together all ingredients except margarine.",
+          "Spread mixture into the pan.",
+          "Place margarine pieces on top of the potatoes.",
+          "Bake at 350°F for 1 hour."
+        ]
+      }
+    ],
+    "notes": []
+  },
+  {
+    "id": "honey-whole-grain-waffles",
+    "title": "Honey Whole Grain Waffles",
+    "category": "Entrees",
+    "contributor": "Grandma Lois",
+    "preheatF": null,
+    "components": [
+      {
+        "name": "Waffles",
+        "ingredients": [
+          "1 cup oatmeal",
+          "2 tbsp wheat germ",
+          "1/2 cup butter",
+          "2 eggs",
+          "1/4 cup honey",
+          "1/2 cup whole wheat flour",
+          "1 cup all-purpose flour",
+          "1 tsp baking soda",
+          "1/2 tsp salt",
+          "1½ cups buttermilk"
+        ],
+        "directions": [
+          "Mix all waffle ingredients together until combined.",
+          "Cook in a waffle iron according to manufacturer directions."
+        ]
+      },
+      {
+        "name": "Maple Syrup",
+        "ingredients": [
+          "1 cup sugar",
+          "1 cup brown sugar",
+          "1 cup light corn syrup",
+          "1 cup water",
+          "1 tsp maple flavoring"
+        ],
+        "directions": [
+          "Combine all syrup ingredients in a saucepan.",
+          "Bring to a boil and cook for about 5 minutes.",
+          "Serve warm over waffles."
+        ]
+      }
+    ],
+    "notes": []
+  },
+  {
+    "id": "hot-turkey-sandwich",
+    "title": "Hot Turkey Sandwich",
+    "category": "Entrees",
+    "contributor": "Wanda Kohlmeyer",
+    "preheatF": 350,
+    "components": [
+      {
+        "name": null,
+        "ingredients": [
+          "12 lb turkey, roasted",
+          "1/2 lb oleo",
+          "2 onions, ground",
+          "1/2 bunch celery, ground",
+          "1/2 lb pork sausage",
+          "1/2 gallon milk",
+          "3 bags cubed bread",
+          "Salt and pepper to taste",
+          "Turkey broth",
+          "3 eggs, beaten",
+          "3/4 tsp sage or poultry seasoning"
+        ],
+        "directions": [
+          "Roast turkey until fully cooked. Pick meat from bones and chop.",
+          "Grind onions and celery.",
+          "Mix all ingredients together thoroughly.",
+          "Bake at 350°F for 2 hours.",
+          "Serve on burger buns."
+        ]
+      }
+    ],
+    "notes": [
+      "Makes approximately 100 servings on burger buns."
+    ]
+  },
+  {
+    "id": "jambalaya",
+    "title": "Jambalaya",
+    "category": "Entrees",
+    "contributor": "Robert Breutzmann",
+    "preheatF": null,
+    "components": [
+      {
+        "name": null,
+        "ingredients": [
+          "2 lbs chicken breast, cut into 2-inch pieces",
+          "1/4 cup oil",
+          "1½ cups finely chopped onions",
+          "1/2 cup chopped red bell pepper",
+          "1/4 cup chopped celery",
+          "1/2 cup chopped fresh parsley",
+          "1/2 cup chopped scallions",
+          "1 lb smoked sausage, sliced into 1/2-inch pieces",
+          "1½ cups long grain rice",
+          "4 cups chicken broth",
+          "1 tbsp chopped garlic",
+          "1 tsp salt",
+          "1 tsp cayenne pepper",
+          "4 small whole bay leaves",
+          "1/2 tsp dried thyme",
+          "1 tsp gumbo filé (optional)"
+        ],
+        "directions": [
+          "Season chicken with salt, pepper, garlic powder, and all-purpose seasoning. Cook in oil in a large pot over medium heat until browned and cooked through.",
+          "Remove chicken from pot, preserving the oil.",
+          "Sauté onions and garlic in remaining oil for 3–4 minutes.",
+          "Add bell pepper, celery, parsley, and scallions. Sauté until onions are transparent, about 10 minutes.",
+          "Add sausage, rice, broth, chicken, salt, cayenne, bay leaves, thyme, and gumbo filé if using.",
+          "Cook over medium heat until nearly all water is absorbed into the rice, about 15–20 minutes.",
+          "Reduce heat to low, cover, and simmer until rice is done, at least 1 hour.",
+          "Remove bay leaves before serving."
+        ]
+      }
+    ],
+    "notes": []
+  },
+  {
+    "id": "lasagna",
+    "title": "Lasagna",
+    "category": "Entrees",
+    "contributor": "Brenda Bradley",
+    "preheatF": 350,
+    "components": [
+      {
+        "name": null,
+        "ingredients": [
+          "1 box lasagna noodles, uncooked",
+          "2 lbs hamburger",
+          "16 oz cottage cheese",
+          "2 eggs",
+          "1½ cans spaghetti sauce",
+          "2 (8 oz) bags shredded cheese"
+        ],
+        "directions": [
+          "Brown hamburger, drain, and add spaghetti sauce. Stir to combine.",
+          "Mix eggs and cottage cheese together in a bowl.",
+          "In a 9x13 pan, spread a thin layer of meat sauce on the bottom.",
+          "Layer noodles, meat sauce, cottage cheese mixture, and shredded cheese.",
+          "Repeat layers until all ingredients are used, ending with cheese on top.",
+          "Bake at 350°F for 1 hour."
+        ]
+      }
+    ],
+    "notes": []
+  },
+  {
+    "id": "oven-baked-corndogs",
+    "title": "Oven Baked Corndogs",
+    "category": "Entrees",
+    "contributor": "Brent Bradley",
+    "preheatF": 425,
+    "components": [
+      {
+        "name": null,
+        "ingredients": [
+          "2 boxes corn muffin mix",
+          "1 cup flour",
+          "2 eggs",
+          "3/4 cup milk",
+          "1/2 stick margarine, melted",
+          "1 tbsp chili powder",
+          "2 tsp cumin",
+          "2 tsp Tabasco sauce",
+          "1 small onion, chopped",
+          "8 jumbo hot dogs"
+        ],
+        "directions": [
+          "Combine muffin mix with flour in a large bowl.",
+          "Stir in eggs, milk, and melted margarine.",
+          "Season batter with chili powder, cumin, Tabasco, and onion. Batter will be thick.",
+          "Roll hot dogs in batter until coated about 1/2 inch thick.",
+          "Place on a nonstick cookie sheet.",
+          "Bake at 425°F for 12–15 minutes or until deep golden brown."
+        ]
+      }
+    ],
+    "notes": []
+  },
+  {
+    "id": "peanut-butter-chicken",
+    "title": "Peanut Butter Chicken",
+    "category": "Entrees",
+    "contributor": "Brittney Breutzmann",
+    "preheatF": 375,
+    "components": [
+      {
+        "name": "Chicken",
+        "ingredients": [
+          "1½ lbs chicken cutlets",
+          "3/4 cup milk",
+          "3 tbsp creamy peanut butter",
+          "1 egg",
+          "Salt and pepper to taste",
+          "2–3 cups crushed corn flakes",
+          "Vegetable or canola oil for frying"
+        ],
+        "directions": [
+          "Whisk together milk, peanut butter, and egg. Add a few dashes of salt and pepper.",
+          "Soak chicken in this mixture for a few minutes.",
+          "Coat soaked chicken in crushed corn flakes.",
+          "Cook in oil in a skillet, flipping once, until browned on both sides and cooked through. Alternatively, bake at 375°F for approximately 12 minutes or until internal temperature reaches 165°F."
+        ]
+      },
+      {
+        "name": "Peanut Butter Sauce",
+        "ingredients": [
+          "1/2 cup creamy peanut butter",
+          "3 tbsp brown sugar",
+          "1/2 to 3/4 cup water",
+          "Drizzle of honey"
+        ],
+        "directions": [
+          "Combine all sauce ingredients in a microwave-safe container.",
+          "Microwave for 30 seconds, whisk, then microwave another 30 seconds until hot.",
+          "Add more water if needed to reach desired consistency.",
+          "Drizzle over chicken when serving. Serve with rice and vegetables."
+        ]
+      }
+    ],
+    "notes": []
+  },
+  {
+    "id": "root-beer-ribs",
+    "title": "Root Beer Ribs",
+    "category": "Entrees",
+    "contributor": "Brittney Breutzmann",
+    "preheatF": null,
+    "components": [
+      {
+        "name": null,
+        "ingredients": [
+          "1 rack pork loin back ribs (baby back)",
+          "3 tbsp barbecue rub seasoning",
+          "6 oz root beer",
+          "1 cup barbecue sauce, plus more for brushing"
+        ],
+        "directions": [
+          "Remove the membrane from the back of the rack of ribs.",
+          "Season both sides of the ribs with the rub.",
+          "Cut between bones to separate into 4 portions to fit in a pressure cooker.",
+          "Place ribs in pressure cooker with root beer. Lock lid and cook on high pressure (Beef/Pork setting) for 30 minutes.",
+          "Let steam release naturally for 10 minutes, then manually release remaining pressure.",
+          "Remove ribs, brush with barbecue sauce, and broil in the oven on high for 3–5 minutes until slightly crisped.",
+          "Pour barbecue sauce into the pot with the remaining juices. Bring to a boil and cook uncovered for 5 minutes, stirring frequently. Serve alongside ribs."
+        ]
+      }
+    ],
+    "notes": []
+  },
+  {
+    "id": "sauerkraut-casserole",
+    "title": "Sauerkraut Casserole",
+    "category": "Entrees",
+    "contributor": "Brenda Bradley",
+    "preheatF": 300,
+    "components": [
+      {
+        "name": null,
+        "ingredients": [
+          "1½ lbs ground beef",
+          "1 small onion",
+          "Salt and pepper",
+          "1 can cream of celery soup",
+          "1 can sauerkraut, drained",
+          "2 cups kluski noodles, cooked",
+          "1 can cream of mushroom soup",
+          "1 cup or more cheddar cheese, shredded"
+        ],
+        "directions": [
+          "Brown ground beef and onion. Drain and season with salt and pepper.",
+          "Cook noodles according to package directions.",
+          "In a casserole dish, layer half the meat, then the sauerkraut, then remaining meat.",
+          "Add noodles over the top and cover with both soups.",
+          "Cover and bake at 300°F for 30 minutes.",
+          "Remove cover, top with shredded cheese, and bake an additional 20 minutes."
+        ]
+      }
+    ],
+    "notes": []
+  },
+  {
+    "id": "slop",
+    "title": "Slop",
+    "category": "Entrees",
+    "contributor": "Brenda Bradley",
+    "preheatF": null,
+    "components": [
+      {
+        "name": null,
+        "ingredients": [
+          "1½ lbs ground beef",
+          "2 cups noodles or 2 cups cooked rice",
+          "1–2 cans whole kernel corn, drained",
+          "2 cans cream of mushroom soup"
+        ],
+        "directions": [
+          "Brown hamburger and drain well.",
+          "Cook noodles if using, according to package directions.",
+          "Combine hamburger, noodles or rice, corn, and soup.",
+          "Stir together and heat through. Serve warm."
+        ]
+      }
+    ],
+    "notes": []
+  },
+  {
+    "id": "sloppy-joes",
+    "title": "Sloppy Joes",
+    "category": "Entrees",
+    "contributor": "Russ Bradley",
+    "preheatF": null,
+    "components": [
+      {
+        "name": null,
+        "ingredients": [
+          "2 lbs hamburger",
+          "1/2 cup chopped onion",
+          "1/2 bottle ketchup",
+          "1/2 cup brown sugar",
+          "2 tbsp mustard",
+          "1 tbsp vinegar"
+        ],
+        "directions": [
+          "Brown hamburger with onions. Drain.",
+          "Add ketchup, brown sugar, mustard, and vinegar.",
+          "Stir together and simmer until heated through. Serve on buns."
+        ]
+      }
+    ],
+    "notes": []
+  },
+  {
+    "id": "sloppy-joe-mac-and-cheese",
+    "title": "Sloppy Joe / Mac and Cheese",
+    "category": "Entrees",
+    "contributor": "Robert Breutzmann",
+    "preheatF": 350,
+    "components": [
+      {
+        "name": "Sloppy Joe",
+        "ingredients": [
+          "2 lbs ground turkey or beef",
+          "2 carrots, diced",
+          "2 celery sticks, diced",
+          "1 medium onion, diced",
+          "1 (14.5 oz) can diced tomatoes, drained",
+          "1 (15 oz) can tomato sauce",
+          "1 (6 oz) can tomato paste",
+          "1 sloppy joe seasoning packet (or: 1 tsp salt, 1/2 tsp garlic powder, 1/4 tsp celery seed, 1 tsp cayenne, 1 tsp cornstarch, 1/4 tsp dry mustard, 1 tbsp chili powder)"
+        ],
+        "directions": [
+          "Brown meat over medium-high heat. Drain liquid.",
+          "Add remaining sloppy joe ingredients and simmer covered on medium-low heat for 30+ minutes, stirring occasionally."
+        ]
+      },
+      {
+        "name": "Mac and Cheese",
+        "ingredients": [
+          "1 lb elbow noodles",
+          "4 tbsp butter or canola oil",
+          "4 tbsp flour",
+          "2½ cups milk",
+          "8 oz Velveeta cheese",
+          "~2 cups shredded cheddar cheese, divided"
+        ],
+        "directions": [
+          "Cook noodles al dente (about 6 minutes). Drain and set aside.",
+          "Melt butter over low heat 2–4 minutes. Slowly mix in flour and cook on low-medium, stirring constantly, until slightly lighter than peanut butter color.",
+          "Slowly add milk, stirring constantly. Bring to a boil, then reduce to medium-low.",
+          "Add Velveeta and all but 1/2 cup cheddar. Stir until melted, about 3–5 minutes.",
+          "Remove from heat and stir in noodles.",
+          "Spread mac and cheese into a greased 9x13 pan. Top with sloppy joe mixture, covering completely.",
+          "Cover and bake at 350°F for 30 minutes.",
+          "Remove from oven, sprinkle remaining cheese on top, and let sit 5 minutes until melted."
+        ]
+      }
+    ],
+    "notes": []
+  },
+  {
+    "id": "sweet-and-sour-meatballs",
+    "title": "Sweet and Sour Meatballs",
+    "category": "Entrees",
+    "contributor": "Wanda Kohlmeyer",
+    "preheatF": 300,
+    "components": [
+      {
+        "name": "Meatballs",
+        "ingredients": [
+          "1 lb ground beef",
+          "1 egg",
+          "1/4 tsp pepper",
+          "1/2 tsp salt",
+          "1/2 cup chopped onion",
+          "1 cup oatmeal"
+        ],
+        "directions": [
+          "Mix all meatball ingredients together.",
+          "Roll into balls and place in a roasting pan."
+        ]
+      },
+      {
+        "name": "Sauce",
+        "ingredients": [
+          "1/2 cup brown sugar",
+          "3 tbsp lemon juice",
+          "1 can tomato soup"
+        ],
+        "directions": [
+          "Mix sauce ingredients together and pour over meatballs.",
+          "Cover and bake at 300°F for 90 minutes."
+        ]
+      }
+    ],
+    "notes": []
+  },
+  {
+    "id": "tex-mex-scramble",
+    "title": "Tex-Mex Scramble",
+    "category": "Entrees",
+    "contributor": "Brent Bradley",
+    "preheatF": null,
+    "components": [
+      {
+        "name": null,
+        "ingredients": [
+          "2 tsp canola oil",
+          "8 ready-to-eat turkey breakfast links, cut in half",
+          "1 small onion, chopped",
+          "1/4 cup chopped green chilies",
+          "4 large eggs, beaten",
+          "1/2 tsp ground cumin",
+          "1/4 tsp cinnamon",
+          "1 tsp chili powder",
+          "1/2 tsp dried oregano",
+          "1/4 tsp salt"
+        ],
+        "directions": [
+          "Heat oil in a large skillet over medium heat.",
+          "Add onion and cook, stirring, until softened (about 2 minutes).",
+          "Add sausage and cook until lightly browned. Drain pooled grease.",
+          "Add chilies, chili powder, cumin, oregano, cinnamon, and salt. Cook for about 20 minutes.",
+          "Pour in beaten eggs and cook while stirring until scrambled and cooked through."
+        ]
+      }
+    ],
+    "notes": []
+  },
+  {
+    "id": "whole-grain-buttermilk-pancakes",
+    "title": "Whole Grain Buttermilk Pancakes",
+    "category": "Entrees",
+    "contributor": "Grandma Lois",
+    "preheatF": null,
+    "components": [
+      {
+        "name": null,
+        "ingredients": [
+          "2/3 cup whole wheat flour",
+          "1 tbsp wheat germ",
+          "1/4 cup oat bran",
+          "1 tbsp cornmeal",
+          "1 tbsp brown sugar",
+          "1½ tsp baking powder",
+          "1/4 tsp salt",
+          "1/4 cup buttermilk",
+          "2 eggs",
+          "2 tbsp oil"
+        ],
+        "directions": [
+          "Mix all ingredients together until combined.",
+          "Pour batter onto a hot greased griddle or skillet to desired size.",
+          "Cook until bubbles form on surface, then flip and cook until done."
+        ]
+      }
+    ],
+    "notes": []
+  },
+  {
+    "id": "apple-pie-bars",
+    "title": "Apple Pie Bars",
+    "category": "Desserts",
+    "contributor": "Shannon Kappes",
+    "preheatF": 400,
+    "components": [
+      {
+        "name": "Crust",
+        "ingredients": [
+          "3 cups flour",
+          "1 tsp salt",
+          "1 cup Crisco shortening",
+          "1/2 cup cold water"
+        ],
+        "directions": [
+          "Stir together flour and salt. Cut in shortening with a pastry blender until crumbly.",
+          "Mix in cold water a little at a time until dough holds together.",
+          "Divide dough in half. Roll out one half to fit a 10x15-inch jelly roll pan."
+        ]
+      },
+      {
+        "name": "Filling",
+        "ingredients": [
+          "7 cups apples, thinly sliced",
+          "3/4 cup sugar",
+          "2 tbsp flour",
+          "Dash of salt",
+          "1 tsp cinnamon",
+          "1/4 tsp nutmeg"
+        ],
+        "directions": [
+          "Mix sugar, flour, salt, cinnamon, and nutmeg together. Toss with apples.",
+          "Spread apple mixture over crust in the jelly roll pan.",
+          "Roll out remaining dough and place over top as the top crust.",
+          "Sprinkle with a little extra cinnamon and sugar.",
+          "Bake at 400°F for 35 minutes or until crust is golden brown."
+        ]
+      }
+    ],
+    "notes": []
+  },
+  {
+    "id": "banana-pie",
+    "title": "Banana Pie",
+    "category": "Desserts",
+    "contributor": "Grandma Lois",
+    "preheatF": 400,
+    "components": [
+      {
+        "name": "Filling",
+        "ingredients": [
+          "3 cups milk",
+          "3/4 cup sugar",
+          "3 tbsp heaping cornstarch",
+          "3 egg yolks",
+          "1 tsp vanilla",
+          "1 tsp butter",
+          "2 bananas, sliced",
+          "1 baked pie crust"
+        ],
+        "directions": [
+          "Heat milk in a double boiler.",
+          "In a separate bowl, mix sugar, cornstarch, and egg yolks.",
+          "Pour sugar mixture into the hot milk and stir until thickened.",
+          "Remove from heat. Stir in vanilla and butter.",
+          "Add bananas to pudding and pour into a baked pie crust."
+        ]
+      },
+      {
+        "name": "Meringue Topping",
+        "ingredients": [
+          "3 egg whites",
+          "1 tsp vanilla",
+          "2 tbsp sugar"
+        ],
+        "directions": [
+          "Beat egg whites until stiff peaks form. Add vanilla and sugar, then beat until stiff again.",
+          "Spread over pie filling.",
+          "Bake at 400°F until meringue is golden brown."
+        ]
+      }
+    ],
+    "notes": [
+      "If not adding meringue topping, no baking is required — just chill and serve."
+    ]
+  },
+  {
+    "id": "banana-pie-schwerin",
+    "title": "Banana Pie",
+    "category": "Desserts",
+    "contributor": "Grandma Schwerin",
+    "preheatF": 400,
+    "components": [
+      {
+        "name": "Filling",
+        "ingredients": [
+          "2½ cups milk",
+          "1/2 cup milk (separate)",
+          "1/2 to 3/4 cup sugar",
+          "3 egg yolks",
+          "3 tbsp cornstarch",
+          "1 tsp butter",
+          "1 tsp vanilla",
+          "Bananas, sliced",
+          "1 baked pie shell"
+        ],
+        "directions": [
+          "Heat 2½ cups milk in a double boiler until boiling.",
+          "In a bowl, mix 1/2 cup milk, sugar, egg yolks, and cornstarch until smooth.",
+          "Slowly pour mixture into the boiling milk in the double boiler, stirring constantly until thickened.",
+          "Remove from heat and stir in butter, vanilla, and sliced bananas.",
+          "Pour into baked pie shell."
+        ]
+      },
+      {
+        "name": "Meringue",
+        "ingredients": [
+          "3 egg whites",
+          "1½ tbsp sugar",
+          "1½ tsp vanilla"
+        ],
+        "directions": [
+          "Beat egg whites until stiff. Add sugar and vanilla.",
+          "Spread over pie filling.",
+          "Bake at 400°F until meringue is golden brown."
+        ]
+      }
+    ],
+    "notes": []
+  },
+  {
+    "id": "brownies",
+    "title": "Brownies",
+    "category": "Desserts",
+    "contributor": "Helen Lee",
+    "preheatF": 350,
+    "components": [
+      {
+        "name": "Brownies",
+        "ingredients": [
+          "2 cups flour",
+          "2 cups sugar",
+          "1/2 tsp salt",
+          "4 tbsp cocoa",
+          "1 cup water",
+          "1/3 cup margarine",
+          "1/2 cup oil",
+          "1/2 cup milk",
+          "1 tsp baking soda",
+          "2 eggs",
+          "1 tsp vanilla"
+        ],
+        "directions": [
+          "Combine flour, sugar, salt, and cocoa in a bowl. Set aside.",
+          "Bring water, margarine, and oil to a boil in a saucepan. Remove from heat.",
+          "Stir in milk, baking soda, eggs, and vanilla. Beat until well mixed.",
+          "Add flour mixture and mix well.",
+          "Pour into a greased 12x15 pan and bake at 350°F for about 18 minutes."
+        ]
+      },
+      {
+        "name": "Frosting",
+        "ingredients": [
+          "1⅛ cups sugar",
+          "6 tbsp milk",
+          "6 tbsp margarine",
+          "6 oz chocolate chips"
+        ],
+        "directions": [
+          "Bring sugar, milk, and margarine to a boil. Remove from heat.",
+          "Add chocolate chips and beat until the mixture begins to thicken.",
+          "Spread over warm brownies."
+        ]
+      }
+    ],
+    "notes": []
+  },
+  {
+    "id": "caramels",
+    "title": "Caramels",
+    "category": "Desserts",
+    "contributor": "Julie Breutzmann",
+    "preheatF": null,
+    "components": [
+      {
+        "name": null,
+        "ingredients": [
+          "1 cup butter or margarine",
+          "2¼ cups packed brown sugar",
+          "Dash of salt",
+          "1 cup light corn syrup",
+          "1 can (14 oz) sweetened condensed milk",
+          "1 tsp vanilla"
+        ],
+        "directions": [
+          "Lightly butter the bottom and sides of a 9x9x2-inch pan.",
+          "Melt butter in a heavy 3-quart saucepan. Add sugar and salt and stir.",
+          "Stir in corn syrup. Gradually pour in sweetened condensed milk, stirring constantly.",
+          "Cook over medium heat, stirring occasionally, to 245°F on a candy thermometer.",
+          "Remove from heat and stir in vanilla.",
+          "Immediately pour into prepared pan. Cool on a wire rack.",
+          "When fully cooled, cut into squares. Dip knife in water between cuts if needed.",
+          "Wrap each caramel in plastic wrap and store in an airtight container in a cool, dry place."
+        ]
+      }
+    ],
+    "notes": []
+  },
+  {
+    "id": "chocolate-cheese",
+    "title": "Chocolate Cheese",
+    "category": "Desserts",
+    "contributor": "Russ Bradley",
+    "preheatF": null,
+    "components": [
+      {
+        "name": null,
+        "ingredients": [
+          "1 lb Velveeta cheese",
+          "1 lb butter",
+          "4 lbs powdered sugar",
+          "1 cup cocoa",
+          "1 tsp vanilla",
+          "Nuts to taste"
+        ],
+        "directions": [
+          "Melt Velveeta and butter together until smooth.",
+          "Mix powdered sugar, cocoa, vanilla, and nuts together.",
+          "Combine both mixtures and spread into a greased cookie sheet.",
+          "Chill and cut into squares."
+        ]
+      }
+    ],
+    "notes": []
+  },
+  {
+    "id": "chocolate-meltaways",
+    "title": "Chocolate Meltaways",
+    "category": "Desserts",
+    "contributor": "Robert Breutzmann",
+    "preheatF": 250,
+    "components": [
+      {
+        "name": null,
+        "ingredients": [
+          "1 cup butter",
+          "1¼ cups powdered sugar",
+          "1 tsp vanilla",
+          "1¼ cups flour",
+          "1/2 tsp salt",
+          "1/2 cup ground walnuts or pecans",
+          "6 oz (1 cup) chocolate chips, melted"
+        ],
+        "directions": [
+          "Cream butter. Add powdered sugar and vanilla.",
+          "Stir in sifted flour and salt.",
+          "Melt chocolate chips in a double boiler or microwave. Add to dough and mix until well blended.",
+          "Drop by teaspoons onto greased cookie sheets.",
+          "Bake at 250°F for 60 minutes. Do not underbake."
+        ]
+      }
+    ],
+    "notes": [
+      "Doubles well. According to family legend, these come out best in a gas oven."
+    ]
+  },
+  {
+    "id": "cinnamon-roll-dessert-pizza",
+    "title": "Cinnamon Roll Dessert Pizza",
+    "category": "Desserts",
+    "contributor": null,
+    "preheatF": 400,
+    "components": [
+      {
+        "name": "Dough",
+        "ingredients": [
+          "1½ cups warm water (120–130°F)",
+          "2 tbsp sugar",
+          "1 tbsp yeast",
+          "3½ cups flour",
+          "1 tsp salt"
+        ],
+        "directions": [
+          "Mix warm water, sugar, and yeast together. Let sit 5 minutes.",
+          "Add flour and salt. Mix until smooth and let rise 10 minutes.",
+          "Roll dough into a 12-inch circle and place on a greased 12-inch pizza pan."
+        ]
+      },
+      {
+        "name": "Cinnamon Sugar Spread",
+        "ingredients": [
+          "1/2 cup butter, softened",
+          "1/2 cup brown sugar",
+          "1/2 cup old fashioned oats",
+          "3 tsp cinnamon"
+        ],
+        "directions": [
+          "Combine all spread ingredients in a bowl.",
+          "Spread thinly over the dough. Sprinkle with additional brown sugar if desired.",
+          "Bake at 400°F for 12–15 minutes until edges are lightly golden."
+        ]
+      },
+      {
+        "name": "Cream Cheese Glaze",
+        "ingredients": [
+          "4 tbsp unsalted butter",
+          "2 oz cream cheese, room temperature",
+          "3/4 cup powdered sugar",
+          "1/2 tsp vanilla extract"
+        ],
+        "directions": [
+          "Beat butter and cream cheese together until smooth.",
+          "Add powdered sugar and vanilla and mix until combined. Microwave briefly if too thick.",
+          "Drizzle over warm pizza and serve."
+        ]
+      }
+    ],
+    "notes": []
+  },
+  {
+    "id": "cinnamon-rolls",
+    "title": "Cinnamon Rolls",
+    "category": "Desserts",
+    "contributor": "Wilma Timmerman",
+    "preheatF": 350,
+    "components": [
+      {
+        "name": null,
+        "ingredients": [
+          "2 cups warm water",
+          "2 pkg yeast",
+          "2 eggs",
+          "3/4 cup sugar",
+          "3/4 cup margarine",
+          "1 tsp salt",
+          "8½ cups flour"
+        ],
+        "directions": [
+          "Mix all ingredients together until a dough forms.",
+          "Let rise until doubled in size.",
+          "Shape into rolls and let rise again.",
+          "Bake at 350°F for 25 minutes."
+        ]
+      }
+    ],
+    "notes": []
+  },
+  {
+    "id": "cranberry-apple-lattice-pie",
+    "title": "Cranberry Apple Lattice Pie",
+    "category": "Desserts",
+    "contributor": "Robert Breutzmann",
+    "preheatF": 400,
+    "components": [
+      {
+        "name": "Crust",
+        "ingredients": [
+          "2½ cups all-purpose flour",
+          "1 tbsp sugar",
+          "3/4 tsp salt",
+          "1/2 cup cold unsalted butter, cubed",
+          "1/3 cup cold shortening",
+          "5–7 tbsp ice water"
+        ],
+        "directions": [
+          "Mix flour, sugar, and salt. Cut in butter and shortening until crumbly.",
+          "Gradually add ice water, tossing with a fork until dough holds together.",
+          "Divide into two disks, wrap in plastic, and refrigerate 30 minutes."
+        ]
+      },
+      {
+        "name": "Filling",
+        "ingredients": [
+          "1/2 cup dried currants or raisins",
+          "2 tbsp dark rum or water",
+          "1 cup fresh or frozen cranberries, divided",
+          "3/4 cup sugar, divided",
+          "6 medium baking apples (about 2 lbs), peeled and thinly sliced",
+          "2 tbsp quick-cooking tapioca",
+          "1 tbsp lemon juice",
+          "2 tsp grated lemon peel",
+          "1/2 tsp ground cinnamon"
+        ],
+        "directions": [
+          "Soak currants in rum for 20 minutes.",
+          "Pulse 3/4 cup cranberries and 1/4 cup sugar in a food processor until coarsely chopped. Transfer to a bowl.",
+          "Add apples, tapioca, lemon juice, lemon peel, cinnamon, remaining sugar, and currant mixture. Toss and let stand 15 minutes.",
+          "Roll one dough disk to 1/8-inch thickness and transfer to a 9-inch deep-dish pie plate. Trim edges.",
+          "Add filling. Roll remaining dough and cut into 1/2-inch strips. Arrange in a lattice pattern over filling. Trim, seal, and flute edges. Place remaining cranberries in spaces of lattice.",
+          "Whisk 1 egg with 1 tbsp milk; brush over lattice. Mix 2 tsp sugar with a dash of cinnamon; sprinkle over.",
+          "Bake at 400°F for 25 minutes. Reduce to 325°F and bake 40–45 more minutes until golden and bubbly.",
+          "Cool on a wire rack for 30 minutes before serving warm."
+        ]
+      }
+    ],
+    "notes": []
+  },
+  {
+    "id": "divinity",
+    "title": "Divinity",
+    "category": "Desserts",
+    "contributor": "Robert Breutzmann",
+    "preheatF": null,
+    "components": [
+      {
+        "name": null,
+        "ingredients": [
+          "2⅞ cups sugar",
+          "2/3 cup light corn syrup",
+          "1/2 cup water",
+          "2 egg whites",
+          "1 tsp vanilla (or 1/2 tsp wintergreen flavoring)",
+          "2/3 cup broken nuts"
+        ],
+        "directions": [
+          "Cook sugar, corn syrup, and water in a 2-quart saucepan over low heat, stirring constantly, until sugar dissolves.",
+          "Continue cooking without stirring to 260°F on a candy thermometer (hard ball stage).",
+          "Beat egg whites in a separate bowl until stiff peaks form.",
+          "Continue beating while slowly pouring hot syrup in a thin stream into egg whites.",
+          "Add flavoring and beat until mixture holds its shape and becomes slightly dull. This may take a while and may become too stiff for a mixer.",
+          "Fold in nuts.",
+          "Drop by spoonfuls from a buttered spoon onto waxed paper. Let stand at room temperature until set.",
+          "Store in an airtight container."
+        ]
+      }
+    ],
+    "notes": [
+      "Makes about 4 dozen candies."
+    ]
+  },
+  {
+    "id": "marzipan",
+    "title": "Marzipan",
+    "category": "Desserts",
+    "contributor": "Robert Breutzmann",
+    "preheatF": null,
+    "components": [
+      {
+        "name": null,
+        "ingredients": [
+          "1 lb almond paste",
+          "4 tbsp light corn syrup",
+          "1 cup marshmallow creme (8 oz)",
+          "1 tbsp rum (or 1 tsp almond extract)",
+          "Approximately 6 cups powdered sugar",
+          "Food coloring as desired"
+        ],
+        "directions": [
+          "Mix almond paste, corn syrup, marshmallow creme, and rum or almond extract together.",
+          "Gradually mix in powdered sugar until the mixture is smooth and pliable enough to mold.",
+          "Divide into sections and color with food coloring based on desired fruit shapes.",
+          "Shape into fruits such as strawberries, bananas, apples, oranges, pears, grapes, pumpkins, or potatoes.",
+          "Use toothpicks to add detail lines. Roll potatoes in cocoa powder for a brown coating. Roll strawberries in red sugar for seeds.",
+          "Store in an airtight container."
+        ]
+      }
+    ],
+    "notes": [
+      "Keeps about one to two months in an airtight container."
+    ]
+  },
+  {
+    "id": "monster-cookie-dip",
+    "title": "Monster Cookie Dip",
+    "category": "Desserts",
+    "contributor": null,
+    "preheatF": null,
+    "components": [
+      {
+        "name": null,
+        "ingredients": [
+          "8 oz cream cheese, softened",
+          "1/2 cup butter, softened",
+          "1 cup creamy peanut butter",
+          "1 cup powdered sugar",
+          "3 tbsp brown sugar",
+          "1 tsp vanilla",
+          "1 cup oats (regular or quick)",
+          "1 cup miniature M&Ms",
+          "1 cup miniature semi-sweet chocolate chips"
+        ],
+        "directions": [
+          "Beat cream cheese, butter, vanilla, and peanut butter together until smooth.",
+          "Stir in brown sugar and powdered sugar and mix well.",
+          "Fold in oats, M&Ms, and chocolate chips.",
+          "Serve with pretzels, graham cracker sticks, or strawberries."
+        ]
+      }
+    ],
+    "notes": []
+  },
+  {
+    "id": "monster-cookies",
+    "title": "Monster Cookies",
+    "category": "Desserts",
+    "contributor": "Brenda Bradley",
+    "preheatF": 350,
+    "components": [
+      {
+        "name": null,
+        "ingredients": [
+          "12 eggs",
+          "2 lbs brown sugar",
+          "4 cups sugar",
+          "1 tbsp vanilla",
+          "1 tbsp maple syrup",
+          "8 tsp baking soda",
+          "1 lb margarine",
+          "3 lbs peanut butter",
+          "18 cups oatmeal",
+          "1 lb chocolate chips",
+          "1 lb M&Ms"
+        ],
+        "directions": [
+          "Mix all ingredients together until well combined.",
+          "Drop by spoonfuls onto baking sheets.",
+          "Bake at 350°F for 9–11 minutes or until done."
+        ]
+      }
+    ],
+    "notes": [
+      "This is a very large batch. Recipe can be scaled down."
+    ]
+  },
+  {
+    "id": "pumpkin-pecan-cobbler",
+    "title": "Pumpkin Pecan Cobbler",
+    "category": "Desserts",
+    "contributor": "Brittney Breutzmann",
+    "preheatF": 350,
+    "components": [
+      {
+        "name": "Cobbler Batter",
+        "ingredients": [
+          "1 cup + 3 tbsp flour",
+          "2 tsp baking powder",
+          "1/2 tsp salt",
+          "3/4 cup sugar",
+          "1 tsp cinnamon",
+          "1/2 tsp nutmeg",
+          "1/2 tsp cloves",
+          "1/2 cup pumpkin puree",
+          "1/4 cup milk",
+          "1/4 cup melted butter or vegetable oil",
+          "1½ tsp vanilla"
+        ],
+        "directions": [
+          "In a medium bowl, stir together flour, baking powder, salt, sugar, and spices.",
+          "In a separate bowl, stir together pumpkin, milk, melted butter, and vanilla.",
+          "Pour wet ingredients into dry and mix to create a thick batter.",
+          "Pour into a small 8-inch casserole dish with high sides."
+        ]
+      },
+      {
+        "name": "Topping",
+        "ingredients": [
+          "1/2 cup brown sugar",
+          "1/2 cup sugar",
+          "1/4 cup chopped pecans",
+          "1½ cups very hot water"
+        ],
+        "directions": [
+          "Stir sugars and pecans together and spread evenly over the batter.",
+          "Pour hot water over everything WITHOUT stirring.",
+          "Bake at 350°F for 40 minutes or until middle is set.",
+          "Cool 5–10 minutes before serving. Serve with vanilla ice cream and additional pecans."
+        ]
+      }
+    ],
+    "notes": []
+  },
+  {
+    "id": "pumpkin-pecan-pie",
+    "title": "Pumpkin Pecan Pie",
+    "category": "Desserts",
+    "contributor": "Robert Breutzmann",
+    "preheatF": 425,
+    "components": [
+      {
+        "name": "Pumpkin Layer",
+        "ingredients": [
+          "2 eggs",
+          "1/4 cup sugar",
+          "1/4 cup packed brown sugar",
+          "1 tsp all-purpose flour",
+          "1 tsp pumpkin pie spice",
+          "1/4 tsp salt",
+          "2/3 cup canned pumpkin",
+          "2/3 cup milk",
+          "1 unbaked 9-inch deep-dish pie shell"
+        ],
+        "directions": [
+          "Beat eggs, sugars, flour, pie spice, and salt until smooth.",
+          "Mix in pumpkin. Gradually beat in milk.",
+          "Pour into unbaked pie shell.",
+          "Bake at 425°F for 10 minutes, then reduce temperature to 350°F and bake 15 more minutes."
+        ]
+      },
+      {
+        "name": "Pecan Topping",
+        "ingredients": [
+          "2 eggs",
+          "1/2 cup dark corn syrup",
+          "2 tbsp brown sugar",
+          "2 tbsp molasses",
+          "1 tbsp all-purpose flour",
+          "1 tsp vanilla extract",
+          "1/2 tsp salt",
+          "1/2 cup chopped pecans",
+          "1 cup pecan halves"
+        ],
+        "directions": [
+          "Beat eggs until foamy. Add corn syrup, brown sugar, molasses, flour, vanilla, and salt.",
+          "Pour over the pumpkin filling.",
+          "Sprinkle with chopped pecans and cover with pecan halves.",
+          "Bake at 350°F for 30–35 minutes or until set.",
+          "Cool completely. Store in the refrigerator."
+        ]
+      }
+    ],
+    "notes": [
+      "Yield: 6–8 servings."
+    ]
+  },
+  {
+    "id": "rice-pudding",
+    "title": "Rice Pudding",
+    "category": "Desserts",
+    "contributor": "Grandma Schwerin",
+    "preheatF": null,
+    "components": [
+      {
+        "name": null,
+        "ingredients": [
+          "3 cups milk",
+          "3/4 cup rice",
+          "3/4 cup sugar",
+          "1/2 tsp vanilla",
+          "1 tsp margarine",
+          "Cinnamon to taste"
+        ],
+        "directions": [
+          "In a double boiler, boil rice and milk together, stirring often, until rice thickens.",
+          "Add sugar and continue cooking for another 15 minutes.",
+          "Remove from heat and stir in margarine and vanilla.",
+          "Sprinkle cinnamon over the top before serving."
+        ]
+      }
+    ],
+    "notes": []
+  },
+  {
+    "id": "sandies",
+    "title": "Sandies",
+    "category": "Desserts",
+    "contributor": "Grandma Lois",
+    "preheatF": 300,
+    "components": [
+      {
+        "name": null,
+        "ingredients": [
+          "1 cup margarine",
+          "2 tsp vanilla",
+          "1 tbsp water",
+          "2 cups flour",
+          "1 cup nuts",
+          "1/4 cup powdered sugar (for rolling)"
+        ],
+        "directions": [
+          "Mix margarine, vanilla, water, flour, and nuts together until combined.",
+          "Place by spoonfuls onto an ungreased cookie sheet.",
+          "Bake at 300°F for 20 minutes or until lightly browned.",
+          "While still warm, roll in powdered sugar."
+        ]
+      }
+    ],
+    "notes": []
+  },
+  {
+    "id": "snickerdoodle-cookies",
+    "title": "Snickerdoodle Cookies",
+    "category": "Desserts",
+    "contributor": "Brittney Breutzmann",
+    "preheatF": 400,
+    "components": [
+      {
+        "name": null,
+        "ingredients": [
+          "1/2 cup butter, softened",
+          "1/2 cup shortening",
+          "1½ cups sugar",
+          "2 eggs",
+          "2 tsp vanilla extract",
+          "2¾ cups all-purpose flour",
+          "2 tsp cream of tartar",
+          "1 tsp baking soda",
+          "1/4 tsp salt",
+          "2 tbsp sugar + 2 tsp ground cinnamon (for rolling)"
+        ],
+        "directions": [
+          "Cream together butter, shortening, 1½ cups sugar, eggs, and vanilla.",
+          "Blend in flour, cream of tartar, baking soda, and salt.",
+          "Mix 2 tbsp sugar and cinnamon together in a small bowl.",
+          "Shape dough by rounded spoonfuls into balls. Roll each in cinnamon sugar.",
+          "Place 2 inches apart on ungreased baking sheets.",
+          "Bake at 400°F for 8–10 minutes until set but not too hard.",
+          "Remove immediately to a cooling rack."
+        ]
+      }
+    ],
+    "notes": []
+  },
+  {
+    "id": "snickers-bars",
+    "title": "Snickers Bars",
+    "category": "Desserts",
+    "contributor": "Brittney Bradley",
+    "preheatF": null,
+    "components": [
+      {
+        "name": "Layer 1 – Chocolate Base",
+        "ingredients": [
+          "1 cup chocolate chips",
+          "1/4 cup butterscotch chips",
+          "1/4 cup peanut butter"
+        ],
+        "directions": [
+          "Melt together and spread in a 9x13 pan. Place in freezer until set."
+        ]
+      },
+      {
+        "name": "Layer 2 – Nougat",
+        "ingredients": [
+          "1 cup sugar",
+          "1/4 cup margarine",
+          "1/4 cup milk",
+          "1/4 cup peanut butter",
+          "1½ cups marshmallow creme",
+          "1 tsp vanilla",
+          "1½ cups chopped dry-roasted peanuts"
+        ],
+        "directions": [
+          "Boil sugar, margarine, and milk together for 5 minutes.",
+          "Remove from heat and stir in peanut butter, marshmallow creme, vanilla, and peanuts.",
+          "Spread over Layer 1 and return to freezer until set."
+        ]
+      },
+      {
+        "name": "Layer 3 – Caramel",
+        "ingredients": [
+          "40 caramels",
+          "4 tbsp milk"
+        ],
+        "directions": [
+          "Melt caramels and milk together.",
+          "Spread over Layer 2 and return to freezer until set."
+        ]
+      },
+      {
+        "name": "Layer 4 – Chocolate Top",
+        "ingredients": [
+          "1 cup chocolate chips",
+          "1/4 cup butterscotch chips",
+          "1/4 cup peanut butter"
+        ],
+        "directions": [
+          "Melt together and spread over the caramel layer.",
+          "Return to freezer. Keep frozen until ready to serve."
+        ]
+      }
+    ],
+    "notes": []
+  },
+  {
+    "id": "strawberry-marbled-cheesecake",
+    "title": "Strawberry Marbled Cheesecake",
+    "category": "Desserts",
+    "contributor": "Robert Breutzmann",
+    "preheatF": 350,
+    "components": [
+      {
+        "name": "Crust",
+        "ingredients": [
+          "1/4 cup butter, melted",
+          "1 cup graham cracker crumbs",
+          "3 tbsp sugar"
+        ],
+        "directions": [
+          "Combine melted butter, graham cracker crumbs, and sugar.",
+          "Press onto the bottom of a 9-inch springform pan.",
+          "Bake at 350°F for 10 minutes."
+        ]
+      },
+      {
+        "name": "Cheesecake",
+        "ingredients": [
+          "24 oz cream cheese, softened",
+          "3/4 cup sugar",
+          "1 tsp vanilla",
+          "3 eggs",
+          "Fresh strawberries pureed with a small amount of cornstarch, cooked until thickened and cooled"
+        ],
+        "directions": [
+          "Beat cream cheese, sugar, and vanilla at medium speed until smooth.",
+          "Add eggs one at a time, mixing well after each.",
+          "Pour half the batter over the baked crust.",
+          "Drop spoonfuls of half the strawberry puree over the batter. Pour in remaining batter, then add remaining puree by spoonfuls.",
+          "Swirl with a knife to create a marbled effect.",
+          "Bake at 300°F for 50–60 minutes or until set.",
+          "Cool completely, remove from springform rim, and chill overnight before serving."
+        ]
+      }
+    ],
+    "notes": []
+  },
+  {
+    "id": "strawberry-pizza",
+    "title": "Strawberry Pizza",
+    "category": "Desserts",
+    "contributor": "Brittney Bradley",
+    "preheatF": 350,
+    "components": [
+      {
+        "name": "Crust",
+        "ingredients": [
+          "1 stick butter",
+          "1/4 cup powdered sugar",
+          "1 cup flour"
+        ],
+        "directions": [
+          "Melt butter and mix in powdered sugar and flour.",
+          "Press out onto a pizza pan or baking sheet.",
+          "Bake at 350°F for 20–25 minutes until golden brown.",
+          "Cool completely before adding filling."
+        ]
+      },
+      {
+        "name": "Filling",
+        "ingredients": [
+          "8 oz cream cheese, softened",
+          "1 tsp vanilla",
+          "8 oz Cool Whip",
+          "1 cup powdered sugar",
+          "Fresh strawberries, sliced"
+        ],
+        "directions": [
+          "Mix cream cheese, vanilla, Cool Whip, and powdered sugar until smooth.",
+          "Spread over cooled crust.",
+          "Top with sliced strawberries and serve."
+        ]
+      }
+    ],
+    "notes": []
+  },
+  {
+    "id": "strawberry-rhubarb-bundt-cake",
+    "title": "Strawberry Rhubarb Bundt Cake",
+    "category": "Desserts",
+    "contributor": "Brittney Breutzmann",
+    "preheatF": 350,
+    "components": [
+      {
+        "name": "Strawberry Rhubarb Mix",
+        "ingredients": [
+          "1½ cups chopped rhubarb",
+          "1/2 cup chopped fresh strawberries",
+          "1/2 tsp cinnamon",
+          "1/4 cup sugar"
+        ],
+        "directions": [
+          "Combine all ingredients in a bowl and set aside."
+        ]
+      },
+      {
+        "name": "Cake",
+        "ingredients": [
+          "1/2 cup butter",
+          "1 cup sugar",
+          "2 eggs",
+          "1 tsp vanilla",
+          "2 cups flour",
+          "4 tsp baking powder",
+          "3/4 cup yogurt (Greek preferred)",
+          "1/4 cup milk"
+        ],
+        "directions": [
+          "Spray the inside of a Bundt pan with cooking spray.",
+          "Cream butter and sugar. Add eggs one at a time. Add vanilla.",
+          "In a separate bowl, whisk together flour and baking powder. In another bowl, mix yogurt and milk.",
+          "Alternate adding flour mixture and yogurt mixture to the butter mixture, beginning and ending with flour.",
+          "Place clumps of batter in the bottom of the pan, followed by the strawberry rhubarb mixture. Repeat layers until finished.",
+          "Bake at 350°F for 45 minutes.",
+          "Cool 10 minutes in pan, then invert onto a plate."
+        ]
+      }
+    ],
+    "notes": []
+  },
+  {
+    "id": "texas-sheet-cake",
+    "title": "Texas Sheet Cake",
+    "category": "Desserts",
+    "contributor": "Dianne Schwerin",
+    "preheatF": 350,
+    "components": [
+      {
+        "name": "Cake",
+        "ingredients": [
+          "2 sticks margarine",
+          "2 tbsp cocoa",
+          "1 cup water",
+          "2 cups sugar",
+          "2 cups flour",
+          "2 eggs",
+          "1/2 cup buttermilk",
+          "1/4 tsp salt",
+          "1 tsp baking soda",
+          "1 tsp vanilla"
+        ],
+        "directions": [
+          "Melt margarine with cocoa and water. Bring to a boil.",
+          "Combine with flour and sugar, then add eggs, buttermilk, salt, baking soda, and vanilla.",
+          "Pour into a greased 11x8x1-inch pan.",
+          "Bake at 350°F for 20 minutes."
+        ]
+      },
+      {
+        "name": "Icing",
+        "ingredients": [
+          "1 stick margarine",
+          "2 tbsp cocoa",
+          "1/3 cup milk",
+          "1 tsp vanilla",
+          "1 lb powdered sugar"
+        ],
+        "directions": [
+          "Combine margarine, cocoa, and milk and bring to a boil.",
+          "Remove from heat and stir in powdered sugar and vanilla until smooth.",
+          "Spread over cake while cake is still warm."
+        ]
+      }
+    ],
+    "notes": []
+  },
+  {
+    "id": "zucchini-cake",
+    "title": "Zucchini Cake",
+    "category": "Desserts",
+    "contributor": "Amy Schwerin",
+    "preheatF": 350,
+    "components": [
+      {
+        "name": null,
+        "ingredients": [
+          "3 eggs",
+          "2 cups sugar",
+          "1 cup oil",
+          "2½ cups flour",
+          "2 tsp baking soda",
+          "1 tsp salt",
+          "1/2 tsp baking powder",
+          "2 tsp cinnamon",
+          "3 tsp vanilla",
+          "2¾ cups grated zucchini",
+          "Nuts to taste"
+        ],
+        "directions": [
+          "Mix all ingredients together for 3–4 minutes until well combined.",
+          "Divide into 2 greased loaf pans.",
+          "Bake at 350°F for 50 minutes."
+        ]
+      }
+    ],
+    "notes": []
+  },
+  {
+    "id": "zucchini-cake-bradley",
+    "title": "Zucchini Cake",
+    "category": "Desserts",
+    "contributor": "Brenda Bradley",
+    "preheatF": 300,
+    "components": [
+      {
+        "name": "Cake",
+        "ingredients": [
+          "3 cups grated zucchini",
+          "3 cups sugar",
+          "1½ cups oil",
+          "4 eggs",
+          "3 cups flour",
+          "2 tsp baking powder",
+          "1 tsp baking soda",
+          "1½ tsp cinnamon",
+          "1/2 tsp salt",
+          "1 cup nuts"
+        ],
+        "directions": [
+          "Mix all cake ingredients together.",
+          "Pour into a greased 9x13 pan.",
+          "Bake at 300°F for about 1½ hours or until done."
+        ]
+      },
+      {
+        "name": "Frosting",
+        "ingredients": [
+          "3 oz cream cheese, softened",
+          "2 cups powdered sugar",
+          "1/4 lb oleo",
+          "1 tsp vanilla"
+        ],
+        "directions": [
+          "Beat all frosting ingredients together until smooth.",
+          "Spread over cooled cake."
+        ]
+      }
+    ],
+    "notes": []
+  },
+  {
+    "id": "canned-apple-pie-filling",
+    "title": "Canned Apple Pie Filling",
+    "category": "Canning",
+    "contributor": "Brenda Bradley",
+    "preheatF": null,
+    "components": [
+      {
+        "name": null,
+        "ingredients": [
+          "8 cups water",
+          "5 cups sugar",
+          "1 cup cornstarch",
+          "1 tbsp apple pie spice",
+          "1 stick margarine",
+          "Enough apples to fill 7 quart jars, peeled and sliced"
+        ],
+        "directions": [
+          "Fill 7 quart jars with peeled and sliced apples.",
+          "Combine water, sugar, cornstarch, apple pie spice, and margarine in a saucepan. Cook filling until thickened.",
+          "Pour filling equally over apples in jars.",
+          "Place filled jars in hot water in a pressure canner.",
+          "Pressure can for 10 minutes at 5 pounds of pressure.",
+          "Cool in canner, then remove and store."
+        ]
+      }
+    ],
+    "notes": []
+  },
+  {
+    "id": "corn-relish",
+    "title": "Corn Relish",
+    "category": "Canning",
+    "contributor": null,
+    "preheatF": null,
+    "components": [
+      {
+        "name": null,
+        "ingredients": [
+          "18 ears corn, cut from cob",
+          "3 green peppers, chopped",
+          "4 large onions, chopped",
+          "1 large head cabbage, chopped",
+          "1 pint vinegar",
+          "2½ cups sugar",
+          "1/4 cup salt"
+        ],
+        "directions": [
+          "Mix all ingredients together in a large pot.",
+          "Bring to a boil and cook for 20–25 minutes, stirring occasionally.",
+          "Ladle into sterilized jars and seal."
+        ]
+      }
+    ],
+    "notes": []
+  },
+  {
+    "id": "garlic-dill-pickles",
+    "title": "Garlic Dill Pickles",
+    "category": "Canning",
+    "contributor": "Brenda Bradley",
+    "preheatF": null,
+    "components": [
+      {
+        "name": null,
+        "ingredients": [
+          "Cucumbers, washed",
+          "13 cups water",
+          "6 cups vinegar",
+          "1 cup pickling salt",
+          "Fresh dill",
+          "Garlic cloves (2 per jar)",
+          "1/4 to 1/2 tsp alum per jar"
+        ],
+        "directions": [
+          "Place 2 garlic cloves and fresh dill in each jar.",
+          "Pack cucumbers tightly into jars.",
+          "Add alum to the top of the cucumbers in each jar.",
+          "Bring water, pickling salt, and vinegar to a rapid boil.",
+          "Pour hot brine into jars and seal."
+        ]
+      }
+    ],
+    "notes": []
+  },
+  {
+    "id": "pickled-beets",
+    "title": "Pickled Beets",
+    "category": "Canning",
+    "contributor": "Brenda Bradley",
+    "preheatF": null,
+    "components": [
+      {
+        "name": null,
+        "ingredients": [
+          "Beets, as many as desired",
+          "1 cup water",
+          "1 cup vinegar",
+          "1 cup sugar",
+          "1 stick cinnamon",
+          "Spice bag: 1 tsp allspice, 1/2 tsp black pepper, 1 tbsp whole cloves, 1 tsp celery spice"
+        ],
+        "directions": [
+          "Cook beets until tender. Cool and peel.",
+          "Combine water, vinegar, and sugar. Tie allspice, black pepper, cloves, and celery spice in a small cloth bag and add to the brine along with the cinnamon stick.",
+          "Bring brine to a boil.",
+          "Pack beets into sterilized jars.",
+          "Pour hot brine over beets and seal jars."
+        ]
+      }
+    ],
+    "notes": []
+  },
+  {
+    "id": "strawberry-rhubarb-jam",
+    "title": "Strawberry Rhubarb Jam",
+    "category": "Canning",
+    "contributor": "Brenda Bradley",
+    "preheatF": null,
+    "components": [
+      {
+        "name": null,
+        "ingredients": [
+          "4 cups rhubarb, finely cut",
+          "2 cups strawberries",
+          "4 cups sugar",
+          "1 pkg strawberry jello",
+          "2 tsp lemon juice"
+        ],
+        "directions": [
+          "Mix rhubarb, strawberries, and sugar together. Let stand for about 30 minutes.",
+          "Bring to a boil, then cook for 12 minutes, stirring constantly.",
+          "Remove from heat and stir in strawberry jello until dissolved.",
+          "Pour into glasses or jars and seal."
+        ]
+      }
+    ],
+    "notes": []
+  },
+  {
+    "id": "zucchini-freezer-jam",
+    "title": "Zucchini Freezer Jam",
+    "category": "Canning",
+    "contributor": "Brenda Bradley",
+    "preheatF": null,
+    "components": [
+      {
+        "name": null,
+        "ingredients": [
+          "6 cups grated zucchini",
+          "3/4 cup water",
+          "1/2 bottle lemon juice",
+          "6 cups sugar",
+          "1 cup drained crushed pineapple",
+          "2–3 oz apricot jello"
+        ],
+        "directions": [
+          "Boil zucchini and water together for 8 minutes.",
+          "Add lemon juice, sugar, and pineapple. Bring to a boil, stirring until sugar dissolves.",
+          "Boil for 15 minutes.",
+          "Remove from heat and stir in apricot jello until dissolved.",
+          "Pour into freezer containers and freeze."
+        ]
+      }
+    ],
+    "notes": []
+  },
+  {
+    "id": "chicken-dip",
+    "title": "Chicken Dip",
+    "category": "Miscellaneous",
+    "contributor": "Shaun Bradley",
+    "preheatF": null,
+    "components": [
+      {
+        "name": null,
+        "ingredients": [
+          "2 (8 oz) packages cream cheese",
+          "2 chicken breasts, cooked and shredded",
+          "Buffalo or wing sauce to taste"
+        ],
+        "directions": [
+          "Mix cream cheese, shredded chicken, and wing sauce together until combined.",
+          "Place in a crock pot to warm.",
+          "Serve with crackers, chips, or bread."
+        ]
+      }
+    ],
+    "notes": []
+  },
+  {
+    "id": "cranberry-sauce",
+    "title": "Cranberry Sauce",
+    "category": "Miscellaneous",
+    "contributor": "Brenda Bradley",
+    "preheatF": null,
+    "components": [
+      {
+        "name": null,
+        "ingredients": [
+          "1 lb cranberries",
+          "2 oranges, peeled",
+          "2 apples, cored",
+          "2 cups sugar"
+        ],
+        "directions": [
+          "Place all ingredients in a blender.",
+          "Blend together until desired consistency.",
+          "Serve cold."
+        ]
+      }
+    ],
+    "notes": []
+  },
+  {
+    "id": "pie-crust",
+    "title": "Pie Crust",
+    "category": "Miscellaneous",
+    "contributor": "Brittney Bradley",
+    "preheatF": null,
+    "components": [
+      {
+        "name": null,
+        "ingredients": [
+          "1¾ cups flour",
+          "1/2 tsp sugar",
+          "Pinch of baking powder",
+          "1/2 cup oil",
+          "1/4 cup cold water"
+        ],
+        "directions": [
+          "Mix all ingredients together until a dough forms.",
+          "Roll out dough between two sheets of wax paper.",
+          "Peel off top sheet and transfer to pie plate."
+        ]
+      }
+    ],
+    "notes": []
+  }
+]

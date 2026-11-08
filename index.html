@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Family Recipe Book</title>
+  <meta name="description" content="Our family's recipes, collected in one place.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,700&family=Source+Sans+3:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div id="app">
+    <header class="site-header">
+      <div class="wrap">
+        <p class="eyebrow">The</p>
+        <h1>Family Recipe Book</h1>
+        <p class="tagline">Recipes from Grandma Lois, Grandma Evelyn, Brenda, Russ, and everyone else who ever fed us.</p>
+      </div>
+    </header>
+
+    <div class="toolbar">
+      <div class="wrap toolbar-inner">
+        <label class="search">
+          <span class="visually-hidden">Search recipes</span>
+          <svg aria-hidden="true" viewBox="0 0 24 24" width="18" height="18"><circle cx="11" cy="11" r="7" fill="none" stroke="currentColor" stroke-width="2"/><path d="M20 20l-4-4" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+          <input id="search" type="search" placeholder="Search by name, ingredient, or who made it" autocomplete="off">
+        </label>
+        <nav id="categories" class="chips" aria-label="Filter by category"></nav>
+      </div>
+    </div>
+
+    <main class="wrap">
+      <p id="count" class="count" aria-live="polite"></p>
+      <div id="grid" class="grid"></div>
+      <p id="empty" class="empty" hidden>No recipes match that search.</p>
+    </main>
+
+    <footer class="site-footer wrap">
+      <p>Recipes live in <code>data/recipes.json</code>. Add one there and it shows up here.</p>
+    </footer>
+  </div>
+
+  <dialog id="recipe-dialog" aria-labelledby="dialog-title">
+    <div class="dialog-bar">
+      <button type="button" class="btn" data-action="print-open">Print</button>
+      <button type="button" class="btn btn-ghost" data-action="close" aria-label="Close">✕</button>
+    </div>
+    <article id="dialog-body" class="recipe-full"></article>
+  </dialog>
+
+  <!-- Filled only while printing -->
+  <div id="print-root" aria-hidden="true"></div>
+
+  <script src="app.js"></script>
+</body>
+</html>
