@@ -5,6 +5,7 @@
 
   const els = {
     grid: document.getElementById('grid'),
+    toc: document.getElementById('toc'),
     search: document.getElementById('search'),
     chips: document.getElementById('categories'),
     count: document.getElementById('count'),
@@ -18,6 +19,8 @@
   let byId = new Map();
   let activeCategory = 'All';
   let openId = null;
+  const VIEW_KEY = 'recipe-view';
+  let view = (() => { try { return localStorage.getItem(VIEW_KEY) || 'toc'; } catch { return 'toc'; } })();
 
   const { esc, fullHTML: sharedFullHTML, loadCategories } = window.RecipeRender;
 
@@ -64,12 +67,44 @@
     return r._haystack.includes(q);
   }
 
+  function tocHTML(list) {
+    const groups = new Map();
+    list.forEach((r) => {
+      if (!groups.has(r.category)) groups.set(r.category, []);
+      groups.get(r.category).push(r);
+    });
+    return [...groups].map(([cat, items]) => `
+      <section class="toc-section">
+        <h2 class="toc-cat">${esc(cat)} <span class="toc-n">${items.length}</span></h2>
+        <ul class="toc-list">
+          ${items.map((r) => `
+            <li>
+              <a href="#${esc(r.id)}" data-action="open" data-id="${esc(r.id)}">
+                <span class="toc-title">${esc(r.title)}</span>
+                <span class="toc-leader" aria-hidden="true"></span>
+                <span class="toc-by">${esc(r.contributor || '')}</span>
+              </a>
+            </li>`).join('')}
+        </ul>
+      </section>`).join('');
+  }
+
   function renderGrid() {
     const q = els.search.value.trim().toLowerCase();
     const list = recipes.filter((r) => matches(r, q));
-    els.grid.innerHTML = list.map(cardHTML).join('');
+    els.grid.hidden = view !== 'cards';
+    els.toc.hidden = view !== 'toc';
+    if (view === 'cards') els.grid.innerHTML = list.map(cardHTML).join('');
+    else els.toc.innerHTML = tocHTML(list);
     els.empty.hidden = list.length > 0;
     els.count.textContent = `${list.length} of ${recipes.length} recipes`;
+    document.querySelectorAll('[data-view]').forEach((b) => b.setAttribute('aria-pressed', b.dataset.view === view));
+  }
+
+  function setView(next) {
+    view = next;
+    try { localStorage.setItem(VIEW_KEY, view); } catch { /* ignore */ }
+    renderGrid();
   }
 
   // ---------- Dialog ----------
@@ -124,6 +159,7 @@
     if (btn) {
       const action = btn.dataset.action;
       const card = btn.closest('.card');
+      if (action === 'open' && btn.dataset.id) { e.preventDefault(); openRecipe(btn.dataset.id); return; }
       if (action === 'open' && card) { e.preventDefault(); openRecipe(card.dataset.id); return; }
       if (action === 'print' && card) { e.stopPropagation(); printRecipe(card.dataset.id); return; }
       if (action === 'print-open' && openId) { printRecipe(openId); return; }
@@ -133,10 +169,13 @@
     const card = e.target.closest('.card');
     if (card && !e.target.closest('button')) openRecipe(card.dataset.id);
 
-    const chip = e.target.closest('.chip');
+    const viewBtn = e.target.closest('[data-view]');
+    if (viewBtn) { setView(viewBtn.dataset.view); return; }
+
+    const chip = e.target.closest('.chip[data-cat]');
     if (chip) {
       activeCategory = chip.dataset.cat;
-      els.chips.querySelectorAll('.chip').forEach((c) => c.setAttribute('aria-pressed', c === chip));
+      els.chips.querySelectorAll('.chip[data-cat]').forEach((c) => c.setAttribute('aria-pressed', c === chip));
       renderGrid();
     }
   });
@@ -179,6 +218,11 @@
     })
     .catch((err) => {
       els.count.textContent = '';
-      els.grid.innerHTML = `<p class="empty">Couldn't load recipes (${esc(err.message)}). If you opened this file directly, run a local server instead: <code>python3 -m http.server</code></p>`;
+      els.toc.hidden = true;
+      els.grid.hidden = false;
+      const hint = location.protocol === 'file:'
+        ? 'You opened this file directly. Run <code>python3 scripts/build.py</code> and then <code>python3 -m http.server</code> instead.'
+        : 'The recipe data wasn\'t built for this deployment. In the repo, check that <strong>Settings → Pages → Source</strong> is set to <strong>GitHub Actions</strong>. Locally, run <code>python3 scripts/build.py</code> first.';
+      els.grid.innerHTML = `<p class="empty">Couldn't load recipes (${esc(err.message)}). ${hint}</p>`;
     });
 })();

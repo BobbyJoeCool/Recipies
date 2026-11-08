@@ -33,8 +33,15 @@
     </div>
 
     <main class="wrap">
-      <p id="count" class="count" aria-live="polite"></p>
-      <div id="grid" class="grid"></div>
+      <div class="view-bar">
+        <p id="count" class="count" aria-live="polite"></p>
+        <div class="view-toggle" role="group" aria-label="View">
+          <button type="button" class="chip" data-view="toc" aria-pressed="true">Contents</button>
+          <button type="button" class="chip" data-view="cards" aria-pressed="false">Cards</button>
+        </div>
+      </div>
+      <nav id="toc" class="toc" aria-label="Table of contents"></nav>
+      <div id="grid" class="grid" hidden></div>
       <p id="empty" class="empty" hidden>No recipes match that search.</p>
     </main>
 

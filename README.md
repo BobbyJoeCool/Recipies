@@ -2,7 +2,7 @@
 
 Live at **https://recipes.bobbyjoecool.dev/**
 
-A static recipe site on GitHub Pages. Family can send recipes from the **Add a recipe** page without a GitHub account, and they arrive by email. Each recipe is its own JSON file in `recipes/`. On every push, a GitHub Action validates all of them, bundles them into one file, and deploys the site. Recipes show as searchable, filterable cards. Click one for the full recipe, or hit **Print** for a clean printout of just that recipe.
+A static recipe site on GitHub Pages. Family can send recipes from the **Add a recipe** page without a GitHub account, and they arrive by email. Each recipe is its own JSON file in `recipes/`. On every push, a GitHub Action validates all of them, bundles them into one file, and deploys the site. The home page opens on a table of contents grouped by category (or switch to Cards), with search and category filters. Click a recipe for the full version, or hit **Print** for a clean printout of just that recipe.
 
 ## How it fits together
 
