@@ -1,15 +1,7 @@
 (() => {
   'use strict';
 
-  const CATEGORY_ORDER = [
-    'Appetizers',
-    'Breads & Rolls',
-    'Soups, Salads & Veggies',
-    'Entrees',
-    'Desserts',
-    'Canning',
-    'Miscellaneous',
-  ];
+  let CATEGORY_ORDER = [];
 
   const els = {
     grid: document.getElementById('grid'),
@@ -27,8 +19,7 @@
   let activeCategory = 'All';
   let openId = null;
 
-  const esc = (s) =>
-    String(s ?? '').replace(/[&<>"']/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
+  const { esc, fullHTML: sharedFullHTML, loadCategories } = window.RecipeRender;
 
   const ingredientCount = (r) => r.components.reduce((n, c) => n + c.ingredients.length, 0);
 
@@ -54,42 +45,8 @@
       </article>`;
   }
 
-  function fullHTML(r, { forPrint = false } = {}) {
-    const titleId = forPrint ? '' : ' id="dialog-title"';
-    const meta = [
-      r.contributor ? `<span>From ${esc(r.contributor)}</span>` : '',
-      r.preheatF ? `<span class="preheat">Preheat oven to ${r.preheatF}°F</span>` : '',
-    ].filter(Boolean).join('');
-
-    const comps = r.components.map((c) => `
-      <section class="component">
-        ${c.name ? `<h3 class="component-name">${esc(c.name)}</h3>` : ''}
-        <div class="component-body">
-          ${c.ingredients.length ? `
-            <div class="ingredients">
-              <h4>Ingredients</h4>
-              <ul>${c.ingredients.map((i) => `<li>${esc(i)}</li>`).join('')}</ul>
-            </div>` : ''}
-          ${c.directions.length ? `
-            <div class="directions">
-              <h4>Directions</h4>
-              <ol>${c.directions.map((d) => `<li>${esc(d)}</li>`).join('')}</ol>
-            </div>` : ''}
-        </div>
-      </section>`).join('');
-
-    const notes = r.notes.length
-      ? `<aside class="notes">${r.notes.map((n) => `<p><strong>Note:</strong> ${esc(n)}</p>`).join('')}</aside>`
-      : '';
-
-    return `
-      <p class="full-cat">${esc(r.category)}</p>
-      <h2 class="full-title"${titleId}>${esc(r.title)}</h2>
-      ${meta ? `<p class="full-meta">${meta}</p>` : ''}
-      ${comps}
-      ${notes}
-      ${forPrint ? '<p class="print-footer">Family Recipe Book</p>' : ''}`;
-  }
+  const fullHTML = (r, { forPrint = false } = {}) =>
+    sharedFullHTML(r, { forPrint, titleId: forPrint ? '' : 'dialog-title' });
 
   function renderChips() {
     const counts = recipes.reduce((m, r) => m.set(r.category, (m.get(r.category) || 0) + 1), new Map());
@@ -200,7 +157,8 @@
       if (!res.ok) throw new Error(`HTTP ${res.status}`);
       return res.json();
     })
-    .then((data) => {
+    .then(async (data) => {
+      CATEGORY_ORDER = await loadCategories(data);
       const catIndex = (c) => { const i = CATEGORY_ORDER.indexOf(c); return i === -1 ? 99 : i; };
       recipes = data
         .map((r) => ({

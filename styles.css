@@ -184,3 +184,66 @@ dialog::backdrop { background: rgba(30, 20, 12, .5); }
   .notes { border: 1px solid #ccc; }
   .print-footer { display: block; margin-top: 24px; text-align: center; font: italic 9pt var(--serif); color: #777; }
 }
+
+/* ---------- Header action ---------- */
+.header-actions { margin: 18px 0 0; }
+.header-actions .btn { text-decoration: none; display: inline-block; }
+.site-header.small { padding: 28px 0 12px; }
+.site-header.small h1 { font-size: clamp(1.9rem, 5vw, 2.6rem); }
+.eyebrow a { color: inherit; text-decoration: none; }
+.eyebrow a:hover { text-decoration: underline; }
+
+/* ---------- Add a recipe ---------- */
+.add-layout { display: grid; gap: 24px; padding-bottom: 40px; }
+@media (min-width: 980px) {
+  .add-layout { grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); align-items: start; }
+  .add-preview { position: sticky; top: 16px; }
+}
+.add-form { display: flex; flex-direction: column; gap: 14px; }
+.tabs { display: flex; gap: 6px; flex-wrap: wrap; }
+.tab {
+  border: 1px solid var(--line); background: var(--paper); color: var(--ink);
+  font: 600 .95rem var(--sans); padding: 8px 14px; border-radius: 999px; cursor: pointer;
+}
+.tab[aria-selected="true"] { background: var(--accent); border-color: var(--accent); color: var(--accent-ink); }
+.panel {
+  margin: 0; border: 1px solid var(--line); border-radius: var(--radius);
+  background: var(--paper); padding: 14px 16px; display: grid; gap: 12px; min-width: 0;
+}
+.part + .part { margin-top: 0; }
+#parts { display: grid; gap: 14px; }
+.field { display: grid; gap: 4px; min-width: 0; }
+.field > span { font-weight: 600; font-size: .92rem; }
+.field em { color: var(--accent); font-style: normal; }
+.field-row { display: grid; gap: 12px; }
+@media (min-width: 560px) { .field-row { grid-template-columns: 1fr 1fr; } }
+.field input, .field select, .field textarea {
+  width: 100%; font: inherit; color: var(--ink); background: var(--bg);
+  border: 1px solid var(--line); border-radius: 10px; padding: 9px 11px;
+}
+.field textarea { resize: vertical; line-height: 1.45; }
+.field input:focus, .field select:focus, .field textarea:focus { outline: 2px solid var(--accent); outline-offset: 0; border-color: var(--accent); }
+.part-head { display: flex; align-items: end; gap: 12px; }
+.part-head .part-name { flex: 1; }
+.part-head[hidden], .remove-part[hidden] { display: none; }
+.btn-link { background: none; border: 0; color: var(--accent); padding: 8px 4px; text-decoration: underline; }
+#add-part { justify-self: start; align-self: flex-start; }
+.actions { display: flex; flex-wrap: wrap; gap: 8px; align-items: center; }
+.actions [hidden] { display: none; }
+.errors {
+  border: 1px solid var(--accent); background: var(--accent-soft); border-radius: 10px; padding: 10px 14px;
+}
+.errors p { margin: 0 0 4px; font-weight: 600; }
+.errors ul { margin: 0; padding-left: 1.2em; }
+.status { margin: 0; min-height: 1.5em; }
+.hint { color: var(--ink-soft); margin: 0; }
+.hint.small { font-size: .85rem; }
+.preview-label { margin: 0 0 8px; font: 600 .8rem var(--sans); letter-spacing: .1em; text-transform: uppercase; color: var(--ink-soft); }
+.card-like { background: var(--paper); border: 1px solid var(--line); border-radius: var(--radius); box-shadow: var(--shadow); }
+.inbox { padding-bottom: 48px; }
+.inbox h2 { font: 600 1.4rem var(--serif); margin: 0 0 4px; }
+.inbox ul { list-style: none; padding: 0; margin: 12px 0 0; display: grid; gap: 10px; }
+.inbox li { background: var(--paper); border: 1px solid var(--line); border-radius: 10px; padding: 10px 14px; display: grid; gap: 2px; }
+.inbox a { color: var(--accent); }
+[data-show][hidden] { display: none !important; }
+.add-form > [data-show] { display: grid; gap: 14px; }

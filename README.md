@@ -2,7 +2,7 @@
 
 Live at **https://bobbyjoecool.dev/Recipies/**
 
-A static recipe site on GitHub Pages. Each recipe is its own JSON file in `recipes/`. On every push, a GitHub Action validates all of them, bundles them into one file, and deploys the site. Recipes show as searchable, filterable cards. Click one for the full recipe, or hit **Print** for a clean printout of just that recipe.
+A static recipe site on GitHub Pages. Family can send recipes from the **Add a recipe** page without a GitHub account, and they arrive by email. Each recipe is its own JSON file in `recipes/`. On every push, a GitHub Action validates all of them, bundles them into one file, and deploys the site. Recipes show as searchable, filterable cards. Click one for the full recipe, or hit **Print** for a clean printout of just that recipe.
 
 ## How it fits together
 
@@ -13,6 +13,52 @@ recipes/*.json  ──►  scripts/build.py  ──►  data/recipes.json  ─�
 ```
 
 GitHub Pages can't list a folder, so the browser can't discover the individual files on its own. The build step bundles them into one `data/recipes.json` that the page loads. That file is generated. Never edit it by hand, and it's git-ignored.
+
+## Family submissions: the "Add a recipe" page
+
+`add.html` (the **+ Add a recipe** button on the home page) lets anyone send a recipe. Family need no GitHub account. Nothing is saved on the site directly: GitHub Pages can't store anything. Instead the page opens the sender's own email app with a message to you, already filled in. You review it and add it, so nothing goes live without your approval.
+
+Three ways to send:
+
+| Tab | What they do | What you get |
+| --- | --- | --- |
+| **Type it in** | Fill in a form (ingredients and steps one per line; numbering and bullets are cleaned up automatically) with a live preview | A readable copy of the recipe plus a ready-to-save `recipes/<id>.json` block |
+| **Link to a recipe** | Paste a URL plus notes | An `inbox/<id>.json` block to save for later |
+| **PDF or photo** | Add notes, then attach the file to the email | The attachment plus an `inbox/<id>.json` block |
+
+There are also **Copy** (for texting it to you) and **Download file** buttons. The form saves a draft on their device, so a half-typed recipe survives closing the tab.
+
+### One-time setup
+
+Set your address in `config.js`:
+
+```js
+submitEmail: 'you@example.com',
+```
+
+It's visible in the page source, so a dedicated address or forwarding alias (e.g. `recipes@bobbyjoecool.dev`) will keep spam out of your main inbox. Until it's set, the page offers Copy/Download only.
+
+### When a typed-in recipe arrives
+
+1. Copy everything under the `----- For Bob: save everything below as recipes/<id>.json -----` line into a new file with that name. The id is already unique: if a recipe with that name exists, the sender's last name is appended (e.g. `banana-bread-sass`).
+2. Fix anything you want to tidy up.
+3. Run `python3 scripts/build.py`, commit, and push (steps 3–5 under [Adding a recipe](#adding-a-recipe)).
+
+### When a link or PDF arrives: the inbox
+
+Links and files go in `inbox/` until someone types them up. They're listed on the Add a recipe page under **Waiting to be typed up**, with links to open each one.
+
+1. Save the JSON block as `inbox/<id>.json`.
+2. For a PDF or photo, save the attachment into `inbox/` with the name in its `"file"` field. For a photo, use `.jpg`/`.png` and change `"file"` to match.
+3. Commit and push.
+
+When you've typed it up, add the recipe (see below) and delete its `inbox/<id>.json` and attachment in the same commit.
+
+Note: the repo and site are public, so anything in `inbox/` is publicly viewable.
+
+### Later: sending straight to your own server
+
+If you set up a server, the form can POST to it instead of opening email. Only the submit handler in `add.js` changes. The submission objects it builds stay the same. A server-side version should also check a family passcode, since a public URL can receive submissions from anyone.
 
 ## Adding a recipe
 
@@ -121,6 +167,8 @@ Add it to `CATEGORIES` in `scripts/recipe_config.py`. The list order is the filt
 - has an empty part, or an unnamed part in a multi-part recipe,
 - still contains `REPLACE` placeholder text.
 
+It also checks every `inbox/*.json`: required fields, a valid link for link items, and that the attached file actually exists in `inbox/` for file items.
+
 Pull requests are validated too, so if family members send recipes as PRs, you'll see a red ✗ on any broken file before you merge. PRs never deploy.
 
 ## Hosting setup (one time)
@@ -138,13 +186,18 @@ All asset paths are relative, so the site works under any sub-path.
 
 ```
 recipes/              one JSON file per recipe (edit these)
+inbox/                links and PDFs/photos waiting to be typed up
 recipes/_template.json  starting point for a hand-made recipe (ignored by the build)
 recipe.schema.json    editor autocomplete/validation for recipe files
 scripts/new_recipe.py create a new recipe file
 scripts/build.py      validate + bundle (CI runs this too)
 scripts/recipe_config.py  category list and other settings
 .github/workflows/deploy.yml  validate on every push/PR, deploy on main
-index.html, styles.css, app.js  the site
+index.html, app.js    the cookbook
+add.html, add.js      the Add a recipe page
+render.js             recipe rendering shared by both pages
+config.js             submission email address
+styles.css            styles for both pages
 ```
 
 Scripts need only Python 3 (no packages to install).

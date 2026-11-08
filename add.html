@@ -1,0 +1,143 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Add a Recipe – Family Recipe Book</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,700&family=Source+Sans+3:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body class="add-page">
+  <header class="site-header small">
+    <div class="wrap">
+      <p class="eyebrow"><a href="./">← Back to the recipe book</a></p>
+      <h1>Add a Recipe</h1>
+      <p class="tagline">Type it in, share a link, or send a PDF or photo. It goes to Bob by email, and he adds it to the book.</p>
+    </div>
+  </header>
+
+  <main class="wrap add-layout">
+    <form id="add-form" class="add-form" novalidate>
+      <div class="tabs" role="tablist" aria-label="What are you sending?">
+        <button type="button" role="tab" class="tab" data-mode="recipe" aria-selected="true">Type it in</button>
+        <button type="button" role="tab" class="tab" data-mode="link" aria-selected="false">Link to a recipe</button>
+        <button type="button" role="tab" class="tab" data-mode="file" aria-selected="false">PDF or photo</button>
+      </div>
+
+      <fieldset class="panel">
+        <label class="field">
+          <span>Recipe name <em>*</em></span>
+          <input name="title" required autocomplete="off" placeholder="Grandma's Apple Crisp">
+        </label>
+        <label class="field">
+          <span>Your name <em>*</em></span>
+          <input name="submittedBy" required autocomplete="name" placeholder="So Bob knows who sent it">
+        </label>
+      </fieldset>
+
+      <!-- Type it in -->
+      <div data-show="recipe">
+        <fieldset class="panel">
+          <div class="field-row">
+            <label class="field">
+              <span>Category <em>*</em></span>
+              <select name="category" required></select>
+            </label>
+            <label class="field">
+              <span>Preheat oven (°F)</span>
+              <input name="preheatF" type="number" inputmode="numeric" min="150" max="550" step="5" placeholder="Leave blank if no oven">
+            </label>
+          </div>
+          <label class="field">
+            <span>Whose recipe is it?</span>
+            <input name="contributor" autocomplete="off" placeholder="Defaults to your name">
+          </label>
+        </fieldset>
+
+        <div id="parts"></div>
+        <button type="button" class="btn btn-ghost" id="add-part">+ Add another part (like frosting or a sauce)</button>
+
+        <fieldset class="panel">
+          <label class="field">
+            <span>Notes</span>
+            <textarea name="notes" rows="2" placeholder="Tips, how many it makes, how to store it. One per line."></textarea>
+          </label>
+        </fieldset>
+      </div>
+
+      <!-- Link -->
+      <div data-show="link" hidden>
+        <fieldset class="panel">
+          <label class="field">
+            <span>Link <em>*</em></span>
+            <input name="link" type="url" inputmode="url" placeholder="https://…">
+          </label>
+          <label class="field">
+            <span>Notes</span>
+            <textarea name="linkNotes" rows="3" placeholder="Anything to change? &quot;We use half the sugar&quot;, etc."></textarea>
+          </label>
+        </fieldset>
+      </div>
+
+      <!-- File -->
+      <div data-show="file" hidden>
+        <fieldset class="panel">
+          <p class="hint">When you tap <strong>Email it to Bob</strong>, your email app opens. <strong>Attach the PDF or photo to that email</strong> before sending. A photo of a recipe card works fine.</p>
+          <label class="field">
+            <span>Notes</span>
+            <textarea name="fileNotes" rows="3" placeholder="Where it's from, anything hard to read, changes you make"></textarea>
+          </label>
+        </fieldset>
+      </div>
+
+      <div id="errors" class="errors" role="alert" hidden></div>
+
+      <div class="actions">
+        <button type="submit" class="btn" id="send">Email it to Bob</button>
+        <button type="button" class="btn btn-ghost" id="copy">Copy</button>
+        <button type="button" class="btn btn-ghost" id="download" data-show="recipe">Download file</button>
+        <button type="button" class="btn btn-link" id="clear">Start over</button>
+      </div>
+      <p id="status" class="status" aria-live="polite"></p>
+      <p class="hint small">Your typing is saved on this device until you send it or start over.</p>
+    </form>
+
+    <aside class="add-preview" data-show="recipe">
+      <h2 class="preview-label">Preview</h2>
+      <article id="preview" class="recipe-full card-like"></article>
+    </aside>
+  </main>
+
+  <section class="wrap inbox" id="inbox" hidden>
+    <h2>Waiting to be typed up</h2>
+    <p class="hint">Links and files people have sent that aren't in the book yet.</p>
+    <ul id="inbox-list"></ul>
+  </section>
+
+  <template id="part-template">
+    <fieldset class="panel part">
+      <div class="part-head">
+        <label class="field part-name">
+          <span>Part name</span>
+          <input name="partName" autocomplete="off" placeholder="e.g. Cake, Frosting">
+        </label>
+        <button type="button" class="btn btn-link remove-part">Remove part</button>
+      </div>
+      <label class="field">
+        <span>Ingredients <em>*</em></span>
+        <textarea name="ingredients" rows="6" placeholder="One per line, e.g.&#10;2 cups flour&#10;1 tsp baking soda"></textarea>
+      </label>
+      <label class="field">
+        <span>Directions <em>*</em></span>
+        <textarea name="directions" rows="6" placeholder="One step per line. Numbers are added for you."></textarea>
+      </label>
+    </fieldset>
+  </template>
+
+  <script src="config.js"></script>
+  <script src="render.js"></script>
+  <script src="add.js"></script>
+</body>
+</html>
