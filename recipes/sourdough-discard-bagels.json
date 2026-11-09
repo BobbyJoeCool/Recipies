@@ -1,0 +1,44 @@
+{
+  "$schema": "../recipe.schema.json",
+  "id": "sourdough-discard-bagels",
+  "title": "Sourdough Discard Bagels",
+  "category": "Breads & Rolls",
+  "contributor": "Jessica Vogl",
+  "preheatF": 425,
+  "tags": [
+    "sourdough"
+  ],
+  "components": [
+    {
+      "name": "For the Bagels",
+      "ingredients": [
+        "592g bread flour",
+        "42g granulated sugar, divided",
+        "3g instant yeast",
+        "12g kosher salt",
+        "200g sourdough discard, unfed, at room temperature",
+        "283g warm water"
+      ],
+      "directions": []
+    },
+    {
+      "name": "For Topping",
+      "ingredients": [
+        "1 egg white + 15g water for egg wash",
+        "Toppings of choice (sesame seeds, poppy seeds, everything bagel seasoning, etc.)"
+      ],
+      "directions": [
+        "Combine flour, 1 tablespoon granulated sugar, instant yeast, and salt in the bowl of a stand mixer fitted with the dough hook. On low speed, add sourdough discard and water until combined. Increase to medium and knead for 4–5 minutes until a smooth ball forms. Add more water or flour (1 tablespoon at a time) as needed. Dough should not be sticky.",
+        "Grease a large bowl, transfer dough, and cover with plastic wrap. Let rise for 90 minutes or until doubled.",
+        "Turn dough out and divide into 8–10 equal pieces. Roll each into a smooth ball, press thumb through the center, and stretch the hole to form bagel shape. Cover and rest 20 minutes.",
+        "Preheat oven to 425°F. Line 2 baking sheets with parchment. Bring a pot with 2 quarts of water and 2 tablespoons granulated sugar to a boil.",
+        "Boil bagels 15–30 seconds per side. They should float. Remove with a slotted spoon, let excess water drip off, and transfer to baking sheets.",
+        "Brush with egg wash and sprinkle with toppings.",
+        "Bake for 18–22 minutes or until golden brown. Let cool fully before slicing."
+      ]
+    }
+  ],
+  "notes": [
+    "To use active sourdough starter: omit commercial yeast and replace discard with active starter (200g). Increase rise times. Mini bagels: divide dough into 24 pieces (about 46g each)."
+  ]
+}

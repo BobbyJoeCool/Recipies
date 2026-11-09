@@ -1,0 +1,36 @@
+{
+  "$schema": "../recipe.schema.json",
+  "id": "gooey-butter-cookies",
+  "title": "Gooey Butter Cookies",
+  "category": "Desserts",
+  "contributor": "Mathew Rice, Nightwood Restaurant",
+  "preheatF": 325,
+  "components": [
+    {
+      "name": null,
+      "ingredients": [
+        "4 1/2 cups all-purpose flour",
+        "4 tsp baking powder",
+        "1 1/2 tsp salt",
+        "1 lb cream cheese",
+        "2 sticks unsalted butter",
+        "1/2 vanilla bean, scraped (optional but recommended)",
+        "3 cups sugar",
+        "2 eggs",
+        "1 tsp vanilla extract",
+        "Confectioners' sugar for rolling and dusting"
+      ],
+      "directions": [
+        "Stir together the flour, baking powder, and salt. Set aside.",
+        "In the bowl of an electric mixer with the paddle attachment, cream the cream cheese, butter, vanilla bean seeds, and sugar together until fluffy. Add the eggs and vanilla extract.",
+        "Incorporate the flour mixture. Chill for at least 30 minutes.",
+        "Scoop roughly 1-ounce balls and toss in confectioners' sugar. Place on a baking sheet lined with parchment, a couple of inches apart.",
+        "Bake at 325°F until they spread and puff slightly, about 12–16 minutes. They will be very soft in the center. If they start to brown, they've gone too far.",
+        "Cool to room temperature. Refrigerate on the tray — as the cream cheese and butter get cold, they're easier to pick up. Dust with more confectioners' sugar before serving."
+      ]
+    }
+  ],
+  "notes": [
+    "Makes 40+ cookies. Mathew always serves these cold/cool straight from the fridge — they don't taste as good warm. Store in the fridge; they will keep for up to a week."
+  ]
+}

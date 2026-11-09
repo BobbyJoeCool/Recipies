@@ -1,0 +1,32 @@
+{
+  "$schema": "../recipe.schema.json",
+  "id": "soft-pliable-sourdough-tortillas-discard",
+  "title": "Soft, Pliable Sourdough Tortillas (Discard)",
+  "category": "Breads & Rolls",
+  "contributor": null,
+  "preheatF": null,
+  "tags": [
+    "sourdough"
+  ],
+  "components": [
+    {
+      "name": null,
+      "ingredients": [
+        "250g sourdough discard",
+        "160g warm water",
+        "75g avocado oil (or melted butter)",
+        "400g all-purpose flour",
+        "6g sea salt"
+      ],
+      "directions": [
+        "In a large bowl, whisk together 250g sourdough discard, 160g warm water, and 75g avocado oil until well combined. Slowly add in 400g all-purpose flour and 6g sea salt, mixing until a dough forms. It should feel soft and not sticky to the touch. Let the dough rest for 30 minutes to relax.",
+        "After resting, divide the dough into twelve 75g balls.",
+        "Roll each dough ball into your ideal tortilla size using a rolling pin. Don't be afraid to use lots of flour to prevent the dough from sticking. If the dough is really resisting being rolled, cover and let rest another 10–15 minutes so the gluten relaxes.",
+        "Heat a cast iron skillet, comal, griddle, or Blackstone over medium heat.",
+        "Cook each tortilla on your ungreased skillet for 30–60 seconds per side until golden brown spots form and the tortilla is cooked through. If your tortilla burns within 30 seconds, lower the heat. If brown spots don't start forming by 30 seconds, increase the heat. Getting the heat right is the secret to flexible tortillas.",
+        "Once done, immediately place the cooked tortilla in a warmer or in a tea towel to keep warm and soft."
+      ]
+    }
+  ],
+  "notes": []
+}

@@ -1,0 +1,46 @@
+{
+  "$schema": "../recipe.schema.json",
+  "id": "peanut-butter-oatmeal-sourdough-cookies-raisin",
+  "title": "Peanut Butter Oatmeal Sourdough Cookies (Raisin)",
+  "category": "Desserts",
+  "contributor": "Rachael",
+  "preheatF": 350,
+  "tags": [
+    "sourdough"
+  ],
+  "components": [
+    {
+      "name": null,
+      "ingredients": [
+        "2 cups all-purpose flour",
+        "1 tsp baking powder",
+        "1 tsp baking soda",
+        "1 tsp cornstarch",
+        "1 tsp salt",
+        "1 cup (2 sticks) butter, softened",
+        "1 cup white granulated sugar",
+        "1/2 cup brown sugar",
+        "2 eggs",
+        "1 cup creamy peanut butter",
+        "1/2 cup sourdough discard",
+        "2 tsp pure vanilla extract",
+        "2 cups old fashioned rolled oats",
+        "1 1/2 cups semi-sweet chocolate chips (or raisins — as noted on the original recipe)"
+      ],
+      "directions": [
+        "In the bowl of a stand mixer fitted with a paddle attachment or in a medium bowl, cream together softened butter and sugars until combined.",
+        "Beat in the eggs, sourdough discard, peanut butter, and vanilla extract and mix until light (about 1 minute).",
+        "Begin adding in the dry ingredients, mixing until combined.",
+        "Add in the oats and chocolate chips (or raisins) and mix well.",
+        "Add the dough to the fridge to chill for a minimum of 1 hour and up to overnight.",
+        "Once ready to bake, preheat oven to 350°F. Prepare two baking sheets by lining them with parchment paper or a silpat baking mat. Set aside.",
+        "Using a medium sized cookie scoop, scoop out 12 equal balls of cookie dough onto each prepared cookie sheet.",
+        "Bake in preheated oven for approximately 12–14 minutes. Take them out when they are just barely starting to turn golden brown.",
+        "For best results, let them sit on the baking pan for 5 minutes before removing to a wire rack to cool."
+      ]
+    }
+  ],
+  "notes": [
+    "Highly recommend chilling the dough for best results. Always slightly underbake — cookies will continue to cook briefly on the sheet once pulled out. Make ahead and store in the refrigerator for up to 3 days. Freeze unbaked dough balls for up to 3 months."
+  ]
+}

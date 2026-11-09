@@ -1,0 +1,54 @@
+{
+  "$schema": "../recipe.schema.json",
+  "id": "three-cheese-sourdough-bread",
+  "title": "Three Cheese Sourdough Bread",
+  "category": "Breads & Rolls",
+  "contributor": "Amy Coyne",
+  "preheatF": null,
+  "tags": [
+    "sourdough"
+  ],
+  "components": [
+    {
+      "name": "Levain (1:1:1, 3–4 hours at 78°F)",
+      "ingredients": [
+        "35g ripe sourdough starter (about 2 tbsp)",
+        "35g bread flour (about 1/4 cup)",
+        "35g water (about 2 tbsp)"
+      ],
+      "directions": [
+        "Mix together ripe sourdough starter with bread flour and water. Cover loosely and let sit 3–4 hours at 78°F until doubled, bubbly, and peaked."
+      ]
+    },
+    {
+      "name": "Bread (keep dough at 78–80°F)",
+      "ingredients": [
+        "100g ripe/bubbly/peaked levain (scant 1/2 cup)",
+        "450g bread flour (about 3 3/4 cups)",
+        "50g whole wheat flour (about 1/3 cup)",
+        "375g water (25g reserved for after fermentolyse); about 1 1/2 cups + 1 tbsp reserved",
+        "10g salt (about 1.5 tsp)",
+        "50g Parmesan cheese, shredded (about 1/2 cup)",
+        "50g Gruyere cheese, shredded (about 1/2 cup)",
+        "100g sharp cheddar cheese, shredded (about 1 cup)"
+      ],
+      "directions": [
+        "Fermentolyse: Once the levain is ready (bubbly, doubled, milky sweet smell), mix together 100g levain, 350g water, 450g bread flour, and 50g whole wheat flour. Let rest for 30 minutes.",
+        "Mixing the Dough: After 30 minutes, add 10g salt and 25g reserved water. Combine using your hands by squeezing the dough between your fingers, pinching chunks and reincorporating. Continue mixing for about 3–5 minutes. Transfer to a container or bowl and cover.",
+        "Stretch and Folds: Perform a series of stretch and folds over the next 2 hours to strengthen the dough. Wet your hand, reach around the dough to the bottom of the bowl, pull up and over, place on top. Turn bowl a quarter turn and repeat. Perform 4 quarter turns each set. Cover and wait about 30 minutes between sets.",
+        "Stretch and Fold \\#1: 30 minutes into bulk fermentation. Shred the cheeses and set aside. Stretch and Fold \\#2 (30 minutes later): dump shredded cheeses on top of the dough and perform stretch and fold, adding cheese as you fold. Stretch and Fold \\#3 (30 minutes later): stretch and fold again, incorporating cheese. Stretch and Fold \\#4 (optional): if dough needs it.",
+        "Rest: Cover and let rise for 1.5–2 more hours. Dough is ready when puffed up, jiggles when shaken, and has scattered bubbles on sides and top.",
+        "Pre-shape: Tip the bowl upside down onto a clean counter. Wet hands and bench knife. Push the bench knife under the dough and tuck the dough under itself going around in a circle until you have a ball.",
+        "Bench Rest: Let the dough rest uncovered for about 30 minutes. The dough will flatten, allowing gluten to relax.",
+        "Shaping: Prepare a bowl or banneton with a kitchen towel or hair net, floured generously. Sprinkle flour on top of the dough. Lift the dough and place on the counter — floured side down. Going around in a circle, pull dough sideways towards you and fold up to the top. Move 90 degrees and repeat, increasing tension. Gather into a circle and place into the lined bowl.",
+        "Cold Fermentation: Cover and refrigerate overnight or up to 14–20 hours. (For same-day baking, let the dough rise about 3–4 hours until puffed up and risen.)",
+        "Preheat the Oven: Place a Dutch oven (with lid) in the oven and preheat to 500°F for 30 minutes.",
+        "Scoring: Pull the loaf from the refrigerator. Remove covering and place parchment paper on top of the dough. Flip so the dough sits on the parchment. Remove the bowl/banneton. Score the dough at a shallow angle, about 30° and 1 inch deep.",
+        "Baking: Remove the Dutch oven from the oven. Remove lid and place bread into the Dutch oven (including parchment paper). Put lid on and return to oven. Lower to 450°F and bake for 25 minutes. Take the lid off and continue baking for 20 minutes until the bread is a crackly deep brown. Let cool."
+      ]
+    }
+  ],
+  "notes": [
+    "You can use all bread flour in place of whole wheat — add a little extra time to bulk fermentation. Use stronger-flavored cheeses as flavor mellows when baked. Levain substitute: use 100g bubbly sourdough starter (100% hydration) for 100g levain."
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "$schema": "../recipe.schema.json",
+  "id": "soft-honey-oat-sourdough-sandwich-bread",
+  "title": "Soft Honey Oat Sourdough Sandwich Bread",
+  "category": "Breads & Rolls",
+  "contributor": "Mandy",
+  "preheatF": 375,
+  "tags": [
+    "sourdough"
+  ],
+  "components": [
+    {
+      "name": null,
+      "ingredients": [
+        "150g sourdough starter, active and bubbly",
+        "325g warm water (note: 50g used in step 1 for oats, 100g added later — see instructions)",
+        "500g white bread flour",
+        "25g honey",
+        "20g olive oil or avocado oil",
+        "10g fine sea salt",
+        "100g old fashioned oats"
+      ],
+      "directions": [
+        "Soak oatmeal: Add 50g of water and the 200g of oats to a bowl and let them soak for at least an hour.",
+        "Mix: In a large bowl, mix your fed sourdough starter, remaining water, oats (with the soaking water), flour, oil, honey, and salt. Use a danish dough whisk to mix together, then use your hands to finish combining completely.",
+        "Rest: Let this mixture sit covered for 1 hour.",
+        "Stretch and folds: Perform 4 sets of stretch and folds every 20 minutes. This takes the place of the knead process.",
+        "Bulk ferment option: Let the dough sit for about 3–4 hours then put the dough directly in the fridge and leave it overnight for 10–12 hours. (You can also put it right into the fridge after you are done with the stretch and folds.)",
+        "Second rise: Take the dough out of the fridge and let it come to room temperature — about 1–2 hours.",
+        "Shape: Divide the dough into 2 large sections for large loaves (or 3 sections for slightly smaller loaves). Roll or stretch each piece into a rectangle. Fold it in thirds then roll it up into itself. Pinch the ends and tuck them under. Place the dough into a greased loaf pan seam-side down. Cover and allow to proof until it has doubled or almost doubled.",
+        "Bake: Preheat oven to 400°F. Once the dough rises, cut some slices in the top and place in the oven. Put a pan with hot water below the bread to add steam. Bake for 35–40 minutes until the top is a nice golden brown — if you tap the top and it sounds hollow, it is done.",
+        "Remove from oven, carefully take loaves out of pans, and place on a wire rack. Brush butter on the tops while still hot to soften the crust. Cool completely before cutting."
+      ]
+    }
+  ],
+  "notes": [
+    "The type of oil is flexible — olive oil, vegetable oil, coconut (melted + cooled), canola, or avocado all work."
+  ]
+}

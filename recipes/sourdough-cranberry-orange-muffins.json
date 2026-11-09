@@ -1,0 +1,58 @@
+{
+  "$schema": "../recipe.schema.json",
+  "id": "sourdough-cranberry-orange-muffins",
+  "title": "Sourdough Cranberry Orange Muffins",
+  "category": "Breads & Rolls",
+  "contributor": "Carmyn Suzor",
+  "preheatF": 425,
+  "tags": [
+    "sourdough"
+  ],
+  "components": [
+    {
+      "name": "Dry Ingredients",
+      "ingredients": [
+        "2 cups (240g) all-purpose flour",
+        "2 tsp baking powder",
+        "1/2 tsp baking soda",
+        "3/4 tsp cinnamon",
+        "1 tsp (5g) salt",
+        "2 cups dried, fresh, or frozen cranberries"
+      ],
+      "directions": []
+    },
+    {
+      "name": "Wet Ingredients",
+      "ingredients": [
+        "1 cup (200g) granulated sugar",
+        "1/2 cup (120g) avocado oil or other neutral oil (not olive oil)",
+        "1 tbsp (15g) vanilla extract",
+        "1/2 cup (125g) sourdough discard",
+        "3/4 cup (185g) sour cream",
+        "1 1/2 tbsp orange zest (from about 2 large oranges)",
+        "1/4 cup fresh orange juice",
+        "2 eggs"
+      ],
+      "directions": []
+    },
+    {
+      "name": "Orange Icing",
+      "ingredients": [
+        "1 cup powdered sugar",
+        "2 tbsp orange juice"
+      ],
+      "directions": [
+        "Preheat oven to 425°F. Line a muffin tin with paper liners.",
+        "In a large mixing bowl, whisk together all dry ingredients except cranberries. Set aside.",
+        "In a separate bowl, whisk together all wet ingredients until smooth.",
+        "Pour the dry ingredients into the wet and mix until just combined. Do not over-mix. Fold in cranberries.",
+        "Use an ice cream scoop to fill the liners to the top.",
+        "Bake for 5 minutes at 425°F. Lower temperature to 350°F and bake for 15–18 more minutes, until a toothpick comes out clean.",
+        "Remove from oven and cool completely in the muffin tin. Whisk together powdered sugar and orange juice; drizzle over cooled muffins."
+      ]
+    }
+  ],
+  "notes": [
+    "Yields about 16 muffins. Dried cranberries: soak in hot water 15–20 minutes, drain, and pat dry before adding. Do not thaw frozen cranberries — fold in frozen."
+  ]
+}

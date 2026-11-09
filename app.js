@@ -8,6 +8,8 @@
     toc: document.getElementById('toc'),
     search: document.getElementById('search'),
     chips: document.getElementById('categories'),
+    tagChips: document.getElementById('tags'),
+    tagRow: document.getElementById('tag-row'),
     count: document.getElementById('count'),
     empty: document.getElementById('empty'),
     dialog: document.getElementById('recipe-dialog'),
@@ -18,11 +20,13 @@
   let recipes = [];
   let byId = new Map();
   let activeCategory = 'All';
+  let TAG_ORDER = [];
+  const activeTags = new Set(); // recipe must have every selected tag
   let openId = null;
   const VIEW_KEY = 'recipe-view';
   let view = (() => { try { return localStorage.getItem(VIEW_KEY) || 'toc'; } catch { return 'toc'; } })();
 
-  const { esc, fullHTML: sharedFullHTML, loadCategories } = window.RecipeRender;
+  const { esc, fullHTML: sharedFullHTML, loadCategories, loadTags, tagLabel, tagBadgesHTML } = window.RecipeRender;
 
   const ingredientCount = (r) => r.components.reduce((n, c) => n + c.ingredients.length, 0);
 
@@ -41,6 +45,7 @@
         <h2 class="card-title"><a href="#${esc(r.id)}" data-action="open">${esc(r.title)}</a></h2>
         ${r.contributor ? `<p class="card-by">${esc(r.contributor)}</p>` : ''}
         ${partsLine}
+        ${tagBadgesHTML(r.tags, 'card-tags')}
         <div class="card-foot">
           <span class="card-meta">${ingredientCount(r)} ingredients</span>
           <button type="button" class="btn btn-small" data-action="print" aria-label="Print ${esc(r.title)}">Print</button>
@@ -61,8 +66,19 @@
       </button>`).join('');
   }
 
+  function renderTagChips() {
+    const counts = recipes.reduce((m, r) => { r.tags.forEach((t) => m.set(t, (m.get(t) || 0) + 1)); return m; }, new Map());
+    const tags = TAG_ORDER.filter((t) => counts.has(t));
+    els.tagRow.hidden = tags.length === 0;
+    els.tagChips.innerHTML = tags.map((t) => `
+      <button type="button" class="chip chip-tag" data-tag="${esc(t)}" aria-pressed="${activeTags.has(t)}">
+        <span class="tag-dot" data-tag="${esc(t)}" aria-hidden="true"></span>${esc(tagLabel(t))} <span class="chip-n">${counts.get(t)}</span>
+      </button>`).join('');
+  }
+
   function matches(r, q) {
     if (activeCategory !== 'All' && r.category !== activeCategory) return false;
+    for (const t of activeTags) if (!r.tags.includes(t)) return false;
     if (!q) return true;
     return r._haystack.includes(q);
   }
@@ -81,6 +97,7 @@
             <li>
               <a href="#${esc(r.id)}" data-action="open" data-id="${esc(r.id)}">
                 <span class="toc-title">${esc(r.title)}</span>
+                ${r.tags.length ? `<span class="toc-tags">${r.tags.map((t) => `<span class="badge badge-tag" data-tag="${esc(t)}" title="${esc(tagLabel(t))}">${esc(tagLabel(t))}</span>`).join('')}</span>` : ''}
                 <span class="toc-leader" aria-hidden="true"></span>
                 <span class="toc-by">${esc(r.contributor || '')}</span>
               </a>
@@ -105,6 +122,20 @@
     view = next;
     try { localStorage.setItem(VIEW_KEY, view); } catch { /* ignore */ }
     renderGrid();
+  }
+
+  // Tag filters live in the query string (?tag=sourdough) so a filtered list can be shared.
+  function readFilterHash() {
+    const params = new URLSearchParams(location.search);
+    params.getAll('tag').flatMap((v) => v.split(',')).forEach((t) => { if (TAG_ORDER.includes(t)) activeTags.add(t); });
+  }
+
+  function writeFilterHash() {
+    const params = new URLSearchParams(location.search);
+    params.delete('tag');
+    if (activeTags.size) params.set('tag', [...activeTags].join(','));
+    const qs = params.toString();
+    history.replaceState(null, '', location.pathname + (qs ? `?${qs.replace(/%2C/g, ',')}` : '') + location.hash);
   }
 
   // ---------- Dialog ----------
@@ -172,6 +203,16 @@
     const viewBtn = e.target.closest('[data-view]');
     if (viewBtn) { setView(viewBtn.dataset.view); return; }
 
+    const tagChip = e.target.closest('.chip[data-tag]');
+    if (tagChip) {
+      const t = tagChip.dataset.tag;
+      if (activeTags.has(t)) activeTags.delete(t); else activeTags.add(t);
+      tagChip.setAttribute('aria-pressed', activeTags.has(t));
+      writeFilterHash();
+      renderGrid();
+      return;
+    }
+
     const chip = e.target.closest('.chip[data-cat]');
     if (chip) {
       activeCategory = chip.dataset.cat;
@@ -198,20 +239,24 @@
     })
     .then(async (data) => {
       CATEGORY_ORDER = await loadCategories(data);
+      TAG_ORDER = Object.keys(await loadTags());
       const catIndex = (c) => { const i = CATEGORY_ORDER.indexOf(c); return i === -1 ? 99 : i; };
       recipes = data
         .map((r) => ({
           ...r,
           components: r.components || [],
           notes: r.notes || [],
+          tags: r.tags || [],
           _haystack: [
-            r.title, r.contributor, r.category,
+            r.title, r.contributor, r.category, ...(r.tags || []).map(tagLabel),
             ...(r.components || []).flatMap((c) => [c.name, ...c.ingredients]),
           ].join(' ').toLowerCase(),
         }))
         .sort((a, b) => catIndex(a.category) - catIndex(b.category) || a.title.localeCompare(b.title));
       byId = new Map(recipes.map((r) => [r.id, r]));
+      readFilterHash();
       renderChips();
+      renderTagChips();
       renderGrid();
       const id = decodeURIComponent(location.hash.slice(1));
       if (id && byId.has(id)) openRecipe(id, { pushHash: false });

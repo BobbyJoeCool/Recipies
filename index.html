@@ -29,6 +29,10 @@
           <input id="search" type="search" placeholder="Search by name, ingredient, or who made it" autocomplete="off">
         </label>
         <nav id="categories" class="chips" aria-label="Filter by category"></nav>
+        <div class="filter-row" id="tag-row" hidden>
+          <span class="filter-label" id="tag-label">Show only</span>
+          <nav id="tags" class="chips" aria-labelledby="tag-label"></nav>
+        </div>
       </div>
     </div>
 
@@ -42,7 +46,7 @@
       </div>
       <nav id="toc" class="toc" aria-label="Table of contents"></nav>
       <div id="grid" class="grid" hidden></div>
-      <p id="empty" class="empty" hidden>No recipes match that search.</p>
+      <p id="empty" class="empty" hidden>No recipes match those filters.</p>
     </main>
 
     <footer class="site-footer wrap">

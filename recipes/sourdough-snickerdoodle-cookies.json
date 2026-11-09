@@ -1,0 +1,50 @@
+{
+  "$schema": "../recipe.schema.json",
+  "id": "sourdough-snickerdoodle-cookies",
+  "title": "Sourdough Snickerdoodle Cookies",
+  "category": "Desserts",
+  "contributor": "Lisa Bass",
+  "preheatF": 400,
+  "tags": [
+    "sourdough"
+  ],
+  "components": [
+    {
+      "name": "Cookies",
+      "ingredients": [
+        "2 3/4 cups all-purpose flour",
+        "2 tsp cream of tartar",
+        "1 tsp baking soda",
+        "1 tsp salt",
+        "1 1/2 tsp cinnamon",
+        "1 cup unsalted butter",
+        "1 1/2 cups sugar",
+        "2 large eggs",
+        "1/2 cup sourdough starter discard",
+        "2 tsp vanilla"
+      ],
+      "directions": []
+    },
+    {
+      "name": "Cinnamon Sugar Coating",
+      "ingredients": [
+        "1/4 cup sugar",
+        "1 tbsp cinnamon"
+      ],
+      "directions": [
+        "Preheat the oven to 400°F. Place parchment paper on baking sheets.",
+        "In a stand mixer, cream together butter and sugar. Add eggs, sourdough discard, and vanilla. Mix well until light and fluffy.",
+        "In a separate bowl, mix together flour, cream of tartar, baking soda, salt, and cinnamon.",
+        "Slowly add dry ingredients to wet ingredients. Scrape down the sides and mix well.",
+        "In a small bowl, combine sugar and cinnamon for the cinnamon sugar topping.",
+        "Roll about 1 1/2 tablespoons of cookie dough into a ball and then roll into the cinnamon-sugar mixture. Repeat for the rest of the dough. (You will get about 26–28 cookies.)",
+        "Place cookie dough balls 2 inches apart on a prepared baking sheet.",
+        "Bake for 10–12 minutes.",
+        "Remove from the oven and immediately transfer to wire racks to cool cookies."
+      ]
+    }
+  ],
+  "notes": [
+    "Long fermented option: after rolling the cookie dough in the cinnamon sugar, place in the refrigerator to long ferment overnight or up to 3 days."
+  ]
+}

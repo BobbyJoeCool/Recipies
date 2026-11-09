@@ -1,0 +1,40 @@
+{
+  "$schema": "../recipe.schema.json",
+  "id": "sourdough-smores-cookies-brown-butter",
+  "title": "Sourdough S'mores Cookies (Brown Butter)",
+  "category": "Desserts",
+  "contributor": "Kitchen Secrets Tips",
+  "preheatF": 375,
+  "tags": [
+    "sourdough"
+  ],
+  "components": [
+    {
+      "name": null,
+      "ingredients": [
+        "170g all-purpose flour",
+        "1/4 tsp baking powder",
+        "1/4 tsp baking soda",
+        "1 tsp salt",
+        "115g salted butter",
+        "150g sugar (or brown sugar)",
+        "130g sourdough starter",
+        "1 tsp vanilla extract",
+        "1/2 cup mini chocolate chips",
+        "1/4 cup dark chocolate chunks",
+        "1/2 cup crushed graham crackers",
+        "1/2 cup mini vegan marshmallows"
+      ],
+      "directions": [
+        "Brown the butter in a small saucepan over medium heat until dark golden. Let the browned butter cool to room temperature.",
+        "In a bowl, mix flour, baking powder, baking soda, and salt.",
+        "In a large bowl, combine cooled brown butter, sugar, vanilla extract, and sourdough starter until smooth.",
+        "Gradually fold in dry ingredients until just combined.",
+        "Gently mix in chocolate chips, dark chocolate chunks, graham crackers, and marshmallows.",
+        "Preheat oven to 375°F. Scoop dough onto parchment-lined cookie sheets.",
+        "Bake for 12–15 minutes or until golden around edges."
+      ]
+    }
+  ],
+  "notes": []
+}

@@ -1,0 +1,38 @@
+{
+  "$schema": "../recipe.schema.json",
+  "id": "protein-banana-bread",
+  "title": "Protein Banana Bread",
+  "category": "Breads & Rolls",
+  "contributor": "Katie Higgins",
+  "preheatF": 350,
+  "tags": [
+    "high-protein"
+  ],
+  "components": [
+    {
+      "name": null,
+      "ingredients": [
+        "1 1/2 cups white, spelt, or oat flour",
+        "1/2 cup protein powder (60g)",
+        "1 tsp baking soda",
+        "3/4 tsp baking powder",
+        "3/4 tsp salt",
+        "1/2 tsp cinnamon",
+        "1 1/2 cups mashed overripe banana",
+        "1/2 cup yogurt or additional banana",
+        "1/2 cup pure maple syrup, honey, or agave",
+        "1/3 cup oil or water",
+        "2 tsp pure vanilla extract",
+        "Optional: chocolate chips, walnuts, coconut, etc."
+      ],
+      "directions": [
+        "Grease a 9x5 loaf pan and line the bottom with parchment paper. Preheat the oven to 350°F.",
+        "Stir all ingredients together, smooth the batter into the pan, and bake for 40 minutes. Turn the oven off but do not open the door even a crack. Leave the protein banana bread in the closed oven for an additional 5 minutes.",
+        "Let cool, then go around the sides with a knife and invert onto a plate. If yours is still soft in the center, cover the top with tin foil and continue baking until a toothpick inserted in the center comes out mostly clean."
+      ]
+    }
+  ],
+  "notes": [
+    "10g protein per slice. Serves 10–12 slices. The taste and texture are even better the next day!"
+  ]
+}

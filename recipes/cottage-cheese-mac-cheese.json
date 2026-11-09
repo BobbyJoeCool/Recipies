@@ -1,0 +1,37 @@
+{
+  "$schema": "../recipe.schema.json",
+  "id": "cottage-cheese-mac-cheese",
+  "title": "Cottage Cheese Mac & Cheese",
+  "category": "Entrees",
+  "contributor": "Laura Fuentes",
+  "preheatF": null,
+  "tags": [
+    "high-protein"
+  ],
+  "components": [
+    {
+      "name": null,
+      "ingredients": [
+        "8 oz (2 cups) macaroni pasta",
+        "1/2 cup shredded sharp cheddar cheese",
+        "3/4 cup cottage cheese",
+        "1/2 cup milk (any kind)",
+        "Pinch of salt and pepper",
+        "1/4 tsp garlic powder",
+        "1/4 tsp onion powder",
+        "1/4 tsp paprika",
+        "2 tsp cornstarch"
+      ],
+      "directions": [
+        "Cook the pasta according to package directions. Reserve 1/4 cup of pasta water, then drain and set pasta aside.",
+        "Blend the cottage cheese, milk, and seasonings (garlic powder, onion powder, paprika, salt, pepper, cornstarch) until smooth.",
+        "Pour the sauce into the pasta pot, add the shredded cheddar cheese, and heat over medium-low heat, stirring to melt the cheese. When the sauce begins to simmer, reduce heat to low and cook for an additional 2 minutes.",
+        "Add the pasta back into the pot and mix with the cheese sauce. If the sauce is too thick, add a bit of the reserved pasta water to achieve the desired cheesy consistency. Serve warm.",
+        "Storage: Once cooled, refrigerate leftovers. To reheat, add a couple of tablespoons of milk and microwave until warm, stopping a few times to stir."
+      ]
+    }
+  ],
+  "notes": [
+    "18g protein per serving. Serves 4."
+  ]
+}

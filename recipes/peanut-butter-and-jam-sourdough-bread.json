@@ -1,0 +1,47 @@
+{
+  "$schema": "../recipe.schema.json",
+  "id": "peanut-butter-and-jam-sourdough-bread",
+  "title": "Peanut Butter and Jam Sourdough Bread",
+  "category": "Breads & Rolls",
+  "contributor": "Allyson Letal",
+  "preheatF": null,
+  "tags": [
+    "sourdough"
+  ],
+  "components": [
+    {
+      "name": "Peanut Butter Dough",
+      "ingredients": [
+        "180g water, room temperature",
+        "50g sourdough starter, active",
+        "40g smooth peanut butter",
+        "60g roasted salted peanuts",
+        "250g bread flour",
+        "4g coarse sea salt"
+      ],
+      "directions": []
+    },
+    {
+      "name": "Jam Dough",
+      "ingredients": [
+        "140g water, room temperature",
+        "50g sourdough starter, active",
+        "50g raspberry jam",
+        "250g bread flour",
+        "6g salt"
+      ],
+      "directions": [
+        "Grind peanuts: Add 60g roasted, salted peanuts to a blender or food processor and grind until mostly finely ground. Set aside.",
+        "Make peanut butter dough: Combine 180g water, 50g active sourdough starter, and 40g smooth peanut butter in a medium bowl. Whisk until mostly combined. Add 250g bread flour, 60g ground peanuts, and 4g salt. Mix until a shaggy dough forms. Knead with your hands until all dry bits are incorporated. Cover and set aside for 60 minutes.",
+        "Make jam dough: Combine 140g water, 50g active sourdough starter, and 50g raspberry jam in another medium bowl. Whisk until mostly combined. Add 250g bread flour and 6g salt. Mix until a shaggy dough forms. Knead with your hands. Cover and set aside for 60 minutes.",
+        "Stretch and fold: Working one bowl at a time, using damp hands, grab the dough, pull until the flap is long enough to fold over itself, then fold, rotate the bowl 90 degrees, and repeat 3 more times. This is one set. Recover the bowl and set aside for 60 minutes. Repeat the stretch and fold process 2 times over 2 hours for a total of 2 sets each.",
+        "Laminate + bulk ferment: Lightly flour a surface. Turn out the jam dough and carefully press and stretch into a rectangle. Repeat with the peanut butter dough. Carefully lift the peanut butter dough and place on top of the jam dough, with the jam dough having at least half an inch of overlap all around. Fold up the bottom third, then fold the top down. Turn sideways and fold up the bottom third then roll it over itself. Use a bench scraper to place into a large bowl. Cover and bulk ferment for 3 hours.",
+        "Pre-shape and shape: Uncover the dough — it should have risen and have a smooth surface with visible bubbles. Transfer to a lightly floured surface. Gently press into a large rectangle. Fold up the bottom third, then fold the top third downward. Rotate 90 degrees then roll into a log. Cover and rest 30 minutes. Drag the dough along the work surface using your pinkies under the dough ball to create tension until a nice round boule forms. Dust with rice flour then tuck seam side up into a banneton.",
+        "Prove and cold retard: Prove in the banneton for 2–3 hours in a warm place before covering and placing in the fridge to cold retard for up to 3 days.",
+        "Bake: Place Dutch oven in the oven and preheat to 450°F. Once preheated, invert the banneton onto a sheet of parchment paper. Score the dough with a lame, sharp knife, or clean razor blade. Carefully remove the Dutch oven from the oven. Using the parchment paper as a sling, transfer the sourdough loaf into the Dutch oven. Bake covered for 30 minutes and uncovered at 450°F for 10–15 minutes, or until the crust is nicely browned. Internal temperature should reach 205–210°F.",
+        "Cool: Remove baked bread from the Dutch oven and transfer to a wire mesh cooling rack to cool completely before slicing."
+      ]
+    }
+  ],
+  "notes": []
+}

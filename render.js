@@ -5,6 +5,13 @@ window.RecipeRender = (() => {
   const esc = (s) =>
     String(s ?? '').replace(/[&<>"']/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
 
+  // Labels for recipe tags. Replaced by data/tags.json when loadTags() runs.
+  let TAG_LABELS = { sourdough: 'Sourdough', 'high-protein': 'High protein' };
+  const tagLabel = (t) => TAG_LABELS[t] || t;
+  const tagBadgesHTML = (tags, cls = '') => (tags && tags.length)
+    ? `<div class="badges ${cls}">${tags.map((t) => `<span class="badge badge-tag" data-tag="${esc(t)}">${esc(tagLabel(t))}</span>`).join('')}</div>`
+    : '';
+
   function fullHTML(r, { forPrint = false, titleId = '' } = {}) {
     const idAttr = titleId ? ` id="${titleId}"` : '';
     const meta = [
@@ -42,6 +49,7 @@ window.RecipeRender = (() => {
       ${top}
       <h2 class="full-title"${idAttr}>${esc(r.title)}</h2>
       ${meta ? `<p class="full-meta">${meta}</p>` : ''}
+      ${tagBadgesHTML(r.tags, 'full-tags')}
       ${comps}
       ${notes}
       ${forPrint ? '<p class="print-footer">Family Recipe Book</p>' : ''}`;
@@ -56,5 +64,14 @@ window.RecipeRender = (() => {
     return [...new Set(recipes.map((r) => r.category))];
   }
 
-  return { esc, fullHTML, loadCategories };
+  // Loads the generated tag labels ({ key: label }); keeps the defaults if missing.
+  async function loadTags() {
+    try {
+      const res = await fetch('data/tags.json');
+      if (res.ok) TAG_LABELS = await res.json();
+    } catch (_) { /* keep defaults */ }
+    return { ...TAG_LABELS };
+  }
+
+  return { esc, fullHTML, loadCategories, loadTags, tagLabel, tagBadgesHTML };
 })();

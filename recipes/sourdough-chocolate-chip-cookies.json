@@ -1,0 +1,43 @@
+{
+  "$schema": "../recipe.schema.json",
+  "id": "sourdough-chocolate-chip-cookies",
+  "title": "Sourdough Chocolate Chip Cookies",
+  "category": "Desserts",
+  "contributor": "Lisa Bass",
+  "preheatF": 375,
+  "tags": [
+    "sourdough"
+  ],
+  "components": [
+    {
+      "name": null,
+      "ingredients": [
+        "1 cup unsalted butter (227g), softened",
+        "1 cup white granulated sugar (192g)",
+        "1 cup light brown sugar (200g), lightly packed",
+        "2 large eggs",
+        "3/4 cup sourdough discard (189g)",
+        "2 tsp vanilla extract",
+        "3 cups all-purpose flour (420g)",
+        "1 tsp baking soda",
+        "1/2 tsp baking powder",
+        "1 1/2 tsp salt",
+        "2 cups chocolate chips"
+      ],
+      "directions": [
+        "In a stand mixer with a paddle attachment, cream together butter, white sugar, and brown sugar until light and fluffy.",
+        "Add eggs, sourdough discard, and vanilla. Mix well until light and fluffy.",
+        "In a separate large bowl, mix together flour, baking soda, baking powder, and salt.",
+        "Slowly add dry ingredients to wet ingredients. Scrape down the sides and mix well.",
+        "Fold in chocolate chips.",
+        "Roll cookies into a ball using 3 tablespoons of dough per cookie. Place them 2 inches apart on a parchment-lined cookie sheet.",
+        "Chill in the refrigerator for at least 1 hour, or up to 2 days for longer fermentation. For best results, refrigerate 12–24 hours.",
+        "Preheat oven to 375°F. Bake for 10–12 minutes until edges start to turn golden brown.",
+        "Remove from oven and immediately transfer to a wire rack to cool."
+      ]
+    }
+  ],
+  "notes": [
+    "Make and bake right away, or ferment up to 24 hours for more health benefits and easier digestion. Do not over-bake or over-mix."
+  ]
+}

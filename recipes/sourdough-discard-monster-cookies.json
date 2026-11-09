@@ -1,0 +1,43 @@
+{
+  "$schema": "../recipe.schema.json",
+  "id": "sourdough-discard-monster-cookies",
+  "title": "Sourdough Discard Monster Cookies",
+  "category": "Desserts",
+  "contributor": "Lisa Bass",
+  "preheatF": 350,
+  "tags": [
+    "sourdough"
+  ],
+  "components": [
+    {
+      "name": null,
+      "ingredients": [
+        "1/2 cup unsalted butter, melted",
+        "1/2 cup creamy unsweetened peanut butter",
+        "1/4 cup white cane sugar",
+        "3/4 cup light brown sugar",
+        "1 egg",
+        "1 tsp vanilla extract",
+        "3/4 cup sourdough discard",
+        "1 1/4 cup all-purpose flour",
+        "1 1/4 cups rolled oats",
+        "1 tsp salt",
+        "1 tsp baking soda",
+        "1 cup semi-sweet chocolate chips",
+        "1 cup coated chocolate candies"
+      ],
+      "directions": [
+        "Preheat the oven to 350°F.",
+        "Add the butter, peanut butter, white sugar, and brown sugar to a large mixing bowl. Whisk until everything is completely combined.",
+        "Add the egg and vanilla extract and mix again until combined.",
+        "Stir in the sourdough discard until incorporated.",
+        "In a separate mixing bowl whisk together the flour, oats, salt, and baking soda. Add the dry ingredients into the wet ingredients and use a spatula to begin to fold everything in. Once the mixture is mostly incorporated, add the chocolate chips and chocolate candies. Continue to mix until everything is combined.",
+        "Take about 1/4 cup of the dough per cookie and form dough balls. Use your hands to press the ball down lightly to form a disc. Place onto a parchment paper lined baking sheet and bake for 10–11 minutes or until the outside is lightly browned and still slightly soft in the center.",
+        "Let the cookies cool on the baking sheet for about 5 minutes, then transfer to a wire cooling rack to cool completely before enjoying."
+      ]
+    }
+  ],
+  "notes": [
+    "This recipe uses sourdough starter that is unfed and not active, usually straight from the fridge. Freeze extra unbaked cookie dough balls for up to 3 months — bake from frozen, adding a couple extra minutes."
+  ]
+}

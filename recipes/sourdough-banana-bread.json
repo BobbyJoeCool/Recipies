@@ -1,0 +1,41 @@
+{
+  "$schema": "../recipe.schema.json",
+  "id": "sourdough-banana-bread",
+  "title": "Sourdough Banana Bread",
+  "category": "Breads & Rolls",
+  "contributor": "Amy Duska",
+  "preheatF": 350,
+  "tags": [
+    "sourdough"
+  ],
+  "components": [
+    {
+      "name": null,
+      "ingredients": [
+        "8 tbsp (113g) unsalted butter",
+        "1 cup (200g) dark brown sugar (or light brown or white)",
+        "2 large eggs",
+        "3 medium (350g) very ripe bananas, mashed",
+        "3 tbsp (45g) sour cream",
+        "1 tsp (5g) vanilla extract",
+        "1/2 cup (125g) unfed sourdough starter or active starter",
+        "2 cups (240g) all-purpose flour",
+        "2 tsp baking powder",
+        "1/2 tsp baking soda",
+        "1 tsp (5g) fine sea salt",
+        "Optional: 1/2 cup chopped walnuts or pecans"
+      ],
+      "directions": [
+        "Preheat oven to 350°F (176°C) and lightly grease a 9x5-inch loaf pan.",
+        "Whisk together flour, baking powder, baking soda, and salt in a bowl and set aside. In a separate bowl, mash the bananas with a fork until smooth and set aside.",
+        "In a third bowl, melt the butter in the microwave. To the melted butter add the brown sugar, eggs, sourdough starter discard, vanilla extract, sour cream, and mashed bananas. Stir with a spatula until smooth.",
+        "Add the wet and dry ingredients together and stir until just combined. Do not over-mix. If adding walnuts, gently fold in with a spatula.",
+        "Pour the batter into the loaf pan and bake for 50–60 minutes or until a toothpick inserted into the center comes out clean.",
+        "Cool in the loaf pan for 15 minutes. Gently run a knife along the inside of the pan to help release the loaf. Carefully transfer to a wire rack and cool before slicing."
+      ]
+    }
+  ],
+  "notes": [
+    "Store at room temperature for up to 3 days, wrapped in plastic or in a container with a lid. Freeze for up to 3 months tightly wrapped in foil and plastic."
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "$schema": "../recipe.schema.json",
+  "id": "strawberry-crunch-poke-cake",
+  "title": "Strawberry Crunch Poke Cake",
+  "category": "Desserts",
+  "contributor": null,
+  "preheatF": 350,
+  "components": [
+    {
+      "name": "For the Cake",
+      "ingredients": [
+        "One 15.25 oz box white cake mix, plus ingredients on back of box to prepare",
+        "3 oz box strawberry gelatin",
+        "1 cup boiling water",
+        "1 cup cold water"
+      ],
+      "directions": [
+        "Preheat oven to 350°F. Liberally grease a 9x13 light metal rectangular baking pan with cooking spray; set aside.",
+        "Prepare cake mix according to package directions for a white cake. Add batter to the prepared pan and bake according to package instructions (around 22–25 minutes or until a toothpick inserted near the center comes out clean).",
+        "Cool completely, then poke holes all over the cake using the tines of a fork.",
+        "Dissolve strawberry gelatin in 1 cup boiling water, then stir in 1 cup cold water. Pour the gelatin mixture slowly over the entire cake, filling the holes. Refrigerate for at least 4 hours or until set."
+      ]
+    },
+    {
+      "name": "For the Frosting",
+      "ingredients": [
+        "8 oz (one package) cream cheese, softened",
+        "1 1/2 cups heavy whipping cream",
+        "1 cup confectioners' sugar",
+        "1 tsp vanilla extract"
+      ],
+      "directions": [
+        "Beat the cream cheese until smooth. Add heavy whipping cream, confectioners' sugar, and vanilla extract. Beat until stiff peaks form and the frosting is light and fluffy.",
+        "Spread frosting over the chilled cake."
+      ]
+    },
+    {
+      "name": "For the Strawberry Crunch Topping",
+      "ingredients": [
+        "18–20 Golden Oreos, coarsely crushed",
+        "1/4 cup unsalted butter, melted",
+        "3 oz box strawberry gelatin powder",
+        "Fresh strawberries for garnish (optional but recommended)"
+      ],
+      "directions": [
+        "Combine crushed Golden Oreos, melted butter, and strawberry gelatin powder. Mix until all Oreos are coated.",
+        "Sprinkle the crunch topping evenly over the frosted cake. Garnish with fresh strawberries if desired.",
+        "Refrigerate until ready to serve."
+      ]
+    }
+  ],
+  "notes": [
+    "Total time approximately 5 hours including chilling. Serves 12–15."
+  ]
+}

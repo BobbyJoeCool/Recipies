@@ -1,0 +1,62 @@
+{
+  "$schema": "../recipe.schema.json",
+  "id": "cinnamon-raisin-sourdough-bread",
+  "title": "Cinnamon Raisin Sourdough Bread",
+  "category": "Breads & Rolls",
+  "contributor": "Amy Duska",
+  "preheatF": null,
+  "tags": [
+    "sourdough"
+  ],
+  "components": [
+    {
+      "name": "Starter Feed (makes 1/2 cup / 100g active starter)",
+      "ingredients": [
+        "1 tbsp (15g) sourdough starter",
+        "1/3 cup + 1 tbsp (50g) all-purpose flour",
+        "3 1/2 tbsp (50g) water"
+      ],
+      "directions": [
+        "12 hours before mixing dough, add ingredients to a clean jar. Stir until combined, loosely cover, and let rise at room temperature until doubled with plenty of bubbles."
+      ]
+    },
+    {
+      "name": "Dough",
+      "ingredients": [
+        "1/2 cup (100g) active sourdough starter",
+        "1 1/2 cups + 1 tbsp (375g) water",
+        "2 tsp (10g) salt",
+        "3 1/3 cups (400g) bread flour",
+        "1/3 cup + 1 tbsp (50g) whole wheat flour",
+        "1/3 cup + 1 tbsp (50g) rye flour",
+        "1/2 cup raisins",
+        "1/2 cup walnuts"
+      ],
+      "directions": []
+    },
+    {
+      "name": "Cinnamon Sugar Filling",
+      "ingredients": [
+        "4 tbsp butter, room temperature",
+        "1/4 cup brown sugar",
+        "2 tsp cinnamon",
+        "1/2 tsp vanilla extract",
+        "Pinch of nutmeg"
+      ],
+      "directions": [
+        "Mix the dough: In a large mixing bowl stir together 100g active starter, 375g water, and 10g salt. Add 50g whole wheat flour, 50g rye flour, and 400g bread flour. Use your hands to combine until no dry bits remain. Cover and let rest on the counter for 1 hour.",
+        "Prepare walnuts and raisins: Bring a small pot of water to a simmer and turn off the heat. Add raisins and walnuts, making sure they are covered. Let sit until it is time to add them to the dough.",
+        "Stretch and fold: Perform one set of stretches and folds. Pick up one side with a wet hand, pull up and over itself. Turn bowl and repeat on all 4 sides. Cover and rest 30 minutes.",
+        "Add raisins and walnuts: Drain the water from the raisins and walnuts and add them to the dough. Use your hands to mix until evenly incorporated. Cover and let rise 30–50% at room temperature, 3–5 hours depending on kitchen temperature.",
+        "Prepare butter spread: Mix 4 tbsp softened butter with 1/4 cup brown sugar, 2 tsp cinnamon, 1/2 tsp vanilla extract, and a pinch of nutmeg. Set aside.",
+        "Shape: Turn dough out onto a floured work surface. Press into a 12x10-inch rectangle. Spread butter mixture over the dough, keeping 1–1 1/2 inches from the edges. Fold the right side toward the center, fold the left side, fold the top down, then fold in half and flip seam-side down. Pull dough to create a taut skin. Dust flour on the outside and flip into a floured banneton. Cover with plastic wrap.",
+        "Second rise: For same-day bake, let rise at room temperature until reaching the top of the banneton. For long ferment, let sit on counter 30 minutes then refrigerate overnight.",
+        "Bake: Preheat oven to 450°F (232°C) with a Dutch oven inside. Remove Dutch oven and set on stovetop. Turn dough out onto parchment paper. Score the top with 3 shallow slits. Using parchment as a sling, lift dough into Dutch oven. Bake covered for 30 minutes and uncovered for 20 minutes.",
+        "Cool: Place on a cooling rack and cool completely before slicing."
+      ]
+    }
+  ],
+  "notes": [
+    "Can be baked in a loaf pan: place seam-side down, bake at 400°F (204°C) for 35–40 minutes."
+  ]
+}

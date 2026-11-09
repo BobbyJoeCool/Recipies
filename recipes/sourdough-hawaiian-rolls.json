@@ -1,0 +1,48 @@
+{
+  "$schema": "../recipe.schema.json",
+  "id": "sourdough-hawaiian-rolls",
+  "title": "Sourdough Hawaiian Rolls",
+  "category": "Breads & Rolls",
+  "contributor": "Amy Duska",
+  "preheatF": 375,
+  "tags": [
+    "sourdough"
+  ],
+  "components": [
+    {
+      "name": "Starter Feed (makes 1/2 cup / 100g active starter)",
+      "ingredients": [
+        "1 tbsp (15g) sourdough starter",
+        "1/3 cup + 1 tbsp (50g) all-purpose flour",
+        "3 1/2 tbsp (50g) water"
+      ],
+      "directions": [
+        "12 hours before mixing dough, feed starter in a clean jar. Stir, loosely cover, and let rise at room temperature until doubled and bubbly."
+      ]
+    },
+    {
+      "name": "Dough",
+      "ingredients": [
+        "2 tbsp (28g) butter",
+        "1 cup (240g) pineapple juice",
+        "1/4 cup (60g) milk",
+        "3 tbsp (36g) sugar",
+        "1 1/2 tsp (8g) salt",
+        "1/2 cup (100g) active sourdough starter",
+        "3 2/3 cups (440g) bread flour",
+        "1 large egg, lightly beaten (for egg wash)"
+      ],
+      "directions": [
+        "Melt butter: In a small saucepan, melt butter with pineapple juice, milk, sugar, and salt over low heat. Pour into the bowl of a stand mixer. Allow to cool to room temperature.",
+        "Add flour and active sourdough starter and stir with a spatula until combined with no dry bits.",
+        "Using the dough hook attachment, mix on speed \\#1 for 8 minutes. Cover bowl and allow dough to rise at room temperature until risen by 50%.",
+        "Turn dough out onto a floured surface and divide into 12 pieces (approximately 74g each). Shape each into a ball by gathering the sides and pinching together, seam side down on the work surface, gently forming a smooth ball. Arrange in a lightly greased 9x13-inch glass baking dish.",
+        "Cover with a tea towel and let rise for 3–4 hours or until puffy.",
+        "About 20 minutes before baking, preheat oven to 375°F. Brush tops with lightly beaten egg. Bake for 25–30 minutes or until golden brown on top. Internal temperature should be 190°F."
+      ]
+    }
+  ],
+  "notes": [
+    "Rolls can be prepped to the second rise, covered with plastic wrap, and refrigerated up to 36 hours. Allow second rise at room temperature before baking. Kitchen temperature matters greatly for sourdough timing."
+  ]
+}

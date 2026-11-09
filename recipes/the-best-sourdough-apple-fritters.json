@@ -1,0 +1,58 @@
+{
+  "$schema": "../recipe.schema.json",
+  "id": "the-best-sourdough-apple-fritters",
+  "title": "The Best Sourdough Apple Fritters",
+  "category": "Desserts",
+  "contributor": null,
+  "preheatF": null,
+  "tags": [
+    "sourdough"
+  ],
+  "components": [
+    {
+      "name": "Overnight Sponge",
+      "ingredients": [
+        "100g sourdough starter",
+        "300g all-purpose flour",
+        "60g sugar",
+        "180g whole milk",
+        "1/4 cup melted butter"
+      ],
+      "directions": [
+        "To a large bowl add sourdough starter, sugar, flour, milk, and melted butter. Mix all together until everything is a wet combined dough. Cover tightly and ferment overnight 8–12 hours."
+      ]
+    },
+    {
+      "name": "After Ferment",
+      "ingredients": [
+        "1 egg",
+        "1 small apple, diced",
+        "1 tsp baking soda",
+        "1/2 tbsp cinnamon",
+        "1/2 tsp nutmeg",
+        "1/4 tsp ground clove",
+        "1/2 tsp salt",
+        "1 quart lard or coconut oil for frying"
+      ],
+      "directions": []
+    },
+    {
+      "name": "Glaze",
+      "ingredients": [
+        "2 cups powdered sugar",
+        "1/4 cup whole milk or heavy cream",
+        "1 tsp vanilla"
+      ],
+      "directions": [
+        "In the morning heat cooking oil to 350°F. This takes time so start this step first.",
+        "To the overnight sponge bowl add egg, diced apple, cinnamon, nutmeg, clove, salt, and baking soda. Mix everything together by hand so it becomes more batter-like. It will be sticky and wet.",
+        "While oil is heating, make the glaze: mix powdered sugar, milk, and vanilla until smooth. Thin with more milk if desired. Set aside.",
+        "Carefully plop 1/4 cup batter into hot oil. Press batter down lightly with a potato masher to flatten into more of a disk, then remove the masher. Cook each side for 2 minutes until a crispy deep golden brown. Remove with a slotted spoon onto paper towels to drain. Allow the oil to heat back up between fritters.",
+        "Dip or drizzle fritters into glaze. Serve immediately."
+      ]
+    }
+  ],
+  "notes": [
+    "Don't waste the remaining oil — strain and save it for next time."
+  ]
+}

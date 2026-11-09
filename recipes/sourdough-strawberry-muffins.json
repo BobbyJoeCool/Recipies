@@ -1,0 +1,57 @@
+{
+  "$schema": "../recipe.schema.json",
+  "id": "sourdough-strawberry-muffins",
+  "title": "Sourdough Strawberry Muffins",
+  "category": "Breads & Rolls",
+  "contributor": null,
+  "preheatF": 425,
+  "tags": [
+    "sourdough"
+  ],
+  "components": [
+    {
+      "name": "Muffin Batter",
+      "ingredients": [
+        "250g (2 cups) all-purpose flour",
+        "2 tsp baking powder",
+        "1/2 tsp baking soda",
+        "1/2 tsp salt",
+        "113g (1/2 cup) butter, melted",
+        "15g (1 tbsp) olive oil or vegetable oil",
+        "200g (1 cup) granulated sugar",
+        "2 large eggs, room temperature",
+        "100g (1/2 cup) sourdough discard, room temperature",
+        "180g (3/4 cup) buttermilk, room temperature",
+        "1 tsp vanilla extract",
+        "200g (1 heaped cup) chopped strawberries, fresh or frozen",
+        "100g (1/2 cup) white chocolate chips (optional)"
+      ],
+      "directions": [
+        "Whisk together flour, baking powder, baking soda, and salt in a medium bowl. Set aside.",
+        "Add melted butter, oil, eggs, sugar, sourdough discard, vanilla, and buttermilk to a large mixing bowl. Whisk until well combined.",
+        "Add the flour mixture to the wet ingredients and fold with a rubber spatula until almost all combined.",
+        "Add strawberries and white chocolate chips and fold through.",
+        "Muffins can be baked right away or cold-fermented: cover the bowl and refrigerate up to 16 hours for a more moist crumb."
+      ]
+    },
+    {
+      "name": "Streusel",
+      "ingredients": [
+        "45g (3 tbsp) butter, melted",
+        "60g (1/2 cup) all-purpose flour",
+        "60g (1/3 cup) granulated sugar",
+        "Pinch of salt"
+      ],
+      "directions": [
+        "Add melted butter, flour, sugar, and salt to a small bowl. Use a fork to combine into a coarse crumb. Refrigerate 5 minutes if too soft.",
+        "Preheat oven to 425°F. Grease or line the muffin tin. Use an ice cream scoop to divide batter evenly — cups will be full.",
+        "Generously pile streusel on top of each muffin. Gently press it on.",
+        "Bake for 5 minutes at 425°F, then turn oven down to 350°F and bake for 18–20 more minutes, until golden brown and a cake tester comes out clean.",
+        "Let muffins cool in the pan for 5 minutes before removing to a wire rack."
+      ]
+    }
+  ],
+  "notes": [
+    "Buttermilk substitute: 170g regular milk + 10g white vinegar or lemon juice, mixed and left to curdle 5–10 minutes."
+  ]
+}

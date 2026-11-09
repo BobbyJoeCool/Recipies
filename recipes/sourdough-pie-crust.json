@@ -1,0 +1,33 @@
+{
+  "$schema": "../recipe.schema.json",
+  "id": "sourdough-pie-crust",
+  "title": "Sourdough Pie Crust",
+  "category": "Miscellaneous",
+  "contributor": "Amy Duska",
+  "preheatF": null,
+  "tags": [
+    "sourdough"
+  ],
+  "components": [
+    {
+      "name": null,
+      "ingredients": [
+        "1 cup + 1 tsp (125g) all-purpose flour",
+        "8 tbsp (113g) butter, cold",
+        "1/2 tsp fine sea salt",
+        "1/2 tsp granulated sugar",
+        "1 tsp (5g) white vinegar or apple cider vinegar",
+        "1/2 cup (125g) sourdough starter discard, cold"
+      ],
+      "directions": [
+        "Grate the cold butter into a large mixing bowl. Add the flour, salt, and sugar and toss together with a fork, making sure the butter is coated and separated. Use a bench scraper or pastry cutter to cut the butter into the flour mixture until it forms large crumbles.",
+        "Add the sourdough discard and vinegar and use a fork to incorporate them. Switch to your hands and press the dough together until there are no dry bits. (If the dough is too dry, add a teaspoon of ice water.)",
+        "Form the dough into a disk shape and wrap in plastic wrap. Use a rolling pin to flatten the disk. Chill for at least 2 hours or up to 4 days.",
+        "Proceed with your pie recipe directions."
+      ]
+    }
+  ],
+  "notes": [
+    "Dough can be stored in the fridge for up to 4 days or in the freezer for up to 3 months. Double the ingredients for 2 pie crusts."
+  ]
+}

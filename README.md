@@ -2,7 +2,7 @@
 
 Live at **https://recipes.bobbyjoecool.dev/**
 
-A static recipe site on GitHub Pages. Family can send recipes from the **Add a recipe** page without a GitHub account, and they arrive by email. Each recipe is its own JSON file in `recipes/`. On every push, a GitHub Action validates all of them, bundles them into one file, and deploys the site. The home page opens on a table of contents grouped by category (or switch to Cards), with search and category filters. Click a recipe for the full version, or hit **Print** for a clean printout of just that recipe.
+A static recipe site on GitHub Pages. Family can send recipes from the **Add a recipe** page without a GitHub account, and they arrive by email. Each recipe is its own JSON file in `recipes/`. On every push, a GitHub Action validates all of them, bundles them into one file, and deploys the site. The home page opens on a table of contents grouped by category (or switch to Cards), with search, category filters, and **Sourdough** / **High protein** badge filters. Click a recipe for the full version, or hit **Print** for a clean printout of just that recipe.
 
 ## How it fits together
 
@@ -142,8 +142,21 @@ The **Validate and deploy** action runs automatically. When it goes green (about
 | `components[].ingredients` | yes | List of strings, one per ingredient. |
 | `components[].directions` | yes | List of strings, one per step. They're numbered automatically. |
 | `notes` | yes | List of tips, yield or storage info. Use `[]` for none. |
+| `tags` | no | Badges shown on the recipe and filterable on the site: `"sourdough"`, `"high-protein"`. Leave it out (or `[]`) for none. |
 
 Two recipes with the same title (e.g. two family versions of Banana Pie) just need different ids: `banana-pie.json` and `banana-pie-schwerin.json`.
+
+## Tags (badges)
+
+Tags are optional badges that sit next to the category, e.g. a sourdough loaf is filed under **Breads & Rolls** and tagged **Sourdough**. Each tag gets a filter chip under **Show only**. Picking more than one shows recipes that have all of them. The filter is saved in the address (`recipes.bobbyjoecool.dev/?tag=sourdough`), so you can share a link to just the sourdough recipes.
+
+```json
+"tags": ["sourdough"]
+```
+
+When creating a recipe with the script, add `--tags sourdough` (or `--tags high-protein`, or both).
+
+To add a new tag, add it to `TAGS` in `scripts/recipe_config.py` (the key goes in recipe files, the value is the label people see) and to the `tags` enum in `recipe.schema.json`. For a custom badge color, add a `[data-tag="your-tag"]` rule in `styles.css`; otherwise it uses the plain badge color.
 
 ## Editing or removing a recipe
 
@@ -165,6 +178,7 @@ Add it to `CATEGORIES` in `scripts/recipe_config.py`. The list order is the filt
 - uses a category that isn't in the list,
 - has a `preheatF` that isn't a whole number from 150 to 550 (or `null`),
 - has an empty part, or an unnamed part in a multi-part recipe,
+- uses a tag that isn't in `TAGS`, or lists a tag twice,
 - still contains `REPLACE` placeholder text.
 
 It also checks every `inbox/*.json`: required fields, a valid link for link items, and that the attached file actually exists in `inbox/` for file items.
@@ -200,7 +214,7 @@ recipes/_template.json  starting point for a hand-made recipe (ignored by the bu
 recipe.schema.json    editor autocomplete/validation for recipe files
 scripts/new_recipe.py create a new recipe file
 scripts/build.py      validate + bundle (CI runs this too)
-scripts/recipe_config.py  category list and other settings
+scripts/recipe_config.py  category list, tag list, and other settings
 .github/workflows/deploy.yml  validate on every push/PR, deploy on main
 index.html, app.js    the cookbook
 add.html, add.js      the Add a recipe page

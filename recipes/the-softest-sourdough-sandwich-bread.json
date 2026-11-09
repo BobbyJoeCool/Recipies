@@ -1,0 +1,31 @@
+{
+  "$schema": "../recipe.schema.json",
+  "id": "the-softest-sourdough-sandwich-bread",
+  "title": "The Softest! Sourdough Sandwich Bread",
+  "category": "Breads & Rolls",
+  "contributor": "Mandy",
+  "preheatF": 375,
+  "tags": [
+    "sourdough"
+  ],
+  "components": [
+    {
+      "name": null,
+      "ingredients": [
+        "285g water",
+        "70g active sourdough starter",
+        "16g sugar",
+        "12g oil (olive oil, vegetable, coconut, canola, or avocado all work)",
+        "500g bread flour",
+        "13g salt"
+      ],
+      "directions": [
+        "Combine the water, starter, sugar, and oil in a large bowl. Add the flour and salt and mix until no dry flour remains. Mix with your hands if it becomes too difficult with a spoon. Cover and rest for 15–30 minutes, then perform a round of stretch and folds to form the dough into a tight ball. Cover and let rise at room temperature until doubled in size.",
+        "Grease an 8x4-inch loaf pan. Turn the dough out onto a lightly floured surface and shape into a log. Place seam side-down in the prepared pan and cover with a towel. Let rise until the dome comes up 1 inch above the rim of the pan.",
+        "Bake in a 375°F oven for 45–50 minutes, until baked through and browned.",
+        "Cool for 10 minutes in the pan, then invert to release and cool completely on a wire rack."
+      ]
+    }
+  ],
+  "notes": []
+}

@@ -20,6 +20,15 @@ CATEGORIES = [
     "Miscellaneous",
 ]
 
+# Tags are optional badges a recipe can carry, shown on the site and filterable.
+# Key = value used in a recipe's "tags" list; value = label shown on the badge.
+# Order here is the order the tag filters appear. To add a tag, add it here
+# and to the "tags" enum in recipe.schema.json.
+TAGS = {
+    "sourdough": "Sourdough",
+    "high-protein": "High protein",
+}
+
 # Files copied into the published site alongside the generated data.
 STATIC_FILES = [
     "index.html", "add.html", "styles.css",

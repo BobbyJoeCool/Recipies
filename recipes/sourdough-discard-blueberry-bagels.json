@@ -1,0 +1,42 @@
+{
+  "$schema": "../recipe.schema.json",
+  "id": "sourdough-discard-blueberry-bagels",
+  "title": "Sourdough Discard Blueberry Bagels",
+  "category": "Breads & Rolls",
+  "contributor": "Jessica Vogl",
+  "preheatF": 425,
+  "tags": [
+    "sourdough"
+  ],
+  "components": [
+    {
+      "name": null,
+      "ingredients": [
+        "555g bread flour",
+        "37g granulated sugar, divided",
+        "12g kosher salt",
+        "3g instant yeast",
+        "220g fresh blueberries, at room temperature",
+        "200g sourdough discard, unfed, at room temperature",
+        "85g warm water",
+        "1 egg white + 15g water for egg wash",
+        "Toppings (optional)"
+      ],
+      "directions": [
+        "Combine flour, 1 tablespoon granulated sugar, salt, and instant yeast in the bowl of a stand mixer with a dough hook. Stir to combine.",
+        "Coarsely crush or purée the blueberries in a food processor until you have about 1 cup (220g) crushed berries.",
+        "Add the sourdough discard and crushed blueberries to the dry ingredients. On low speed, slowly pour in warm water. Mix until a shaggy dough forms.",
+        "Turn out onto a work surface and knead for 4–5 minutes until smooth and not sticky. Add more flour or water (1 tablespoon at a time) as needed.",
+        "Transfer to a large greased bowl, cover, and let rise for 90 minutes or until doubled.",
+        "Divide into 8 equal pieces. Roll each into a smooth ball, press thumb through the center, and stretch to form bagel shape. Cover and rest 20 minutes.",
+        "Preheat oven to 425°F. Line 2 baking sheets with parchment. Bring 2 quarts water and 2 tablespoons granulated sugar to a boil.",
+        "Boil bagels 15–30 seconds per side. Remove with a slotted spoon and transfer to baking sheets.",
+        "Brush with egg wash and sprinkle with toppings if desired.",
+        "Bake for 18–22 minutes or until golden brown. Let cool fully before slicing."
+      ]
+    }
+  ],
+  "notes": [
+    "To use active sourdough starter, omit the yeast and replace discard with active starter (200g). Adjust rise times. If using frozen blueberries, let thaw before crushing — thawing ensures accurate water content."
+  ]
+}

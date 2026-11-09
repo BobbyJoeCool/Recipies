@@ -1,0 +1,53 @@
+{
+  "$schema": "../recipe.schema.json",
+  "id": "sourdough-chocolate-chip-cookies-duska",
+  "title": "Sourdough Chocolate Chip Cookies",
+  "category": "Desserts",
+  "contributor": "Amy Duska",
+  "preheatF": 375,
+  "tags": [
+    "sourdough"
+  ],
+  "components": [
+    {
+      "name": "Dry Ingredients",
+      "ingredients": [
+        "3/4 cup + 1 tsp (95g) all-purpose flour",
+        "1 cup + 1 tsp (125g) bread flour (all-purpose can be substituted)",
+        "1 tsp (5g) fine sea salt",
+        "1/4 tsp baking soda",
+        "1/2 tsp baking powder"
+      ],
+      "directions": []
+    },
+    {
+      "name": "Wet Ingredients 1",
+      "ingredients": [
+        "1 large egg",
+        "1/2 cup (125g) sourdough starter discard",
+        "1 tsp (5g) vanilla extract"
+      ],
+      "directions": []
+    },
+    {
+      "name": "Wet Ingredients 2",
+      "ingredients": [
+        "8 tbsp (113g) unsalted butter, cold, cubed",
+        "1/2 cup (100g) light brown sugar",
+        "1/2 cup (100g) white granulated sugar",
+        "1 1/2 cups (340g) chocolate chips, semi-sweet or milk chocolate"
+      ],
+      "directions": [
+        "Mix dry ingredients: Use a whisk or fork to mix bread flour, all-purpose flour, baking soda, baking powder, and salt in a small bowl. Set aside.",
+        "Mix wet ingredients 1: In a separate small bowl, use a whisk or fork to beat the egg, vanilla extract, and sourdough starter until smooth. Set aside.",
+        "Mix wet ingredients 2: Place the cold, cubed butter, light brown sugar, and granulated sugar into the bowl of a stand mixer with the paddle attachment. Beat on low-speed until the mixture forms small crumbles, 45–60 seconds. Add the chocolate chips and mix on low-speed 30–45 seconds. Scrape down the sides of the bowl.",
+        "Add the dry ingredients and mix on low-speed until the batter starts to become a crumbly mixture, 20–30 seconds. Pour in the egg mixture and mix on low-speed until the dough comes together and starts to pull away from the sides of the bowl, 20–30 seconds. Use a spatula to stir the batter, ensuring all ingredients are fully incorporated.",
+        "Use a cookie scoop to portion the dough into 12 balls (2 scoops per cookie) and place them on a parchment-lined baking tray. Cover with plastic wrap so they do not dry out. Chill the dough in the fridge for a minimum of 2 hours. (24 hours is best!)",
+        "Bake in a preheated 375°F (190°C) oven for 15–17 minutes, or until the edges are golden brown and the center still appears slightly under-baked. Remove and allow the cookies to rest on the baking sheet for 5 minutes before transferring to a cooling rack."
+      ]
+    }
+  ],
+  "notes": [
+    "Store baked cookies at room temperature in an airtight container for up to 7 days. Place a small slice of white bread inside to keep cookies fresh. Freeze unbaked dough for up to 3 months. Bread flour can be replaced with equal parts all-purpose flour — using 100% all-purpose will produce a less chewy cookie."
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "$schema": "../recipe.schema.json",
+  "id": "sourdough-zucchini-bread",
+  "title": "Sourdough Zucchini Bread",
+  "category": "Breads & Rolls",
+  "contributor": "Amy Duska",
+  "preheatF": 350,
+  "tags": [
+    "sourdough"
+  ],
+  "components": [
+    {
+      "name": null,
+      "ingredients": [
+        "2 cups (240g) all-purpose flour",
+        "2 tsp (8g) baking powder",
+        "1/2 tsp (2g) baking soda",
+        "1 tsp (5g) fine sea salt",
+        "2 tsp (4g) ground cinnamon",
+        "1/2 cup (60g) chopped walnuts",
+        "1 3/4 cups (220g) grated zucchini",
+        "1 cup (220g) light brown sugar",
+        "2 large eggs",
+        "1/2 cup (125g) sourdough starter discard",
+        "2 tsp (10g) vanilla extract",
+        "1/2 cup (109g) avocado oil"
+      ],
+      "directions": [
+        "Preheat oven to 350°F (176°C) and lightly grease a 9x5-inch loaf pan.",
+        "Grate 1 3/4 cups zucchini using the large holes of a cheese grater. Place in a colander and squeeze out excess moisture. Leave in the colander while you mix the remaining ingredients.",
+        "In a large bowl, whisk together flour, baking powder, baking soda, fine sea salt, cinnamon, and chopped walnuts.",
+        "In a separate bowl, mix light brown sugar, 2 large eggs, sourdough starter discard, 2 tsp vanilla extract, and avocado oil with a spatula until smooth. Pour the wet ingredients into the dry ingredients and mix until just combined. Stir in the grated zucchini.",
+        "Pour the batter into the greased baking pan and bake for 55–60 minutes, or until a toothpick inserted in the center comes out clean. Cool for 10–15 minutes before transferring to a cooling rack. Slice and serve."
+      ]
+    }
+  ],
+  "notes": [
+    "All-purpose flour can be substituted with bread flour. After mixing and pouring into the baking dish, you can cold ferment it in the fridge overnight. This recipe uses sourdough discard — active starter also works. Store at room temperature for 1–2 days or refrigerate for up to 7 days. Freeze for up to 3 months."
+  ]
+}

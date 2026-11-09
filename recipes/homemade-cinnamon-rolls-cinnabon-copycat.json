@@ -1,0 +1,66 @@
+{
+  "$schema": "../recipe.schema.json",
+  "id": "homemade-cinnamon-rolls-cinnabon-copycat",
+  "title": "Homemade Cinnamon Rolls (Cinnabon Copycat)",
+  "category": "Desserts",
+  "contributor": "Julie Clark",
+  "preheatF": 375,
+  "tags": [
+    "sourdough"
+  ],
+  "components": [
+    {
+      "name": "Dough",
+      "ingredients": [
+        "1 cup warm milk (115°F)",
+        "2 1/2 tsp instant dry yeast",
+        "2 large eggs, room temperature",
+        "1/3 cup salted butter, melted",
+        "1/2 cup granulated sugar",
+        "1 tsp salt",
+        "4 1/2 cups bread flour, divided",
+        "1/2 cup sourdough discard (optional but recommended — add alongside the butter)"
+      ],
+      "directions": [
+        "Pour warm milk into the bowl of a stand mixer and sprinkle yeast overtop. Allow to sit 3–4 minutes until slightly frothy.",
+        "Add eggs, butter, sourdough discard (if using), and sugar. Mix until combined.",
+        "Add salt and 4 cups of flour. Mix using the beater blade just until barely combined. Allow to rest 5 minutes.",
+        "Scrape off beater blade and attach dough hook. Beat on medium speed for 5–7 minutes, adding up to 1/2 cup more flour only if needed. Dough should be elastic, smooth, and tacky but pulling away from the bowl sides.",
+        "Spray a large bowl with cooking spray. Transfer dough and cover. Set in a warm place and let rise until doubled, about 30 minutes."
+      ]
+    },
+    {
+      "name": "Filling",
+      "ingredients": [
+        "1/2 cup salted butter, almost melted",
+        "1 cup packed brown sugar",
+        "2 tbsp cinnamon",
+        "1/2 cup heavy cream (for pouring over risen rolls)"
+      ],
+      "directions": [
+        "While dough is rising, combine soft butter, brown sugar, and cinnamon until well combined. Set aside.",
+        "Sprinkle a work surface generously with flour. Turn out dough and roll to about a 24x15-inch rectangle.",
+        "Smooth the cinnamon filling over the whole dough rectangle with a rubber spatula.",
+        "Starting on the long side, roll up tightly jelly roll style. Cut into 12 slices and place in a greased 9x13 baking pan.",
+        "Cover and let rise for 20 minutes while oven preheats to 375°F.",
+        "Warm the heavy cream until the chill is off (not hot). Pour over the risen rolls.",
+        "Bake for 20–25 minutes until lightly golden brown and center rolls are cooked through. Check at 20 minutes; cover loosely with foil if browning too quickly."
+      ]
+    },
+    {
+      "name": "Cream Cheese Frosting",
+      "ingredients": [
+        "6 oz cream cheese, softened",
+        "1/3 cup salted butter, softened",
+        "2 cups powdered sugar",
+        "1/2 tbsp maple extract (or vanilla)"
+      ],
+      "directions": [
+        "Blend cream cheese and butter with a hand mixer. Add powdered sugar and maple extract; beat until combined. Spread over cooled rolls."
+      ]
+    }
+  ],
+  "notes": [
+    "For overnight rolls: get to the second rise (rolled, cut, in pan), cover and refrigerate overnight. In the morning, let sit 30 minutes if risen, or 1 hour at room temperature if not, then pour on cream and bake. One yeast packet = 2 1/4 teaspoons."
+  ]
+}

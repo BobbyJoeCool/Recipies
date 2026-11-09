@@ -1,0 +1,40 @@
+{
+  "$schema": "../recipe.schema.json",
+  "id": "lemon-blueberry-sourdough-bread",
+  "title": "Lemon Blueberry Sourdough Bread",
+  "category": "Breads & Rolls",
+  "contributor": "Emily Christensen",
+  "preheatF": null,
+  "tags": [
+    "sourdough"
+  ],
+  "components": [
+    {
+      "name": null,
+      "ingredients": [
+        "330g water (1 1/3 cups)",
+        "20g lemon juice (1 1/2 tbsp)",
+        "50g sourdough starter (1/4 cup)",
+        "500g bread flour (3 1/2 cups)",
+        "10g salt (1 1/2 tsp)",
+        "50g sugar (1/4 cup)",
+        "1 tbsp lemon zest",
+        "200g blueberries (1 1/4 cup)"
+      ],
+      "directions": [
+        "Add water and lemon juice to a large bowl. Add sourdough starter and mix it into the water.",
+        "In a separate bowl, rub the lemon zest and sugar together between your fingers for a few seconds until fragrant.",
+        "Add flour, salt, and the lemon sugar to the dough and mix until all the flour is combined.",
+        "After 30 minutes get your hand damp and then perform a set of stretch and folds. Cover and let rest.",
+        "30 minutes to an hour later, add the blueberries to the dough and perform another set of stretch and fold. Cover and let the dough sit on the counter at room temperature.",
+        "Once the dough has risen 75%, domed on top, and has bubbles on the sides (roughly 10–14 hours), dump onto an unfloured surface. Fold the dough like an envelope, building tension, then shape into a taut round ball. Place upside down in a banneton basket or floured bowl with a tea towel. Cover.",
+        "Refrigerate for about 8+ hours or up to 2 days.",
+        "Preheat Dutch oven in the oven at 450°F.",
+        "Flip dough onto parchment paper and score the bread with a bread lame or sharp knife.",
+        "Bake bread for 25 minutes with the lid on. Take the lid off and bake for another 10–15 minutes. The bread should sound hollow when you knock on the bottom and have an internal temperature of 205°F.",
+        "Let the bread cool on a cooling rack. Wait at least 2 hours before cutting."
+      ]
+    }
+  ],
+  "notes": []
+}

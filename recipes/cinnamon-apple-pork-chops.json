@@ -1,0 +1,34 @@
+{
+  "$schema": "../recipe.schema.json",
+  "id": "cinnamon-apple-pork-chops",
+  "title": "Cinnamon-Apple Pork Chops",
+  "category": "Entrees",
+  "contributor": "Christina Price",
+  "preheatF": null,
+  "tags": [
+    "high-protein"
+  ],
+  "components": [
+    {
+      "name": null,
+      "ingredients": [
+        "2 tbsp butter, divided",
+        "4 boneless pork loin chops (4 oz each)",
+        "3 tbsp brown sugar",
+        "1 tsp ground cinnamon",
+        "1/2 tsp ground nutmeg (optional — original recipe has this crossed out)",
+        "1/4 tsp salt",
+        "4 medium tart apples, thinly sliced",
+        "2 tbsp chopped pecans"
+      ],
+      "directions": [
+        "Season pork chops with garlic powder and cinnamon before cooking.",
+        "In a large skillet, heat 1 tablespoon butter over medium heat. Add pork chops; cook 4–5 minutes on each side or until a thermometer reads 145°F. Meanwhile, in a small bowl, mix brown sugar, cinnamon, nutmeg (if using), and salt.",
+        "Remove chops; keep warm. Add apples, pecans, brown sugar mixture, and remaining 1 tablespoon butter to pan; cook and stir until apples are tender. Serve with chops."
+      ]
+    }
+  ],
+  "notes": [
+    "Tip from the contributor: add more butter and brown sugar so there's extra sauce."
+  ]
+}

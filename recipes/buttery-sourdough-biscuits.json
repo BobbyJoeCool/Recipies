@@ -1,0 +1,36 @@
+{
+  "$schema": "../recipe.schema.json",
+  "id": "buttery-sourdough-biscuits",
+  "title": "Buttery Sourdough Biscuits",
+  "category": "Breads & Rolls",
+  "contributor": "King Arthur Baking",
+  "preheatF": 425,
+  "tags": [
+    "sourdough"
+  ],
+  "components": [
+    {
+      "name": null,
+      "ingredients": [
+        "1 cup (120g) King Arthur Unbleached All-Purpose Flour",
+        "2 tsp baking powder",
+        "3/4 tsp table salt",
+        "8 tbsp (113g) unsalted butter, cold",
+        "1 cup (227g) sourdough starter, unfed/discard"
+      ],
+      "directions": [
+        "Preheat the oven to 425°F with a rack in the upper third. Grease a baking sheet or line with parchment.",
+        "Combine the flour, baking powder, and salt. Work the cold butter into the flour until the mixture is unevenly crumbly.",
+        "Add the starter, mixing gently until the dough is cohesive.",
+        "Turn the dough out onto a lightly floured surface and gently pat it into a 6-inch round about 1-inch thick.",
+        "Use a sharp 2 3/8-inch biscuit cutter to cut four rounds. Gently push and pat the scraps into a 2 1/2-inch x 5-inch rectangle. Cut two more biscuits. Push and pat remaining scraps into a 1-inch-thick biscuit.",
+        "Place biscuits on the prepared baking sheet, about 2 inches apart.",
+        "Bake in the upper third of the oven for 20–23 minutes, until golden brown.",
+        "Serve warm, or cool completely and store at room temperature for several days. Freeze well-wrapped for longer storage."
+      ]
+    }
+  ],
+  "notes": [
+    "Substitute 20g (about 3 tablespoons) medium rye or buckwheat flour for an equal amount of all-purpose for a nutty whole grain flavor. If dough is too dry, dribble in a bit of milk or buttermilk."
+  ]
+}

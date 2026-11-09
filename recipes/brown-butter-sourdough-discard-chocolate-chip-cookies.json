@@ -1,0 +1,47 @@
+{
+  "$schema": "../recipe.schema.json",
+  "id": "brown-butter-sourdough-discard-chocolate-chip-cookies",
+  "title": "Brown Butter Sourdough Discard Chocolate Chip Cookies",
+  "category": "Desserts",
+  "contributor": "Jamie Sherman",
+  "preheatF": 350,
+  "tags": [
+    "sourdough"
+  ],
+  "components": [
+    {
+      "name": null,
+      "ingredients": [
+        "1 cup unsalted butter",
+        "1 cup light brown sugar, packed",
+        "1/2 cup granulated sugar",
+        "1 large egg + 1 large egg yolk",
+        "1/2 cup sourdough discard, unfed",
+        "1 tablespoon vanilla extract",
+        "2-1/3 cups all-purpose flour",
+        "1 teaspoon baking soda",
+        "1/2 teaspoon baking powder",
+        "3/4 teaspoon salt",
+        "1/2 teaspoon ground cinnamon",
+        "1-1/2 cups dark or semi-sweet chocolate chips, plus extra for topping",
+        "Flaky sea salt for garnish (optional)"
+      ],
+      "directions": [
+        "Melt the butter in a saucepan over medium heat. Stir and swirl occasionally until it foams, then turns golden brown and smells nutty. Scrape all the browned bits into a large mixing bowl. Let it cool for 10–15 minutes.",
+        "Add brown sugar and granulated sugar to the brown butter and whisk to combine.",
+        "Add the egg, egg yolk, and vanilla extract and whisk until smooth and glossy.",
+        "Stir in the sourdough discard until fully incorporated.",
+        "In a separate bowl, whisk together the flour, baking soda, baking powder, salt, and cinnamon.",
+        "Add the dry ingredients to the wet ingredients and stir with a spatula or wooden spoon until just combined. Fold in the chocolate chips.",
+        "Cover and refrigerate the dough for at least 2 hours or up to 72 hours. Chilling is essential for thicker, more flavorful cookies.",
+        "When ready to bake, preheat oven to 350°F and line baking sheets with parchment. Scoop dough into 2-tablespoon-sized balls and place 2 inches apart.",
+        "Bake for 10–12 minutes or until the edges are golden and the centers still look slightly soft.",
+        "Immediately after baking, press extra chocolate chips on top and use a large round cookie cutter or glass to gently scoot the cookies into perfect circles if desired.",
+        "Cool on the baking sheet for 5 minutes, then transfer to a wire rack. Sprinkle with flaky sea salt if using. Allow to cool completely."
+      ]
+    }
+  ],
+  "notes": [
+    "Store in an airtight container at room temperature up to 5 days. Add a slice of sandwich bread to help keep cookies soft. Warm in a 300°F oven for 3–5 minutes. Freeze baked cookies for up to 2 months."
+  ]
+}

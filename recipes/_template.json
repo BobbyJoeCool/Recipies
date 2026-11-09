@@ -5,6 +5,7 @@
   "category": "Desserts",
   "contributor": "REPLACE Name, or null",
   "preheatF": null,
+  "tags": [],
   "components": [
     {
       "name": null,

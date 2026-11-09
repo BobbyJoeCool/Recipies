@@ -1,0 +1,35 @@
+{
+  "$schema": "../recipe.schema.json",
+  "id": "sourdough-beer-bread",
+  "title": "Sourdough Beer Bread",
+  "category": "Breads & Rolls",
+  "contributor": "Tatiana Kamakura",
+  "preheatF": null,
+  "tags": [
+    "sourdough"
+  ],
+  "components": [
+    {
+      "name": null,
+      "ingredients": [
+        "110g sourdough starter",
+        "500g bread flour",
+        "350g beer, room temperature",
+        "7g salt",
+        "40g honey"
+      ],
+      "directions": [
+        "Mixing the Dough: In a large bowl, combine the beer, sourdough starter, honey, salt, and bread flour. Mix until a shaggy dough forms. You can use a stand mixer with the dough hook — mix until all the ingredients are combined, less than a minute, no need to knead. Cover and let rest for 30 minutes.",
+        "Stretch and Folds: After 30 minutes, perform the first set of stretch and folds by pulling the dough up and folding it over itself, rotating the bowl and repeating until you've completed at least four folds. Cover and let rest 30 minutes. Repeat this process 3 to 4 times, with 30-minute intervals between each set.",
+        "Bulk Fermentation: Let the dough bulk ferment until it becomes airy and increases by at least 80% in size. It can take from 6 to 15 hours, depending on temperature, beer, and starter strength. Always watch the dough, not the clock. Look for bubbles along the sides.",
+        "Shaping: When fermentation is done, shape the dough into a batard. Using your hands, open the dough into a rectangle. Fold the left and right sides toward the middle, then gently stretch the top, fold it down, and seal with your fingers. Place the shaped batard, seam side up, into a floured banneton for its final rise.",
+        "Cold Fermentation: Cold ferment for at least 8 hours for a deeper flavor. Before removing from the fridge, preheat the oven to 450°F (232°C).",
+        "Scoring and Baking: Flip dough onto parchment paper, score the top, and place in a Dutch oven (no need to preheat the Dutch oven). Bake covered for 30 minutes. Remove the lid, reduce the oven temperature to 425°F (218°C), and bake for another 20 to 25 minutes.",
+        "Cool the bread completely before slicing for the best texture and flavor."
+      ]
+    }
+  ],
+  "notes": [
+    "Higher alcohol content beers slow bulk fermentation — choose a beer with about 5% alcohol or less if you're new to sourdough. For a rich dark loaf, try a stout. For a subtle hint of beer, use a light lager or pilsner. Cheese variation: add 100g shredded cheddar or Parmesan during the final set of stretch and folds."
+  ]
+}

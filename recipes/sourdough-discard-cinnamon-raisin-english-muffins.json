@@ -1,0 +1,42 @@
+{
+  "$schema": "../recipe.schema.json",
+  "id": "sourdough-discard-cinnamon-raisin-english-muffins",
+  "title": "Sourdough Discard Cinnamon Raisin English Muffins",
+  "category": "Breads & Rolls",
+  "contributor": "Anita | Wild Thistle Kitchen",
+  "preheatF": null,
+  "tags": [
+    "sourdough"
+  ],
+  "components": [
+    {
+      "name": null,
+      "ingredients": [
+        "1 cup whole milk (227g), warmed to 110°F",
+        "2 tbsp butter (28g), melted",
+        "2 tbsp brown sugar (28g)",
+        "1.5 tsp active dry yeast (4.5g)",
+        "1/2 cup sourdough discard (140g)",
+        "1/2 cup whole wheat flour (60g)",
+        "2 cups all-purpose flour (240g)",
+        "2 tsp kosher salt (6g)",
+        "2 tbsp ground cinnamon (about 10g)",
+        "1 cup raisins (150g)",
+        "Cornmeal or semolina flour for dusting"
+      ],
+      "directions": [
+        "Mix warm milk, melted butter, sourdough discard, brown sugar, and yeast in a large mixing bowl and let sit a few minutes. Add flours, salt, and cinnamon and mix with a dough whisk or wooden spoon until a slightly sticky dough forms.",
+        "Add raisins and continue mixing until all ingredients are thoroughly combined.",
+        "Scrape sides of bowl, cover, and let rise until doubled — about 60–90 minutes.",
+        "OPTIONAL: Refrigerate dough overnight to develop flavors. Proceed with step 5 the next day.",
+        "After dough has doubled (or after chilling overnight), dump onto a floured surface and press or roll out to about 1-inch thickness. Cut rounds with a 3-inch biscuit cutter or drinking glass. Reshape scraps by stacking, re-rolling, and cutting. Aim for 9–12 muffins.",
+        "Place muffins on a pan lined heavily with cornmeal or semolina flour. Dust both sides well. Cover and let rise for about 1 hour until puffy and light.",
+        "Preheat an electric skillet to 300°F or a heavy skillet over medium-low heat. Place risen muffins in, leaving space. Cover and cook for 5–7 minutes. Flip and cook on the second side for another 5–7 minutes, covered. Reduce heat to 200–250°F and flip a few more times until internal temperature reads 195–200°F.",
+        "Remove to a cooling rack and cool to room temperature. Use a fork to pry the halves apart for the best craggy nooks and crannies."
+      ]
+    }
+  ],
+  "notes": [
+    "For best nooks and crannies, use a fork and your fingers to pry the halves apart before toasting."
+  ]
+}

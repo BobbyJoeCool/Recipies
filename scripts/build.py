@@ -14,11 +14,11 @@ import re
 import shutil
 import sys
 
-from recipe_config import CATEGORIES, INBOX_DIR, INBOX_FILE_TYPES, RECIPES_DIR, ROOT, STATIC_FILES
+from recipe_config import CATEGORIES, TAGS, INBOX_DIR, INBOX_FILE_TYPES, RECIPES_DIR, ROOT, STATIC_FILES
 
 ID_RE = re.compile(r"^[a-z0-9]+(?:-[a-z0-9]+)*$")
-ALLOWED_KEYS = {"$schema", "id", "title", "category", "contributor", "preheatF", "components", "notes"}
-REQUIRED_KEYS = ALLOWED_KEYS - {"$schema"}
+ALLOWED_KEYS = {"$schema", "id", "title", "category", "contributor", "preheatF", "components", "notes", "tags"}
+REQUIRED_KEYS = ALLOWED_KEYS - {"$schema", "tags"}
 
 
 def is_str_list(v, allow_empty=True):
@@ -77,6 +77,16 @@ def validate(path, r):
                 errs.append(f"{where} has no ingredients and no directions")
     if not is_str_list(r.get("notes")):
         errs.append('"notes" must be a list of strings (use [] for none)')
+    if "tags" in r:
+        t = r["tags"]
+        if not isinstance(t, list) or not all(isinstance(x, str) for x in t):
+            errs.append('"tags" must be a list like ["sourdough"] (or leave it out)')
+        else:
+            bad = [x for x in t if x not in TAGS]
+            if bad:
+                errs.append(f'unknown tag(s) {", ".join(bad)}; use one of: {", ".join(TAGS)} (add new ones in scripts/recipe_config.py)')
+            if len(set(t)) != len(t):
+                errs.append('"tags" lists the same tag twice')
     if "REPLACE" in json.dumps(r):
         errs.append('still contains "REPLACE" placeholder text from the template')
     return errs
@@ -158,6 +168,7 @@ def load_all():
         else:
             seen[r["id"]] = path.name
             r.pop("$schema", None)
+            r["tags"] = [k for k in TAGS if k in r.get("tags", [])]  # canonical order
             recipes.append(r)
     order = {c: i for i, c in enumerate(CATEGORIES)}
     recipes.sort(key=lambda r: (order[r["category"]], r["title"].lower()))
@@ -187,6 +198,7 @@ def main():
 
     bundle = json.dumps(recipes, ensure_ascii=False, separators=(",", ":"))
     categories = json.dumps(CATEGORIES, ensure_ascii=False)
+    tags = json.dumps(TAGS, ensure_ascii=False)
     inbox_json = json.dumps(inbox, ensure_ascii=False, separators=(",", ":"))
     if args.out:
         out = (ROOT / args.out).resolve()
@@ -198,6 +210,7 @@ def main():
             shutil.copy2(ROOT / f, out / f)
         (out / "data" / "recipes.json").write_text(bundle, encoding="utf-8")
         (out / "data" / "categories.json").write_text(categories, encoding="utf-8")
+        (out / "data" / "tags.json").write_text(tags, encoding="utf-8")
         (out / "data" / "inbox.json").write_text(inbox_json, encoding="utf-8")
         files = [it["file"] for it in inbox if it["file"]]
         if files:
@@ -209,8 +222,9 @@ def main():
         (ROOT / "data").mkdir(exist_ok=True)
         (ROOT / "data" / "recipes.json").write_text(bundle, encoding="utf-8")
         (ROOT / "data" / "categories.json").write_text(categories, encoding="utf-8")
+        (ROOT / "data" / "tags.json").write_text(tags, encoding="utf-8")
         (ROOT / "data" / "inbox.json").write_text(inbox_json, encoding="utf-8")
-        print("✓ wrote data/ (recipes, categories, inbox) (preview with: python3 -m http.server 8000)")
+        print("✓ wrote data/ (recipes, categories, tags, inbox) (preview with: python3 -m http.server 8000)")
 
 
 if __name__ == "__main__":

@@ -1,0 +1,52 @@
+{
+  "$schema": "../recipe.schema.json",
+  "id": "homemade-sourdough-oreo-cookies",
+  "title": "Homemade Sourdough Oreo Cookies",
+  "category": "Desserts",
+  "contributor": "Amy Coyne",
+  "preheatF": 350,
+  "tags": [
+    "sourdough"
+  ],
+  "components": [
+    {
+      "name": "Oreo Cookie Dough",
+      "ingredients": [
+        "226g unsalted butter, softened (about 1 cup)",
+        "150g granulated sugar (about 3/4 cup)",
+        "55g brown sugar (about 1/4 cup)",
+        "100g sourdough discard (scant 1/2 cup)",
+        "1 egg yolk (about 20g)",
+        "200g all-purpose flour (about 1 1/2 cups)",
+        "60g cocoa powder, scant 3/4 cup, good quality Dutch processed or dark",
+        "5g baking soda (about 1 tsp)",
+        "4g salt (about 1/2 tsp)"
+      ],
+      "directions": [
+        "Preheat oven to 350°F. Line two baking sheets with parchment paper.",
+        "To a medium sized bowl add the softened butter and beat until light and fluffy for about a minute. Add the brown sugar and granulated sugar. Cream together. Add the sourdough discard and egg yolk and mix for 1–2 minutes until fluffy and smooth.",
+        "In a small bowl, fluff together flour, cocoa powder, baking soda, and salt. Add the flour mixture to the butter mixture and mix until the wet and dry ingredients are incorporated and form a cohesive dough.",
+        "Scoop the cookie dough into small balls, about 25 grams each. Roll each scoop into a ball and place on a baking sheet, spread apart, about 12–14 cookies per sheet. You will end up with 24–28 cookie dough balls.",
+        "Bake cookies in a preheated 350°F oven for 10 minutes. After 10 minutes the cookies should be puffed up and baked through. Let the cookies cool on a baking sheet for 5–10 minutes until they set up completely and are easy to remove. Note: for perfectly circular cookies, immediately after removing from the oven, take a large biscuit cutter and run it in a circular motion around the cookie to set the edges."
+      ]
+    },
+    {
+      "name": "Marshmallow Fluff Buttercream",
+      "ingredients": [
+        "113g unsalted butter, softened (about 1/2 cup)",
+        "120g powdered sugar (about 1 cup)",
+        "60g marshmallow fluff (scant 2/3 cup)",
+        "15g heavy cream (about 1 tablespoon)",
+        "8g vanilla extract (about 2 tsp)",
+        "1g salt (about 1/8 tsp)"
+      ],
+      "directions": [
+        "Whip together the butter, marshmallow fluff, powdered sugar, heavy cream, vanilla extract, and salt together. Whip for 2–3 minutes until light and fluffy.",
+        "Once cookies have cooled completely, scoop frosting into a piping bag or ziplock bag. Snip off the end and pipe frosting onto half of the cookies. Add the other cookie on top of the frosted cookie to make an Oreo sandwich. Press down lightly. Enjoy!"
+      ]
+    }
+  ],
+  "notes": [
+    "For a rich, deep flavor use a good quality Dutch processed or dark cocoa powder. The longer your sourdough discard sits in the fridge, the more tang it will have — use a younger discard for a more subtle flavor."
+  ]
+}

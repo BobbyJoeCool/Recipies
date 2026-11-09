@@ -1,0 +1,54 @@
+{
+  "$schema": "../recipe.schema.json",
+  "id": "sourdough-garlic-knots",
+  "title": "Sourdough Garlic Knots",
+  "category": "Breads & Rolls",
+  "contributor": "Carmyn Suzor",
+  "preheatF": 400,
+  "tags": [
+    "sourdough"
+  ],
+  "components": [
+    {
+      "name": "Starter Feed (makes 1/2 cup / 100g active starter)",
+      "ingredients": [
+        "1 tbsp (15g) sourdough starter",
+        "1/3 cup + 1 tbsp (50g) all-purpose flour or bread flour",
+        "3 1/2 tbsp (50g) water"
+      ],
+      "directions": [
+        "12 hours before mixing dough, add ingredients to a clean jar. Stir until combined, loosely cover, and let rise at room temperature until doubled and bubbly."
+      ]
+    },
+    {
+      "name": "Dough",
+      "ingredients": [
+        "1/2 cup (100g) active sourdough starter",
+        "1/4 cup (56g) unsalted butter, room temperature",
+        "2 tbsp (42g) honey or sugar",
+        "1 cup + 2 tbsp (270g) water",
+        "2 tsp (10g) fine salt",
+        "4 cups + 2 tbsp (500g) all-purpose flour",
+        "Olive oil for brushing"
+      ],
+      "directions": []
+    },
+    {
+      "name": "Garlic Butter",
+      "ingredients": [
+        "8 tbsp unsalted butter",
+        "4 fresh garlic cloves, minced",
+        "Salt to taste",
+        "Fresh parsley, finely chopped, for garnishing"
+      ],
+      "directions": [
+        "Mix the dough: Add all dough ingredients to a large mixing bowl and bring them together with your hands. Turn out onto a clean work surface and knead the dough by hand for about 10 minutes until smooth. (Stand mixer: combine in the bowl of a stand mixer fitted with the dough hook attachment, mix on medium speed for 8–10 minutes.)",
+        "Bulk Fermentation: Cover the bowl tightly with plastic wrap and allow the dough to rise 50–70% at room temperature.",
+        "Shape: Transfer the dough to a well-floured surface and let it rest for 10 minutes. Divide into 12 equal portions, approximately 80g each. Use your hands to roll each portion out into a log, gently stretch it, and tie it into a knot shape, tucking the ends underneath. Line a large baking sheet with parchment paper and arrange the knots on the sheet, leaving space. Brush each knot with olive oil. Cover with a clean tea towel and let the dough rise until puffy by 30%.",
+        "Bake: Preheat oven to 400°F and bake the knots for 20 minutes.",
+        "Garlic Butter: Heat the butter, minced garlic cloves, and salt to taste in a small saucepan while the knots are in the oven. Remove the knots from the oven and brush each one with warm garlic butter."
+      ]
+    }
+  ],
+  "notes": []
+}

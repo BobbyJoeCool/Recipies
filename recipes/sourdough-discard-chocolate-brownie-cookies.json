@@ -1,0 +1,49 @@
+{
+  "$schema": "../recipe.schema.json",
+  "id": "sourdough-discard-chocolate-brownie-cookies",
+  "title": "Sourdough Discard Chocolate Brownie Cookies",
+  "category": "Desserts",
+  "contributor": "Kristin",
+  "preheatF": 350,
+  "tags": [
+    "sourdough"
+  ],
+  "components": [
+    {
+      "name": null,
+      "ingredients": [
+        "1/2 Cup Unsalted Butter (8 tbsp), softened at room temperature",
+        "1/2 Cup Granulated Sugar",
+        "1/2 Cup Light Brown Sugar, packed",
+        "1 Cup Sourdough Discard, 100% hydration and unfed",
+        "1 Large Egg",
+        "1 tsp Vanilla Extract",
+        "1 Cup All-Purpose Flour",
+        "1/2 Cup Cocoa Powder",
+        "1 tsp Baking Soda",
+        "1/2 tsp Kosher Salt",
+        "1 Cup Mini Semi-Sweet Chocolate Chips",
+        "Flaky Sea Salt (like Maldon) for topping (optional)"
+      ],
+      "directions": [
+        "In the bowl of a stand mixer using a paddle attachment, cream together the soft butter and sugars on medium speed until smooth. This can take 2–3 minutes. Make sure there are no lumps of butter.",
+        "Add in the sourdough discard and mix until completely smooth.",
+        "Use a spatula or wooden spoon to scrape the sides and bottom, making sure everything is combined.",
+        "Add in the egg and vanilla extract and mix just until combined. Do not over-mix.",
+        "In a separate medium bowl combine the flour, cocoa powder, baking soda, and salt. Mix with a fork or whisk to combine.",
+        "Add the dry ingredients into the wet ingredients, adding only a little bit at a time. Mix just until incorporated.",
+        "Fold in the chocolate chips.",
+        "Cover with plastic wrap and chill in the fridge for 2–3 hours up to overnight.",
+        "Remove from fridge and allow the dough to come to room temperature for about 10 minutes.",
+        "Preheat the oven to 350°F. Line a sheet pan with parchment paper. Using a 2-tablespoon cookie scoop, form the dough balls. Roll into balls and place on the prepared baking sheets at least 3 inches apart.",
+        "Bake for 13–14 minutes then give them a little sprinkle of flaky sea salt.",
+        "If the cookies did not spread out and flatten, gently hit the bottom of the pan on the counter to help them set.",
+        "Transfer to a wire rack and allow to cool."
+      ]
+    }
+  ],
+  "notes": [
+    "For best results, this dough is chilled before baking. Allow at least 2–3 hours up to overnight if you can.",
+    "This dough bakes better chilled for at least 2–3 hours. If you don't have time, make into balls and freeze for 20–30 minutes."
+  ]
+}

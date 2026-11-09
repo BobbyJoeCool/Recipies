@@ -3,6 +3,7 @@
 
 Usage:
   python3 scripts/new_recipe.py "Apple Crisp" --category Desserts --by "Grandma Lois" --preheat 350
+  python3 scripts/new_recipe.py "Sourdough Rye" --category "Breads & Rolls" --tags sourdough
   python3 scripts/new_recipe.py "Apple Crisp"      # asks for anything you leave out
   python3 scripts/new_recipe.py "Apple Crisp" --parts Crisp Topping   # multi-part recipe
 
@@ -15,7 +16,7 @@ import re
 import sys
 import unicodedata
 
-from recipe_config import CATEGORIES, RECIPES_DIR
+from recipe_config import CATEGORIES, RECIPES_DIR, TAGS
 
 
 def slugify(text):
@@ -36,6 +37,8 @@ def main():
     ap.add_argument("--by", dest="contributor", help="who the recipe is from")
     ap.add_argument("--preheat", type=int, help="oven temperature in °F (leave out for no-bake)")
     ap.add_argument("--parts", nargs="+", metavar="NAME", help="names of each part, e.g. Cake Frosting")
+    ap.add_argument("--tags", nargs="+", metavar="TAG", choices=list(TAGS), default=[],
+                    help="optional badges: " + ", ".join(TAGS))
     ap.add_argument("--id", help="override the generated id/filename")
     args = ap.parse_args()
 
@@ -67,6 +70,7 @@ def main():
         "category": category,
         "contributor": contributor or None,
         "preheatF": preheat,
+        **({"tags": args.tags} if args.tags else {}),
         "components": [
             {"name": name, "ingredients": ["REPLACE: 1 cup something"], "directions": ["REPLACE: first step."]}
             for name in parts
