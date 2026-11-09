@@ -3,7 +3,7 @@
   "id": "fancy-tacos",
   "title": "Fancy Tacos",
   "category": "Entrees",
-  "contributor": "Walmart Recipes",
+  "contributor": null,
   "preheatF": 425,
   "components": [
     {
